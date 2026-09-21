@@ -1,0 +1,8 @@
+{
+ "I_sans_contact": -0.00395,
+ "I_avec_contact": 0.0025,
+ "contact_compte": true,
+ "I_min_independant": 0.2567,
+ "I_min_commun": 0.9852,
+ "couplage_reel": true
+}
