@@ -1,5 +1,11 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-21 (nuit) — v2 : neurones retirés (ordre du chef)
+- Stine-24 + LCT = lois ACCOMPAGNATRICES (mesures au service de la théorie).
+- Supprimés du dépôt : sections neurones/douane/esprit/boucle, ESPRIT-IA-EQUATIONS,
+  4 images neuro (network_science, genomic_net, fil, atcg). Les neurones vivent
+  dans ratiss-neuro. La théorie d'aujourd'hui est la focalisation, rien d'autre.
+
 ## 2026-09-21 (nuit) — Création + consolidation totale
 - Dépôt créé sur ordre du chef. Tout versé : théorie unifiée (A→K),
   spec EXP-FOCAL-01, roadmap, questions, glossaire, 7 images,
