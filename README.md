@@ -34,6 +34,9 @@ apparaît de l'info pure → preuve du phénomène.
 Itération permanente — transdisciplinarité — démonstration par le fonctionnement —
 R7 (1 commande) — échecs publiés, jamais cachés.
 
+## Licence
+MIT (voir LICENSE) — théorie ouverte et reproductible publiquement.
+
 ---
 **RATISS Labs** — *L'esprit ne traite pas tout, il traite la cohérence.* 🌌
 Posé par Jonathan Evina, nuit du 21 sept. 2026.
