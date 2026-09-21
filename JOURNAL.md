@@ -1,5 +1,13 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-21 (nuit) — V3 DURCIE 5/5 (ordre : durcissement avant expansion)
+- P1 04b : érosion 0.000 (F1 close) · P2 05b : bascule 9, sync 0.51 (F2 close)
+  · P3a anti-triche V3 : 26.29±1.33 (F3 close) · P3b H2'-bis : BASCULE DÉTECTÉE
+  9 cellules (F5 close) · P4 PLV-1000 : 0.866, post 0.886 (M5→M6→M7).
+- Canon : FORMALISATION.tex v3 (chaque équation ↔ son test). Licence MIT ajoutée.
+- Hygiène : aucun token dans les fichiers. RAPPEL : révoquer le token côté réglages.
+- Unifié-v3 cohérent. Tout poussé. Base blindée, prête pour expansion.
+
 ## 2026-09-21 (nuit) — TEST-08→20 : toute la théorie codée (ordre du chef)
 - Rappel du chef : rien laissé sur papier. 12 tests formels ajoutés (Stine, X, U,
   tryperposition, I/I_min, K, secteurs, constantes, seuils, F0, H2', correspondance).
