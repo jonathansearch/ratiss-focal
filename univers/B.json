@@ -1,0 +1,1 @@
+{"alpha_transport": 0.25, "dt": 0.3, "graine_fond": 24, "graine_reseau": 55, "K_kuramoto": 2.0, "n_bits_structure": 512, "n_porteurs": 8, "noeuds": 24, "nom": "B-implantation", "phi_c": 500.0, "point_focal": [0.0, 0.0, 0.0], "T": 12}
