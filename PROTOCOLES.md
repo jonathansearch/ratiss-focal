@@ -100,6 +100,33 @@ R7 : 1 commande par test. Graines fixées partout.*
 - **Méthode** : fusion 08–19 + 01–07 → `univers/unifie_v2.json`.
 - **Critère** : score 11/11. **Résultat** : 11/11 ✅ (H2' : ticket ouvert)
 
+## TEST-21 (04b) — Lissage restreint (le fond survit ?)
+- **Méthode** : univers A, masque (injecté seul), érosion = |P_fond/P_ref − 1|.
+- **Critère** : érosion < 0.02. **Résultat** : 0.000 ✅ (F1 close)
+
+## TEST-22 (05b) — Kuramoto fort (le réseau se synchronise ?)
+- **Méthode** : K = 3.0 (×1.5), T = 24 (×2), point de bascule sync > 0.1.
+- **Critère** : bascule ≤ 12 pas + stable + P tenu. **Résultat** : bascule 9,
+  sync 0.51 ✅ (F2 close)
+
+## TEST-23 — Anti-triche V3 (diagrammes complets + stats)
+- **Méthode** : A durci, diagrammes H1/H2 complets, 3 graines (audit archivé).
+- **Critère** : ratio moyen > 2.5. **Résultat** : 26.29 ± 1.33 ✅ (F3 close)
+
+## TEST-24 (H2'-bis) — Grille resserrée (bascule ou réfutation ?)
+- **Méthode** : D ∈ [1.8, 2.6] × I ∈ [4, 20], 3 tirages, règle formelle 2σ.
+- **Critère** : détectée OU réfutée. **Résultat** : DÉTECTÉE (9 cellules) ✅ (F5 close)
+
+## TEST-25 — PLV 1000 pas (la sync tient + survit ?)
+- **Méthode** : contrôle positif (onde carrée commune), fenêtres de 50,
+  collapse 30 %, M5→M6→M7 documentés.
+- **Critère** : moyenne > 0.3, var < 0.05. **Résultat** : 0.866, var 0.0013,
+  post 0.886 ✅
+
+## TEST-26 — Unification V3 (base blindée ?)
+- **Méthode** : fusion 21–25 → `univers/unifie_v3.json`.
+- **Critère** : score 5/5. **Résultat** : 5/5 ✅
+
 ---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 20.* 🔒
+dans l'ordre, 01 → 26.* 🔒
