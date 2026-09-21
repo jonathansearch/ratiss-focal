@@ -1,0 +1,51 @@
+{
+ "nom": "Univers-Unifi\u00e9-v2",
+ "constantes_mesurees": {
+  "P_ref": 5.759931415319443,
+  "phi_c_lab": 500.0,
+  "psi_sync_final": 0.8739,
+  "X": 0.1473,
+  "U_fond": 0.0,
+  "U_charge": -1.3626,
+  "I_sans_contact": -0.00395,
+  "I_avec_contact": 0.0025,
+  "I_min_independant": 0.2567,
+  "I_min_commun": 0.9852,
+  "K": {
+   "macro": 0.3314,
+   "micro": 0.7975,
+   "info": 0.6651
+  },
+  "Pi": {
+   "concentration": 0.0814,
+   "coherence": 0.02304,
+   "information": 0.9972
+  },
+  "sigma_c": {
+   "boucle": 0.02,
+   "diffus": 0.2
+  },
+  "F0_cout_bits": 1920
+ },
+ "mecanismes_valides": [
+  "fond",
+  "filet_info",
+  "transport",
+  "seuil_focalisation",
+  "stine24",
+  "X",
+  "U",
+  "tryperposition",
+  "K",
+  "secteurs",
+  "seuils_structures",
+  "F0",
+  "correspondance"
+ ],
+ "graines": {
+  "fond": 24,
+  "info": 101,
+  "injection": 7,
+  "porteurs": 3
+ }
+}
