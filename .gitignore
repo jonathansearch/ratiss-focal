@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+# OS
+.DS_Store
+# Artefacts lourds (régénérables R7)
+*.npy
+*.npz
