@@ -1,0 +1,23 @@
+{
+ "nom": "Univers-Unifi\u00e9-v1",
+ "constantes_mesurees": {
+  "P_ref": 5.759931415319443,
+  "phi_c_lab": 500.0,
+  "franchissement_I_etape": 3,
+  "franchissement_S_etape": 4
+ },
+ "mecanismes_valides": [
+  "fond",
+  "filet_info",
+  "transport",
+  "seuil_focalisation"
+ ],
+ "verdict_origine": "A+B s\u0153urs : convergence \u00e9mergence/implantation.",
+ "graines": {
+  "fond": 24,
+  "info": 101,
+  "injection": 7,
+  "porteurs": 3
+ },
+ "T": 12
+}
