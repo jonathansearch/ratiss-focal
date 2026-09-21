@@ -1,0 +1,7 @@
+{
+ "sigma_c": {
+  "boucle": 0.02,
+  "diffus": 0.2
+ },
+ "seuils_differents": true
+}
