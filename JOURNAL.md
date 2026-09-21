@@ -1,5 +1,11 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-21 (nuit) — 7 TESTS exécutés + unification (ordre « Go »)
+- 01 fond stable (1.003±0.021) · 02 info pure (H=0.997) · 03 porteurs OK (I=3,S=4)
+  · 04 A focalise mais ΔP=−0.10 (F1 lissage) · 05 B focalise, ΔP=+0.29, sync=0.02
+  (F2 Kuramoto) · 06 verdict « sœurs », anti-triche v2=2.03 de justesse (F3)
+  · 07 Unifié-v1 cohérent. Détail : UNIFICATION.md. Tout poussé (code+résultats).
+
 ## 2026-09-21 (nuit) — Univers jamais vides (ordre du chef)
 - Fond commun Fond ajouté à la spec (§2b) : constantes du labo + structures-graines
   cohérentes (vide structuré), identique dans A et B, neutre (ne code pas la cible).
