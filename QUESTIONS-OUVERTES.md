@@ -16,16 +16,14 @@
 - Seuil Φ_c bio (corps-laboratoire) · P_sig croisé in vivo ·
   verrouillage QPU · BMV (arbitre externe).
 
-## Nées des 7 tests (21/09)
-- F1 : lisser seulement les points injectés (pas le fond) ?
-- F2 : K Kuramoto au-dessus du seuil critique + T plus long ?
-- F3 : anti-triche v3 sur diagrammes complets (pas les séries) ?
+## Frictions closes par la V3 ✅
+- F1 close (TEST-21) · F2 close (TEST-22) · F3 close (TEST-23) ·
+  F4 partiellement (V3 : diagrammes complets ; artefacts diffus sous surveillance) ·
+  F5 close (TEST-24 : bascule détectée).
 
-## Nées des tests 08-20 (21/09)
-- F4 : mètre de seuil insensible aux artefacts de bruit (vrai vs faux P) ?
-- F5 (H2') : grille (D,I) resserrée ou autre observable pour la bascule ?
-- PLV sur séries longues (T ≥ 30) pour confirmer le phase-locking ?
-- Sync absolue TEST-11 faible (0.27) : renforcer le couplage inter-couches ?
+## Nées de la V3 (mécanismes à interpréter)
+- H2' : pourquoi la bascule vit-elle en champ proche (D ≤ 2.2) + forte injection ?
+- PLV post-collapse > pré (0.886 vs 0.866) : le collapse purifie-t-il la sync ?
 - Universalité des Π : stables entre labos (graines, tailles, géométries) ?
 
 ---
