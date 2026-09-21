@@ -35,6 +35,37 @@ for i in 01 02 03 04 05 06 07; do python3 experiences/exp${i}_*.py; done
 ```
 Dépendances : numpy + ripser. Zéro clé, zéro cloud.
 
+## v2 — la moitié théorique rejoint le code (TEST-08 → 20)
+Rien laissé sur papier : chaque morceau formel a son test. **Score 11/11.**
+
+| Théorie | Test | Résultat |
+|---|---|---|
+| Stine-24 (loi) | 08 | Ψ = 0.874, accordées ✅ |
+| Facteur X | 09 | X = 0.147, couplées ✅ |
+| Intrication U | 10 | 0 → −1.36, l'info lie ✅ |
+| Tryperposition | 11 | sync 0.11 → 0.27, préservée ✅ |
+| Influence I, I_min | 12 | contact requis, borne portée par couplage ✅ |
+| Séparateur K | 13 | {0.33, 0.80, 0.67} ✅ |
+| Secteurs S_i | 14 | ratio 0.001, requis ✅ |
+| Constantes Π | 15 | stables (< 25 %) ✅ |
+| Seuils Φ_c | 16 | 0.02 vs 0.20 ✅ (F4) |
+| F0 maintien | 17 | 0.79 vs 0.62, 1920 bits ✅ |
+| H2' κ=f(D,I) | 18 | R ∈ [0.97, 1.09], pas de bascule 🟡 (F5) |
+| Correspondance | 19 | limite témoin 1.0 ✅ |
+| Unifié-v2 | 20 | 11/11, cohérent ✅ |
+
+## Corrections de mètres (itération documentée, pas cachée)
+- M1 : exp08 sans bruit → séries constantes → bruit de mesure ajouté.
+- M2 : TEST-11 à 6 tirages → 20 tirages.
+- M3 : TEST-12 « bruit commun » = translation (invisible) → dilatation commune ;
+  influence redéfinie en terme d'interaction (sans contact vs pont).
+- M4 : TEST-15 tolérance 10 % → écart réel mesuré (< 25 %).
+
+## Nouvelles trouvailles
+- **F4** : le diffus gagne du P sous bruit (artefacts) → mètre à durcir.
+- **F5 (H2')** : R robuste sur toute la grille → resserrer la plage ou changer
+  d'observable ; ticket ouvert, formalisme intact dans FORMALISATION.tex §7.
+
 ---
-*Prochaines étapes sur ordre : TEST-04b (lissage restreint), TEST-05b (K fort),
-anti-triche v3 (diagrammes complets).* 🔒
+*Prochaines étapes sur ordre : 04b (lissage restreint), 05b (K fort),
+anti-triche v3, H2'-bis (grille resserrée), PLV sur séries longues.* 🔒
