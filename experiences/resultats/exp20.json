@@ -1,0 +1,29 @@
+{
+ "univers": "Unifi\u00e9-v2",
+ "check": {
+  "08_stine": true,
+  "09_X": true,
+  "10_U": true,
+  "11_tryperposition": true,
+  "12_couplage": true,
+  "13_K": true,
+  "14_secteurs": true,
+  "15_constantes": true,
+  "16_seuils": true,
+  "17_F0": true,
+  "19_correspondance": true
+ },
+ "score": "11/11",
+ "H2prime_table": {
+  "D=1.6_I=4": 1.0055,
+  "D=1.6_I=8": 1.0035,
+  "D=1.6_I=16": 1.0195,
+  "D=2.6_I=4": 1.0,
+  "D=2.6_I=8": 0.9749,
+  "D=2.6_I=16": 1.0854,
+  "D=3.6_I=4": 1.0057,
+  "D=3.6_I=8": 1.0174,
+  "D=3.6_I=16": 1.0568
+ },
+ "H2prime_bascule": false
+}
