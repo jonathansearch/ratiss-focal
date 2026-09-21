@@ -1,0 +1,9 @@
+{
+ "n_bits": 2048,
+ "entropie_bit_par_bit": 0.9972,
+ "octets": 2048,
+ "compresse_octets": 384,
+ "P_apres_injection_norme": 1.1987,
+ "info_pure": true,
+ "pas_effondre": true
+}
