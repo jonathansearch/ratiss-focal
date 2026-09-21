@@ -4,22 +4,13 @@
 Théorie unifiée, spec EXP-FOCAL-01, questions, glossaire, journal, images.
 Critère : tout le § "idées" est écrit et poussé.
 
-## Phase 1 — Conteneur v0
-Nuage + filtration VR + suivi H1/H2 + P_sig(t). Témoin : conteneur vide stable.
-**Sur ordre du chef.**
-
-## Phase 2 — Condensateur + porteurs
-Q_info + porteurs Type-I/S + métriques disjointes + transport vers point focal.
-Critère : concentration mesurable jusqu'au seuil.
-
-## Phase 3 — Univers A (émergence)
-Règles simples, graines fixées, mesures. Critère : séries P_sig(t) + verdict.
-
-## Phase 4 — Univers B + fil conducteur
-Réseau implanté, même pipeline, comparaison A/B. Critère : tableau comparatif.
-
-## Phase 5 — Verdicts + rapport
-Application des verdicts scellés, publication (journal + artefacts rejouables).
+## Phase 1 — Conteneur v0 ✅ FAIT (TEST-01 : fond stable 1.003±0.021)
+## Phase 2 — Condensateur + porteurs ✅ FAIT (TEST-02 info pure, TEST-03 I=3/S=4)
+## Phase 3 — Univers A ✅ FAIT (TEST-04 : focalise, F1 à corriger)
+## Phase 4 — Univers B + fil ✅ FAIT (TEST-05 : focalise, F2 à corriger)
+## Phase 5 — Verdicts + rapport ✅ FAIT (TEST-06 « sœurs », TEST-07 Unifié-v1)
+## Phase 6 — Durcissement (sur ordre)
+TEST-04b (lissage restreint) · TEST-05b (K fort / T long) · anti-triche v3.
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
