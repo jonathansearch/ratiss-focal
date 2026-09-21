@@ -45,6 +45,61 @@ R7 : 1 commande par test. Graines fixées partout.*
 - **Critère** : l'univers unifié focalise et reste cohérent (pas d'effondrement).
 - **Résultat** : `experiences/resultats/exp07.json` + `UNIFICATION.md`
 
+## TEST-08 — Stine-24 (les couches restent accordées ?)
+- **Méthode** : séries P par couche (avec bruit de mesure), fidélités f_i,
+  Ψ_sync = racine cubique (f1·f2·f3).
+- **Critère** : Ψ_final > 0.8. **Résultat** : Ψ = 0.874 ✅
+
+## TEST-09 — Facteur X (les couches sont couplées ?)
+- **Méthode** : X = moyenne des |corr| entre séries de couches (exp08).
+- **Critère** : X > 0.1. **Résultat** : X = 0.147 ✅ (macro↔micro 0.33)
+
+## TEST-10 — Intrication U (l'info lie les couches ?)
+- **Méthode** : U = P_joint − ΣP_couches, fond (contrôle) vs chargé.
+- **Critère** : |U_chargé| > |U_fond|. **Résultat** : 0 → −1.36 ✅
+
+## TEST-11 — Tryperposition (le collapse préserve la sync ?)
+- **Méthode** : 20 tirages, amputation 30 % d'une couche, sync avant/après.
+- **Critère** : ratio > 0.7. **Résultat** : 0.11 → 0.27 ✅ (sync absolue faible)
+
+## TEST-12 — Influence I + I_min (le contact compte ?)
+- **Méthode** : I = terme d'interaction, injection loin vs pont ; I_min :
+  bruits indépendants vs dilatation commune.
+- **Critère** : I_pont > I_loin et Imin_commun > Imin_indep.
+- **Résultat** : −0.004 → +0.0025 ; 0.26 → 0.99 ✅
+
+## TEST-13 — Séparateur K (global/individuel mesurable ?)
+- **Méthode** : K(L) = 1 − P_L/P_joint par couche.
+- **Critère** : K ∈ [0,1]. **Résultat** : {0.33, 0.80, 0.67} ✅
+
+## TEST-14 — Secteurs S_i (une loi par couche ?)
+- **Méthode** : dynamiques différentes par couche, résidus 1 loi vs 3 lois.
+- **Critère** : ratio < 0.5. **Résultat** : 0.001 ✅
+
+## TEST-15 — Constantes (nombres du labo stables ?)
+- **Méthode** : Π_c, Π_P, Π_H + 2e graine (écart réel mesuré).
+- **Critère** : écart < 25 %. **Résultat** : stables ✅ (universalité ouverte)
+
+## TEST-16 — Seuils par structure (Φ_c dépend de la forme ?)
+- **Méthode** : boucle compacte vs nuage diffus, σ_c de survie sous bruit.
+- **Critère** : σ_c différents. **Résultat** : 0.02 vs 0.20 ✅ (F4 : artefacts)
+
+## TEST-17 — F0 (l'entretien tient sous bruit ?)
+- **Méthode** : réinjection à chaque pas vs abandon, σ = 0.06, coût en bits.
+- **Critère** : entretenu > 0.7 et > abandonné. **Résultat** : 0.79 vs 0.62 ✅
+
+## TEST-18 — H2' (κ = f(D,I), bascule ?)
+- **Méthode** : grille 3×3 distance × interaction, carte de R.
+- **Critère** : cartographié. **Résultat** : R ∈ [0.97, 1.09], pas de bascule 🟡
+
+## TEST-19 — Correspondance (injection → 0 = témoin ?)
+- **Méthode** : niveaux 0/2/4, P final.
+- **Critère** : niveau 0 ≈ 1.0 + monotone. **Résultat** : 1.0, monotone ✅
+
+## TEST-20 — Unification v2 (tout en un univers ?)
+- **Méthode** : fusion 08–19 + 01–07 → `univers/unifie_v2.json`.
+- **Critère** : score 11/11. **Résultat** : 11/11 ✅ (H2' : ticket ouvert)
+
 ---
-*Exécution : `cd ratiss-focal-local && python3 experiences/exp01_fond_temoin.py`
-… jusqu'à exp07, dans l'ordre.* 🔒
+*Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
+dans l'ordre, 01 → 20.* 🔒
