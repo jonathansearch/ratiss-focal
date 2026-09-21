@@ -1,0 +1,16 @@
+{
+ "nom": "Univers-Unifi\u00e9-v3 (durci)",
+ "durcissement": {
+  "erosion_fond_04b": 0.0,
+  "delta_P_global_04b": 0.1003,
+  "sync_bascule_05b": 9,
+  "sync_finale_05b": 0.5127,
+  "antitriche_v3_moyenne": 26.29,
+  "antitriche_v3_ecart": 1.33,
+  "H2bis_verdict": "BASCULE d\u00e9tect\u00e9e en D=1.8_I=16,D=2.0_I=8,D=2.0_I=16,D=2.0_I=20,D=2.2_I=8,D=2.2_I=12,D=2.2_I=16,D=2.2_I=20,D=2.6_I=20",
+  "plv_moyenne": 0.866,
+  "plv_variance": 0.00134,
+  "plv_preservation": 1.023
+ },
+ "base_v2": "univers/unifie_v2.json (inchang\u00e9e)"
+}
