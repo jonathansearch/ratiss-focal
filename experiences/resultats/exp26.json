@@ -1,0 +1,11 @@
+{
+ "univers": "Unifi\u00e9-v3",
+ "check": {
+  "P1_04b_erosion": true,
+  "P2_05b_sync": true,
+  "P3a_antitriche_v3": true,
+  "P3b_H2bis_tranchee": true,
+  "P4_plv_long": true
+ },
+ "score": "5/5"
+}
