@@ -76,7 +76,8 @@ W→Φ : invisible→mesurable.
 
 ## 15. EXP-FOCAL-01 ✅ (spec complète séparée)
 Conteneur + condensateur Q_info + univers A (info pure) vs B (réseau implanté)
-+ fil conducteur + anti-triche Kolmogorov. Détail : SPEC-EXP-FOCAL-01.md.
++ fil conducteur + anti-triche Kolmogorov. Univers JAMAIS vides : fond commun
+(constantes du labo + structures-graines cohérentes). Détail : SPEC-EXP-FOCAL-01.md.
 
 ## 16. PORTEURS ✅
 Cubes-qubits simulés transportant le condensateur → point focal jusqu'au seuil
