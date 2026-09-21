@@ -1,5 +1,10 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-21 (nuit) — Univers jamais vides (ordre du chef)
+- Fond commun Fond ajouté à la spec (§2b) : constantes du labo + structures-graines
+  cohérentes (vide structuré), identique dans A et B, neutre (ne code pas la cible).
+- Témoin = fond seul sans condensateur. Anti-triche étendue au fond (auditable).
+
 ## 2026-09-21 (nuit) — v2 : neurones retirés (ordre du chef)
 - Stine-24 + LCT = lois ACCOMPAGNATRICES (mesures au service de la théorie).
 - Supprimés du dépôt : sections neurones/douane/esprit/boucle, ESPRIT-IA-EQUATIONS,
