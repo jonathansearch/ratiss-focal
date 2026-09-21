@@ -1,0 +1,22 @@
+{
+ "comparatif": {
+  "P_ref": 5.759931415319443,
+  "A": {
+   "focalisation": 3,
+   "delta_P": -0.1036
+  },
+  "B": {
+   "focalisation": 4,
+   "delta_P": 0.2896,
+   "sync_finale": 0.0218
+  }
+ },
+ "antitriche_v2": {
+  "regles_A_octets": 68,
+  "dossier_A_octets": 138,
+  "dossier_A_brut_caracteres": 209,
+  "ratio": 2.03,
+  "emergence": true
+ },
+ "verdict": "A+B s\u0153urs : convergence \u00e9mergence/implantation."
+}
