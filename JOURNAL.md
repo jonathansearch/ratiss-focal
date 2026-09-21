@@ -1,5 +1,12 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-21 (nuit) — TEST-08→20 : toute la théorie codée (ordre du chef)
+- Rappel du chef : rien laissé sur papier. 12 tests formels ajoutés (Stine, X, U,
+  tryperposition, I/I_min, K, secteurs, constantes, seuils, F0, H2', correspondance).
+- Premier run 7/11 → 4 mètres corrigés (M1-M4, documentés) → second run 11/11.
+- Unifié-v2 cohérent. FORMALISATION.tex écrite (≈5 p., équations + valeurs).
+- H2' : pas de bascule dans la plage (F5, ticket ouvert). Tout poussé.
+
 ## 2026-09-21 (nuit) — 7 TESTS exécutés + unification (ordre « Go »)
 - 01 fond stable (1.003±0.021) · 02 info pure (H=0.997) · 03 porteurs OK (I=3,S=4)
   · 04 A focalise mais ΔP=−0.10 (F1 lissage) · 05 B focalise, ΔP=+0.29, sync=0.02
