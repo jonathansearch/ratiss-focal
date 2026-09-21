@@ -9,8 +9,8 @@ Critère : tout le § "idées" est écrit et poussé.
 ## Phase 3 — Univers A ✅ FAIT (TEST-04 : focalise, F1 à corriger)
 ## Phase 4 — Univers B + fil ✅ FAIT (TEST-05 : focalise, F2 à corriger)
 ## Phase 5 — Verdicts + rapport ✅ FAIT (TEST-06 « sœurs », TEST-07 Unifié-v1)
-## Phase 6 — Durcissement (sur ordre)
-TEST-04b (lissage restreint) · TEST-05b (K fort / T long) · anti-triche v3.
+## Phase 6 — Durcissement ✅ FAIT (TEST-21→26 : 5/5, Unifié-v3)
+## Phase 7 — Expansion (sur ordre du chef — nouvelles directions)
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
