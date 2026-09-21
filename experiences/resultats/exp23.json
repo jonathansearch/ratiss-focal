@@ -1,0 +1,10 @@
+{
+ "ratios": {
+  "7": 27.03,
+  "77": 24.42,
+  "777": 27.43
+ },
+ "moyenne": 26.29,
+ "ecart_type": 1.33,
+ "critere_ratio_moy_sup_2_5": true
+}
