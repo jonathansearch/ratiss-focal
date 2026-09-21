@@ -16,5 +16,10 @@
 - Seuil Φ_c bio (corps-laboratoire) · P_sig croisé in vivo ·
   verrouillage QPU · BMV (arbitre externe).
 
+## Nées des 7 tests (21/09)
+- F1 : lisser seulement les points injectés (pas le fond) ?
+- F2 : K Kuramoto au-dessus du seuil critique + T plus long ?
+- F3 : anti-triche v3 sur diagrammes complets (pas les séries) ?
+
 ---
 *Poser une question ici = l'empêcher de mourir. Répondre = journal + commit.* 📝
