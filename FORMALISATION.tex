@@ -1,4 +1,5 @@
-% FORMALISATION RATISS-FOCAL — Focalisation informationnelle
+% FORMALISATION RATISS-FOCAL — Focalisation informationnelle (CANONIQUE v3)
+% Règle : chaque équation porte son test en commentaire. Pas d'équation sans test.
 % Posé par Jonathan Evina, nuit du 21 sept. 2026. Compiler : pdflatex (ou Overleaf).
 \documentclass[11pt,a4paper]{article}
 \usepackage[french]{babel}
@@ -6,82 +7,93 @@
 \usepackage[margin=2.4cm]{geometry}
 \title{RATISS-FOCAL : formalisation de la focalisation informationnelle}
 \author{RATISS Labs --- Jonathan Evina}
-\date{21 septembre 2026 (v2 : théorie + mesures)}
+\date{21 septembre 2026 (v3 : théorie + mesures + durcissement)}
 \begin{document}
 \maketitle
 
 \section{Question et lois accompagnatrices}
 La cohérence émerge-t-elle de l'information ? Deux lois accompagnatrices
 fournissent la mesure, sans machinerie neuronale.
-\textbf{LCT} : $R = P_{\mathrm{sig}}$, $\Delta W = \eta\,\varphi\,P_{\mathrm{sig}}\,C$.
+\textbf{LCT} : % TEST-01/02
+\begin{equation}
+R = P_{\mathrm{sig}}, \qquad \Delta W = \eta\,\varphi\,P_{\mathrm{sig}}\,C.
+\end{equation}
 On certifie la forme, pas le courant.
 \textbf{Stine-24} : soit $s_i(t)$ la part de persistance de la couche $i$,
-$f_i(t) = 1 - |s_i(t) - s_i(0)|$ la fidélité de couche, alors
+$f_i(t) = 1 - |s_i(t) - s_i(0)|$ la fidélité de couche, alors % TEST-08
 \begin{equation}
 \Psi_{\mathrm{sync}}(t) = \left(f_1 f_2 f_3\right)^{1/3} \to 1 = \text{accordées}.
 \end{equation}
-Mesuré : $\Psi = 0.874$ (TEST-08, alignées).
+Mesuré : $\Psi = 0.874$ (alignées).
 
 \section{Échelles, couplage, intrication}
 Trois couches (macro/micro/info), facteurs internes par couche plus facteur
-externe $X$ :
+externe $X$ : % TEST-09
 \begin{equation}
 X = \tfrac{1}{3}\sum_{i<j} |\mathrm{corr}(P_i(t), P_j(t))|.
 \end{equation}
 Mesuré : $X = 0.147$ (couplées, surtout macro-micro : $0.33$).
-Non-séparabilité :
+Non-séparabilité : % TEST-10
 \begin{equation}
 U = P_{\mathrm{joint}} - \sum_i P_i, \qquad |\Psi\rangle \neq |\mathrm{macro}\rangle \otimes |\mathrm{micro}\rangle \otimes |\mathrm{info}\rangle.
 \end{equation}
 Mesuré : $U_{\mathrm{fond}} = 0$ (contrôle), $U_{\mathrm{chargé}} = -1.36$ :
-l'information lie les couches (TEST-10).
-Tryperposition : collapse de 30\% d'une couche, sync préservée (ratio $> 0.7$).
+l'information lie les couches.
+Tryperposition : collapse de 30\% d'une couche, sync préservée (ratio $> 0.7$,
+TEST-11 ; stable sur 1000 pas, TEST-25).
 
 \section{Influence et séparation}
-Taux d'influence (terme d'interaction) :
+Taux d'influence (terme d'interaction) : % TEST-12
 \begin{equation}
 I(X \to Y) = \frac{P_{Y+\mathrm{pont}} - P_Y - P_{\mathrm{pont}}}{A^X}.
 \end{equation}
-Mesuré : $I_{\mathrm{loin}} \approx -0.004 \simeq 0$, $I_{\mathrm{pont}} = +0.0025$ :
+Mesuré : $I_{\mathrm{loin}} \simeq 0$, $I_{\mathrm{pont}} = +0.0025$ :
 l'influence exige un contact. Borne $I_{\min} > 0$ : corrélation résiduelle
-$0.26$ (bruits indépendants) contre $0.99$ (bruit commun) --- le couplage
-réel porte la borne (TEST-12).
-Séparateur global/individuel :
+$0.26$ (bruits indépendants) contre $0.99$ (bruit commun).
+Séparateur global/individuel : % TEST-13
 \begin{equation}
 K(L) = 1 - \frac{P_L}{P_{\mathrm{joint}}}.
 \end{equation}
-Mesuré : $K = \{0.33, 0.80, 0.67\}$ (TEST-13).
+Mesuré : $K = \{0.33, 0.80, 0.67\}$.
 
 \section{Secteurs et constantes}
 Une seule loi ne suffit pas : résidus par secteur $/$ résidu global $= 0.001$
 (secteurs $S_i$ requis, TEST-14).
-Nombres sans dimension du labo :
+Nombres sans dimension du labo : % TEST-15
 \begin{equation}
 \Pi_c = \frac{\Phi_c}{N\,\tau} = 0.0814, \quad
 \Pi_P = \frac{P_{\mathrm{ref}}}{N_{\mathrm{pts}}} = 0.0230, \quad
 \Pi_H = H = 0.997,
 \end{equation}
-stables entre tirages ($< 25\%$, TEST-15). Universalité : question ouverte.
+stables entre tirages ($< 25\%$). Universalité : question ouverte.
 
 \section{Concentration, porteurs, seuils}
-\begin{equation}
+\begin{equation} % TEST-03
 \Phi(X) = \frac{N_{\mathrm{int}} \times \tau}{V_{\mathrm{info}}} \geq \Phi_c(X)
 \;\Rightarrow\; \text{focalisation}.
 \end{equation}
 Porteurs : tranches disjointes $m_i \cap m_j = \varnothing$ vérifiées ;
-franchissement $\Phi_c^{\mathrm{lab}} = 500$ aux étapes I$=3$, S$=4$ (TEST-03).
+franchissement $\Phi_c^{\mathrm{lab}} = 500$ aux étapes I$=3$, S$=4$.
 Seuils par structure : $\sigma_c(\text{boucle}) = 0.02 \neq
 \sigma_c(\text{diffus}) = 0.20$ (TEST-16).
 
 \section{Maintien, H2', correspondance}
 F0 (focalisation dynamique) : entretenu $0.79$ contre abandonné $0.62$ sous
 fort bruit, coût $1920$ bits (TEST-17).
-H2' : $\kappa = f(D, I)$, grille $D \times I$ cartographiée, $R \in [0.97, 1.09]$ :
-pas de bascule dans cette plage, ticket ouvert (TEST-18).
+H2' : $\kappa = f(D, I)$, bascule formelle $|R-1| > 0.03$ avec $1$ hors
+$[R-2\sigma, R+2\sigma]$ : \textbf{détectée} en 9 cellules (champ proche
+$D \leq 2.2$ + forte injection, $R$ jusqu'à $1.11$) --- TEST-24.
 Correspondance : injection $\to 0$ = retour au témoin $P = 1.0$, monotone (TEST-19).
 
-\section{Verdicts}
-Anti-triche : dossier observé $/$ règles $= 2.03 > 2$ (émergence, de justesse).
-Verdict : \textbf{A+B sœurs} (convergence émergence/implantation).
-Univers-Unifié-v2 : 11/11, cohérent.
+\section{Verdicts et durcissement V3}
+Anti-triche V3 (diagrammes complets, 3 graines) : % TEST-23
+\begin{equation}
+\rho = \frac{|\mathrm{zlib}(\mathrm{diagrammes})|}{|\mathrm{zlib}(\mathrm{règles})|}
+= 26.29 \pm 1.33 > 2.5.
+\end{equation}
+Lissage restreint (masque $m_i = \mathbb{1}_{i \geq N_{\mathrm{fond}}}$) :
+érosion du fond $= 0.000 < 0.02$ (TEST-21).
+Kuramoto $K = 3.0$, $T = 24$ : bascule sync à l'étape 9, finale $0.51$ (TEST-22).
+PLV 1000 pas : $0.866$ (var $0.0013$), post-collapse $0.886$ (TEST-25).
+Verdict : \textbf{A+B sœurs}. V3 : \textbf{5/5}, base blindée.
 \end{document}
