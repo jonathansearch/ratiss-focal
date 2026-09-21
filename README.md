@@ -13,6 +13,9 @@ apparaît de l'info pure → preuve du phénomène.
 
 **Sans clé IBM, sans accélérateur** : numpy + ripser suffisent (v0 simulée).
 
+> Stine-24 et LCT figurent ici comme **lois accompagnatrices** (mesures).
+> Les neurones vivent dans **ratiss-neuro**, pas dans ce dépôt.
+
 ## Lire dans l'ordre
 1. `THEORIE-UNIFIEE.md` — toute la théorie consolidée (A→K).
 2. `SPEC-EXP-FOCAL-01.md` — le protocole d'expérience complet.
