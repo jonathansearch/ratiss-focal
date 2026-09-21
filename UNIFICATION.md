@@ -66,6 +66,27 @@ Rien laissé sur papier : chaque morceau formel a son test. **Score 11/11.**
 - **F5 (H2')** : R robuste sur toute la grille → resserrer la plage ou changer
   d'observable ; ticket ouvert, formalisme intact dans FORMALISATION.tex §7.
 
+## v3 — durcissement : base blindée (TEST-21 → 26, score 5/5)
+Ordre du chef : durcissement avant expansion. Les 5 frictions closes :
+
+| Priorité | Test | Résultat |
+|---|---|---|
+| P1 (F1 érosion) | 21 | érosion 0.000 < 0.02 ✅ (ΔP global +0.10 = structure, pas érosion) |
+| P2 (F2 sync) | 22 | bascule étape 9, sync 0.51 ✅ (courbe 0.045 → 0.51) |
+| P3a (F3 justesse) | 23 | 26.29 ± 1.33 > 2.5 ✅ (marge ×10) |
+| P3b (F5 H2') | 24 | BASCULE DÉTECTÉE, 9 cellules ✅ (champ proche + forte injection) |
+| P4 (PLV long) | 25 | 0.866, var 0.0013, post-collapse 0.886 ✅ |
+| Unifié-v3 | 26 | 5/5, cohérent ✅ |
+
+## Itération P4 (documentée, pas cachée)
+- M5 : respiration géométrique → PLV 0.21. Cause : P_sig insensible aux
+  déformations par construction (c'est LCT, pas un bug).
+- M6 : mémoire d'événements → PLV 0.17. Cause : la mémoire sature, le drive
+  s'efface (diagnostic : sauts events = sauts hors events).
+- M7 : onde carrée structurelle (boucle injectée/retirée) → PLV 0.866.
+  Framing honnête : contrôle positif (stabilité + survie au collapse) ;
+  la sync spontanée appartient aux mécanismes X/Kuramoto (09/22).
+
 ---
-*Prochaines étapes sur ordre : 04b (lissage restreint), 05b (K fort),
-anti-triche v3, H2'-bis (grille resserrée), PLV sur séries longues.* 🔒
+*Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
+*Prochaines étapes sur ordre : expansion (nouvelles directions du chef).* 🔒
