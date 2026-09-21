@@ -6,12 +6,6 @@
 - Types de porteurs : Type-I / Type-S proposés — OK ?
 - 3 ou 4 échelles ? (quantique = strate ou fondation du micro ?)
 
-## Douane & neurone (OpenHands teste)
-- Produit vs hiérarchique (g_dyn gouverne) ? Chiffres attendus.
-- Γ, ⊕, concept(.), W_Π, δ_i, γ, w_ij : formes exactes ?
-- Douane à N neurones : composition ?
-- Seuil C(M) du Fil actif ?
-
 ## Fondations (congelé/programmé)
 - Gravité géométrique : quelle forme ? Forme de l'univers ? (parqué 🅿️)
 - S_grav : équation de secteur séparée (programme).
