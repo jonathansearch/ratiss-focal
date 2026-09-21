@@ -6,6 +6,8 @@
 - **ETH** : facteur thermodynamique primaire (temps = écoulement d'entropie).
 - **F0** : focalisation dynamique (maintien des points ultra-cohérents).
 - **Focalisation** : Φ ≥ Φ_c → apparition d'une structure.
+- **Fond** : contenu initial commun aux univers A et B (constantes du labo +
+  structures-graines cohérentes, neutres). Jamais vide.
 - **I(X→Y)** : taux d'influence (ΔP_sig^Y / A^X). I_min > 0 toujours.
 - **K** : séparateur global/individuel (≈ trace partielle + repère).
 - **LCT** : loi accompagnatrice n°1 (R=P_sig ; certifier la forme).
