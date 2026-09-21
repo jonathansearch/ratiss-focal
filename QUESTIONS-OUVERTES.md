@@ -21,5 +21,12 @@
 - F2 : K Kuramoto au-dessus du seuil critique + T plus long ?
 - F3 : anti-triche v3 sur diagrammes complets (pas les séries) ?
 
+## Nées des tests 08-20 (21/09)
+- F4 : mètre de seuil insensible aux artefacts de bruit (vrai vs faux P) ?
+- F5 (H2') : grille (D,I) resserrée ou autre observable pour la bascule ?
+- PLV sur séries longues (T ≥ 30) pour confirmer le phase-locking ?
+- Sync absolue TEST-11 faible (0.27) : renforcer le couplage inter-couches ?
+- Universalité des Π : stables entre labos (graines, tailles, géométries) ?
+
 ---
 *Poser une question ici = l'empêcher de mourir. Répondre = journal + commit.* 📝
