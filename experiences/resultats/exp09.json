@@ -1,0 +1,9 @@
+{
+ "correlations": {
+  "macro-micro": 0.3326,
+  "macro-info": 0.0641,
+  "micro-info": 0.0453
+ },
+ "X": 0.1473,
+ "couple": true
+}
