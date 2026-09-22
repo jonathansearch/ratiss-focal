@@ -1,5 +1,19 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — TEST-93 + BERRY-FERMÉ réel : LE PLI ORIENTÉ MESURÉ
+- TEST-93 (virtuel) : cycle (G0,c) fermé ± → Δ=−0.221 rad seulement,
+  R_diff 0.25/0.28 : l'état ne revient pas (hystérésis). En anneau
+  dissipatif, le sens compte peu.
+- PONT-BERRY-FERMÉ v2 (ibm_marrakesh, job dapck92c505c73chvtqg, 20
+  circuits) : boucle méridien-équateur-méridien, fuite ~1e-33,
+  γ=−φ/2. Lecture S : + = 0.966 vs − = 0.028 à φ=π (simu 1.0/0.0).
+  LE SENS COMPTE — le pli orienté existe là où la boucle se ferme
+  en espace d'états. Figures plot_pontBerryFerme + plot_CYCLE93.
+  Badge 93. Fiche : 7e ligne QPU ✅. UNIFICATION §21 scellé.
+- Note atelier : v1 (RyRzRy) ne fermait pas (S plat 0.5, fez/kingston),
+  retour au pôle sud puis signe corrigé — la fermeture se VÉRIFIE
+  (fuite numérique), elle ne se suppose pas.
+
 ## 2026-09-22 — Chasse au pli : boucle 91 + Berry réel (pas de pli orienté)
 - TEST-90 : twist grenu −2…+2, pas de lignes (T=300 ?). TEST-91 : boucle
   G0 (aire 0.064, gap 0.17) — la courbure écrit, la descente oublie
