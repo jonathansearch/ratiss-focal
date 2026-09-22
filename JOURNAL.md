@@ -1,5 +1,16 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — V13 SINGULARITÉ : 2/5 (puits expo, pas d'ombre Newton)
+- TEST-73 H0 : le tueur ponctuel creuse un PUITS divergent (a=4.3),
+  profil exponentiel (R²=0.98), A/(r+eps) rejeté (R²=0.88). Chapeau
+  mexicain. 3 bugs de design fixés avant verdict (T, déficit→excès,
+  sondes imposées→libres).
+- TEST-74 ✅ : exponentielle gagne 12/12 (R²=0.998), p≈0 — portée
+  finie fixée par diffusion, pas par la masse. TEST-75 H0 : horloges
+  PLATES. TEST-76 ÉRODÉ (U encaisse, 10/30). TEST-77 ✅ : k_c=6.
+- Figure plot_V13 (3 panneaux). §19 + §10.octies restreint (validé
+  seul : loi expo + capture). Phase 18 ouverte et fermée le même jour.
+
 ## 2026-09-22 — TEST-72 : RUQ-3 H2 ! (le graphe tient séparé)
 - R 0.99 → 0.05 → 0.73 : chute puis RÉCUPÉRATION via graphe fixe.
   var(q) → 0.197, corr −0.76, λ2 12 → 2.2. Première unité qui survit
