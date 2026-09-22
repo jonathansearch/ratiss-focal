@@ -369,5 +369,26 @@ R7 : 1 commande par test. Graines fixées partout.*
   choc exogène de dérive endogène. ARRÊT des itérations (3/3).
 
 ---
+## TEST-67 — UKTZ-S sémantiques (exploration ouverte)
+- **Méthode** : 12 neurones (embedding R^8 + drive Lissajous forcé),
+  monde tore graine 24. 300 balade + 300 groupés (boule commune).
+- **Observables** (aucun critère) : similarité cosinus S(t).
+- **Observé** : S 0.44 → 0.97. La proximité crée un code quasi-identique.
+
+## TEST-68 — UKTZ-T topologiques (exploration ouverte)
+- **Méthode** : 12 neurones, graphe FIXE (anneau + 2 hubs), Kuramoto +
+  modulation par champ local. 300 + 300.
+- **Observables** (aucun critère) : ordre R(t).
+- **Observé** : R 0.72 → 0.69 (bump 0.89 à 450). La topologie fixe
+  domine ; le partage sensoriel ne change presque rien.
+
+## TEST-69 — RUQ-1 Réseau Universel Q (invention, exploration ouverte)
+- **Méthode** : 12 neurones phase+charge ; Kuramoto SPATIAL + charge
+  qui boit le champ et diffuse par proximité. 300 + 300.
+- **Observables** (aucun critère) : R(t), var(q)(t), corr(q,s)(t).
+- **Observé** : R 0.30 → 0.98, var(q) ÷9 (0.047→0.005). Le regroupement
+  déclenche une transition : sync explosive + homogénéisation de charge.
+
+---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 66.* 🔒
+dans l'ordre, 01 → 69.* 🔒
