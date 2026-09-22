@@ -13,6 +13,7 @@
 | 3 | RUQ t_half=11 + TEST-60 flip piloté | PONT-60 (T1 + H-Rz-H) | ✅ MESURÉ (kingston, T1=285.4us, cosinus) |
 | 4 | RUQ relaxation de phase | PONT-T2 (Ramsey → T2*) | ✅ MESURÉ (marrakesh, T2*=70.2us) |
 | 5 | TEST-72 H2 : la structure récupère | PONT-72 (Ramsey vs écho Hahn → T2echo/T2*) | ✅ MESURÉ (kingston, 14.4→63.4us, x4.4) |
+| 6 | TEST-92 : le sens d'un tour compte-t-il ? | PONT-BERRY (boucle ± → asymétrie A) | 🟡 FRANGE OUI, PLI NON (fez : U 1.0→0.49, A~0 ; boucle non fermée) |
 
 ## Colonne autres outils (jumeaux prêts, cases téléphone à cocher)
 
