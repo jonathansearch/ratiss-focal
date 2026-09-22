@@ -136,6 +136,23 @@ Les 29 tests étaient les instruments ; la V5 teste le postulat de base.
 - **F7** : lissage fort déforme (Q0 = 0.74 au 1er pas).
 - **F8** : petites structures volatiles (anneau 24 pts : sauts mid-run).
 
+## v6 — Q révélé sans trahison (TEST-36 → 39, score 3/3)
+Ordre du chef : adapter l'instrument à Q, pas l'inverse. Résidu V5 levé.
+
+| Pilier | Test | Résultat |
+|---|---|---|
+| Q1 Forme libre | 36 | double-exp R²=0.968 ✅ (k1=0.098 rapide, k2=0.001 lent) |
+| Q2 Volatilité | 37 | STRUCTURÉE ✅ (pente −0.72, ac1 0.63 — mémoire) |
+| Q3 Ligne + bruit | 38 | 28/30 vs 9/30, sép. 19 ✅ (capsule robuste) |
+| Unifié-v6 | 39 | 3/3 ✅ |
+
+## Lecture physique V6
+- Deux temps Q : entraînement rapide (hubs ?) + verrouillage lent (anneau ?).
+- Volatilité = bruit coloré à mémoire (ni blanc ni bursts) → composante
+  signal : liberté quantique + transitions topologiques (piste V7).
+- U4 plus robuste que prévu : la capsule survit au régime Q natif.
+- Ticket V7 ouvert : NOYAU_RÉSIDUEL_G (plancher gravitationnel info).
+
 ---
 *Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
-*Prochaine étape : V6 — durcir Q (N↑, débruitage) pour finir U3/U5.* 🔒
+*Prochaine étape : V7 — noyau résiduel G (ticket dédié).* 🔒
