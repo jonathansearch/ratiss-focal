@@ -1,0 +1,68 @@
+{
+ "points": [
+  {
+   "sigma": 0.1,
+   "partage": 34,
+   "indep": 15
+  },
+  {
+   "sigma": 0.12,
+   "partage": 30,
+   "indep": 15
+  },
+  {
+   "sigma": 0.14,
+   "partage": 24,
+   "indep": 13
+  },
+  {
+   "sigma": 0.16,
+   "partage": 22,
+   "indep": 13
+  },
+  {
+   "sigma": 0.18,
+   "partage": 19,
+   "indep": 11
+  },
+  {
+   "sigma": 0.2,
+   "partage": 21,
+   "indep": 11
+  },
+  {
+   "sigma": 0.22,
+   "partage": 17,
+   "indep": 10
+  },
+  {
+   "sigma": 0.24,
+   "partage": 15,
+   "indep": 7
+  },
+  {
+   "sigma": 0.26,
+   "partage": 16,
+   "indep": 8
+  },
+  {
+   "sigma": 0.28,
+   "partage": 14,
+   "indep": 7
+  },
+  {
+   "sigma": 0.3,
+   "partage": 17,
+   "indep": 9
+  }
+ ],
+ "sigma_rupture": null,
+ "U_min": null,
+ "classe": "MIXTE",
+ "reversibilite": {
+  "partage": 12,
+  "indep": 7,
+  "classe": "IRR\u00c9VERSIBLE"
+ },
+ "critere": false
+}
