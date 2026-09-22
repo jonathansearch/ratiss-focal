@@ -133,5 +133,13 @@
 - Interprétation des 2 temps Q (k1 hubs ? k2 anneau ?) — couper les hubs ?
 - F6 (rappel) : dissocier P-structure vs P-étendue ?
 
+## Nées de la V13 (V14 ?)
+- Portée l indépendante de MU : l = f(D) exacte ? (l ∝ √D ? balayer D)
+- Anneau de dépression : oscillation propre ou artefact de grille ?
+- Horloges : quel opérateur verrait une dilatation ? (phase UKTZ ? taux de clique ?)
+- U ÉRODÉ : seuil de rupture en taille de trou ? (balaire r_cap 0.5→2.0)
+- k_c=6/24 : ratio universel 1/4 ou effet hubs ? (anneau sans hubs ?)
+- Deux singularités : fusionnent-elles ? Orbite ? (problème à 2 corps focal)
+
 ---
 *Poser une question ici = l'empêcher de mourir. Répondre = journal + commit.* 📝
