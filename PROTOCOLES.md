@@ -532,4 +532,35 @@ R7 : 1 commande par test. Graines fixées partout.*
 
 ---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 85.* 🔒
+---
+## TEST-86 — Ombre d'Alembert (jumeau Falstad, observation)
+- **Méthode** : équation d'ondes 2D (120x120, source plane λ=4), disque
+  absorbant rd∈{0,8,16,24} (u=0 épinglé), 900 pas. Contraste normalisé
+  par le profil rd=0 (corrige le biais de bords amortis).
+- **Observé** : contraste 0.0 → 0.90 / 0.53 / 0.75. L'ombre existe avec
+  un moteur indépendant (valide TEST-82) ; non-monotone (rd=16 creux —
+  suspect : tache de Poisson / interférence). Leçon : disque < λ =
+  pas d'ombre (diffraction).
+
+## TEST-87 — Lentille par zone lente (jumeau Falstad, observation)
+- **Méthode** : même moteur, disque c×0.6 (r=15) vs témoin uniforme.
+  Focus = max sur zone (axe/latéral à la même ligne).
+- **Observé** : focus 3.56 (lentille, ligne 41) vs 1.86 (témoin, ligne
+  40) — la zone lente concentre x1.9. Pont ondes avec TEST-81.
+
+## TEST-88 — Jumeau Wokwi twist (observation)
+- **Méthode** : réplique exacte du firmware (N=24 + hubs, 2 puits,
+  LCG embarqué graines 100/55, G0∈{0,1.0}).
+- **Observé** : R 0.91→0.41, twist 0 aux deux (vs −2 en TEST-80 avec
+  graines numpy : le twist à G0=1.0 dépend de l'init — constaté).
+  Prédiction pour le moniteur série Wokwi.
+
+## TEST-89 — Jumeau Wokwi redshift (observation)
+- **Méthode** : réplique exacte du firmware (anneau 12, K=3, DT=0.1,
+  T=3000, om_i=−exp(−i/3), LCG graine 84). Fréquences par pente.
+- **Observé** : −0.77 → −0.11, monotone par paires (voisins verrouillés).
+  Le gradient survit au couplage. Prédiction série Wokwi.
+
+---
+*Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
+dans l'ordre, 01 → 89.* 🔒
