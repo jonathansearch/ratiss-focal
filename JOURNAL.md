@@ -1,5 +1,11 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — ARCHIVE IBM : 64/66 jobs rapatriés (passerelle_quantique/jobs_ibm/)
+- Ordre chef : ne rien laisser sur la plateforme. 9 jobs attribués (77/76/
+  60/T2/72/BERRY/BF-v1/BF-v2) + 56 essais août non attribués. Bonus :
+  Berry-FERMÉ v1 (dapcj5ac505c73chvsh0, kingston) REDÉCOUVERT (S plat).
+  Vérifié bit-identique. INDEX.json. (C01+C08 → continuums.)
+
 ## 2026-09-22 — TEST-94 : SYNTHÈSE QM×GR (décohérence gravitationnelle)
 - Ordre chef : un calcul qui exige OBLIGATOIREMENT les deux échelles.
   Réponse : superposition à deux hauteurs, horloges locales GR (puits

@@ -1,0 +1,1 @@
+{"job": "daa1rmcjbipc73ffdc3g", "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9", "backend": "ibm_marrakesh", "created_utc": "2026-08-30 12:11:05.577969+00:00", "status": "DONE", "n_pubs": 1, "counts": [{"0000": 4056, "0001": 11, "1000": 23, "0100": 5, "1110": 1}], "recup": "ok"}

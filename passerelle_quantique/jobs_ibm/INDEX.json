@@ -1,0 +1,453 @@
+{
+ "n": 64,
+ "jobs": [
+  {
+   "job": "da7ke8c6l22c73dnn2mg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 20:05:53.629415+00:00",
+   "n_pubs": 3
+  },
+  {
+   "job": "da7lomk6l22c73dnohr0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:36:26.447045+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lopbsq5js73bk459g",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:36:37.054996+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lorusidac73afh7g0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:36:47.814166+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7loumsidac73afh7k0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:36:58.978490+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lp1e0ukec7383f43g",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:37:09.223787+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lp3m0ukec7383f470",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:37:18.076416+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lp5rsq5js73bk45n0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:37:27.167363+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lp8c6l22c73dnoic0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:37:37.367843+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lpausidac73afh82g",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:37:47.433501+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lpd46l22c73dnoihg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:37:56.828671+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lpfk6l22c73dnoikg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:38:06.194899+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lphs6l22c73dnoio0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:38:15.074224+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lpk60ukec7383f4pg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:38:24.523899+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lpme0ukec7383f4s0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:38:33.476141+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lpom0ukec7383f4v0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:38:42.839371+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lpqs6l22c73dnoj10",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:38:51.804695+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lptc6l22c73dnoj40",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:39:01.207037+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7lpvm0ukec7383f58g",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-26 21:39:10.048390+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m1es6l22c73dnoqgg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:55:07.941838+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m1hm0ukec7383fco0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:55:18.590463+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m1m60ukec7383fct0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:55:36.670603+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m1ojsq5js73bk4e30",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:55:46.942263+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m1r6sidac73afhgh0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:55:57.028633+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m1u60ukec7383fd5g",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:56:08.291111+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m20usidac73afhgn0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:56:19.700182+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m2360ukec7383fdag",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:56:28.761955+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m27rsq5js73bk4ehg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:56:47.699895+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m2au0ukec7383fdhg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:56:59.455513+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m2de0ukec7383fdk0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:57:09.556287+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m2fu0ukec7383fdn0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:57:19.198124+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m2i3sq5js73bk4eqg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:57:28.882346+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m2km0ukec7383fdrg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:57:38.936988+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m2oesidac73afhhcg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:57:53.682825+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m2ru0ukec7383fe30",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:58:07.892291+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m2umsidac73afhhkg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:58:19.015525+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m316sidac73afhhp0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 21:58:28.644756+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m9l46l22c73dnp3s0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 22:12:36.422925+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7m9ns6l22c73dnp3v0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 22:12:47.928906+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7mad60ukec7383fmrg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 22:14:12.604279+00:00",
+   "n_pubs": 2
+  },
+  {
+   "job": "da7mahe0ukec7383fn00",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 22:14:29.163928+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da7makc6l22c73dnp4pg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 22:14:41.540411+00:00",
+   "n_pubs": 2
+  },
+  {
+   "job": "da7mane0ukec7383fn5g",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-26 22:14:53.306981+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "da81b5m0ukec7383sf20",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-27 10:46:46.423144+00:00",
+   "n_pubs": 3
+  },
+  {
+   "job": "da81r1k6l22c73do6msg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-27 11:20:38.424712+00:00",
+   "n_pubs": 3
+  },
+  {
+   "job": "daa1nahqtnsc73d24jhg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_kingston",
+   "created_utc": "2026-08-30 12:01:47.028421+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "daa1nferbfbs73ci6kfg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_kingston",
+   "created_utc": "2026-08-30 12:02:05.074415+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "daa1rmcjbipc73ffdc3g",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-30 12:11:05.577969+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "daa1rp4e74ec73akac30",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-30 12:11:16.163075+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "daa1rs9qtnsc73d24o70",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-30 12:11:29.380894+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "daa1rvcjbipc73ffdcdg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-30 12:11:41.719527+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "daa1s39qtnsc73d24oeg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-30 12:11:58.028914+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "daa1s6mrbfbs73ci6p8g",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-30 12:12:10.607790+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "daakncpqtnsc73d2qf60",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-31 09:38:59.197362+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "daaknn6rbfbs73cishdg",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-08-31 09:39:41.117348+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "dab0oamrrl7c738678k0",
+   "test": "essai-1-circuit ao\u00fbt-2026 non attribu\u00e9",
+   "backend": "ibm_fez",
+   "created_utc": "2026-08-31 23:20:10.130493+00:00",
+   "n_pubs": 1
+  },
+  {
+   "job": "dap7su82fm4c73f6dsrg",
+   "test": "PONT-77 capture (marrakesh, 50 pubs)",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-09-22 13:11:21.499237+00:00",
+   "n_pubs": 50
+  },
+  {
+   "job": "dap8368pqrnc739avu2g",
+   "test": "PONT-76 Bell+bruit (marrakesh, 60 pubs)",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-09-22 13:24:41.565385+00:00",
+   "n_pubs": 60
+  },
+  {
+   "job": "dap88g02fm4c73f6eb3g",
+   "test": "PONT-60 T1+flip (kingston, 28 pubs)",
+   "backend": "ibm_kingston",
+   "created_utc": "2026-09-22 13:36:00.763513+00:00",
+   "n_pubs": 28
+  },
+  {
+   "job": "dap8ca78gn2s739osa10",
+   "test": "PONT-T2 Ramsey (marrakesh, 14 pubs)",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-09-22 13:44:09.086204+00:00",
+   "n_pubs": 14
+  },
+  {
+   "job": "dap8jg8pqrnc739b0hc0",
+   "test": "PONT-72 echo (kingston, 28 pubs)",
+   "backend": "ibm_kingston",
+   "created_utc": "2026-09-22 13:59:29.856507+00:00",
+   "n_pubs": 28
+  },
+  {
+   "job": "dapc3t4ak42c73cibdd0",
+   "test": "PONT-BERRY boucle ouverte (fez, 10 pubs)",
+   "backend": "ibm_fez",
+   "created_utc": "2026-09-22 17:59:16.343213+00:00",
+   "n_pubs": 10
+  },
+  {
+   "job": "dapcj5ac505c73chvsh0",
+   "test": "BERRY-FERME v1 non-ferm\u00e9 S-plat (kingston, 20 pubs, RED\u00c9COUVERT)",
+   "backend": "ibm_kingston",
+   "created_utc": "2026-09-22 18:31:49.950555+00:00",
+   "n_pubs": 20
+  },
+  {
+   "job": "dapck92c505c73chvtqg",
+   "test": "BERRY-FERME v2 (marrakesh, 20 pubs)",
+   "backend": "ibm_marrakesh",
+   "created_utc": "2026-09-22 18:34:12.262716+00:00",
+   "n_pubs": 20
+  }
+ ]
+}
