@@ -87,6 +87,28 @@ Ordre du chef : durcissement avant expansion. Les 5 frictions closes :
   Framing honnête : contrôle positif (stabilité + survie au collapse) ;
   la sync spontanée appartient aux mécanismes X/Kuramoto (09/22).
 
+## v4 — deux lois codifiées (TEST-27 → 29, score 2/2)
+Les 2 questions V3 promues en lois, testées, gravées (.tex §8-§9).
+
+| Loi | Test | Résultat |
+|---|---|---|
+| L1 Proximité-Condensation | 27 | ρ_c = 8.01 émergé ; actifs 0.98 vs inactifs 0.11 à D=5 ✅ |
+| L2 Résilience post-collapse | 28 | sélectif > neutre (+3-4 pts) ; R>1 au niveau sync (1.023) ✅ |
+| Unifié-v4 | 29 | 2/2 ✅ |
+
+## Itération L1 (M8→M10c, documentée)
+- M8 : champ clairsemé (ρ̄ ≈ 0 partout) → champ dense 400 pts + noyau continu.
+- M10 : gate linéaire mou → deux temps : mesure douce (ρ_c = 8.01) puis
+  interrupteur dur bilatéral (min, pas moyenne : les hubs ressuscitaient tout).
+- M10c : mètre global → mètre local (sync conditionnelle) : les gouttelettes
+  condensées syncent à 0.98 pendant que le fond reste à 0.11. La loi est
+  locale ; corr fraction-sync = 0.94.
+
+## Domaine L2 (affiné honnêtement)
+- Niveau P : purification RELATIVE (sélectif > neutre), R < 1 partout.
+- Niveau sync : purification ABSOLUE (R = 1.023, TEST-25).
+- Lecture : le collapse purifie les LIENS, pas le niveau (= tryperposition).
+
 ---
 *Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
-*Prochaines étapes sur ordre : expansion (nouvelles directions du chef).* 🔒
+*Prochaines étapes sur ordre du chef.* 🔒
