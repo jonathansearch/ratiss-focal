@@ -1,5 +1,12 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — PONT-72 ÉCHO réel (kingston) : récupération x4.4
+- Job dap8jg8pqrnc739b0hc0, 28 circuits. Ramsey plain : chute rapide
+  T2*~14.4us (refit 5 pts, R2=0.96 ; fit global R2=0.44 non interprétable,
+  assumé). Écho Hahn : décroissance propre T2=63.4us (R2=0.84). L'impulsion
+  centrale récupère la cohérence x4.4 — comme le graphe TEST-72.
+  Colonne QPU de la fiche : 5/5 mesurés. Figure plot_pont72.
+
 ## 2026-09-22 — TEST-85 (3 puits, twist 0) + PONT-T2 réel (70.2 us)
 - TEST-85 : R 0.85→0.40, twist 0 partout — la piste twist=nb de puits
   s'arrête à 2. Symétrie à 3 = torsion annulée ? Figure plot_T85.
