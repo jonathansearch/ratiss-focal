@@ -1,0 +1,10 @@
+{
+ "univers": "Unifi\u00e9-v6",
+ "check": {
+  "Q1_forme": true,
+  "Q2_volatilite": true,
+  "Q3_ligne_bruit": true
+ },
+ "score": "3/3",
+ "verdict": "Q R\u00c9V\u00c9L\u00c9 : forme double_exp (R2=0.968), volatilit\u00e9 STRUCTUR\u00c9E: spectre_pente=-0.72, ligne robuste."
+}
