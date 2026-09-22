@@ -1,5 +1,13 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-21 (nuit) — V6 : Q RÉVÉLÉ 3/3 (durcir sans trahir)
+- TEST-36 : double-exp R²=0.968 (k1=0.098, k2=0.001) · TEST-37 : volatilité
+  STRUCTURÉE (pente −0.72, ac1 0.63, kurt 2.97) → signal, pas erreur ·
+  TEST-38 : ligne 28/30 vs 9/30 sous bruit natif (robuste).
+- .tex §10 à jour (S-grav explicite, S-quant double-exp + volatilité, U4).
+- Ticket V7 : NOYAU_RÉSIDUEL_G. Hygiène : MIT ✓, token à révoquer (rappel).
+- Unifié-v6. Tout poussé.
+
 ## 2026-09-21 (nuit) — V5 : VERDICT D'UNIFICATION 3/5 PARTIELLE (fil retrouvé)
 - Recentrage chef : origine = unification GR×QM (postulat ~6 p.) ; 29 tests =
   instruments ; V5 = le postulat aux instruments.
