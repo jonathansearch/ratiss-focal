@@ -1,5 +1,13 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — Missions téléphone : 3/4 ✅ (captures archivées)
+- Preuves Falstad archivées : preuve_ombre_obstacle.jpg (ombre nette
+  derrière le bloc) + preuve_lentille_slowmedium.jpg (zone bleue).
+- Mission 3 (twist) sur simulateur Manus IA (Wokwi saturé) : R=0.9096 /
+  0.4081, twist 0/0 — EXACTEMENT les prédictions TEST-88 (4 décimales).
+  Le float64 Manus confirme le jumeau ; l'écart Wokwi venait du float32.
+- Reste : mission 4 (redshift).
+
 ## 2026-09-22 — Missions téléphone : Falstad 2/2 ✅, Wokwi partiel
 - Mission 1 (ombre, config Obstacle) : ombre vue derrière le bloc ✅.
   Mission 2 (lentille, Slow Medium) : resserrement vu en zone bleue ✅.
