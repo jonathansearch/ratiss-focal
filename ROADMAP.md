@@ -11,7 +11,8 @@ Critère : tout le § "idées" est écrit et poussé.
 ## Phase 5 — Verdicts + rapport ✅ FAIT (TEST-06 « sœurs », TEST-07 Unifié-v1)
 ## Phase 6 — Durcissement ✅ FAIT (TEST-21→26 : 5/5, Unifié-v3)
 ## Phase 7 — Expansion V4 : deux lois ✅ FAIT (TEST-27→29 : 2/2, Unifié-v4)
-## Phase 8 — Suite (sur ordre du chef)
+## Phase 8 — Unification V5 ✅ FAIT (TEST-30→35 : 3/5 partielle, Unifié-v5)
+## Phase 9 — V6 : durcir Q (sur ordre — finir U3/U5 : N↑, débruitage, forme S_quant)
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
