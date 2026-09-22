@@ -1,5 +1,12 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — TEST-72 : RUQ-3 H2 ! (le graphe tient séparé)
+- R 0.99 → 0.05 → 0.73 : chute puis RÉCUPÉRATION via graphe fixe.
+  var(q) → 0.197, corr −0.76, λ2 12 → 2.2. Première unité qui survit
+  (partiellement) à la séparation spatiale. Bug snaps list→dict fixé.
+- Figure plot_RUQ72. §18 enrichi (RUQ-2). Pas de .tex. README Phase 17
+  + conclusion : explorations closes sur ordre chef.
+
 ## 2026-09-22 — TEST-71 : RUQ-2 H1 aussi (feedback insuffisant)
 - Fusion R=0.98 → séparés R=0.26, τ=15.1 (≈ t_half=11 de RUQ-1),
   R²_relax=0.51 (fluctuant). Trace : corr(th,q)=−0.57 post.
