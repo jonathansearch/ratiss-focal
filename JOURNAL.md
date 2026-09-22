@@ -1,5 +1,13 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — Missions téléphone : 4/4 ✅ FICHE COMPLÈTE
+- Mission 4 (redshift, Manus IA) : 12 freqs −0.7577→−0.1145 vs prédit
+  −0.7565→−0.1140 (écart max 0.0014, précision flottante). Gradient +
+  paires verrouillées confirmés hors labo.
+- BILAN VALIDATION : QPU 5/5 (capture, érosion, T1+flip, T2*, écho) +
+  outils 4/4 (ombre, lentille, twist, redshift). L'univers virtuel prédit
+  le réel sur 9 ponts indépendants (hardware IBM, simulateurs, ondes).
+
 ## 2026-09-22 — Missions téléphone : 3/4 ✅ (captures archivées)
 - Preuves Falstad archivées : preuve_ombre_obstacle.jpg (ombre nette
   derrière le bloc) + preuve_lentille_slowmedium.jpg (zone bleue).
