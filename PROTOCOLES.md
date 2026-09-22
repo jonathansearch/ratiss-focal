@@ -424,5 +424,57 @@ R7 : 1 commande par test. Graines fixées partout.*
   puis reconstruction. Première mémoire collective qui tient SÉPARÉE.
 
 ---
+---
+## TEST-73 — Naissance d'une singularité (V13, feu vert chef)
+- **Méthode** : grille 40×40, diffusion D=0.05, tueur focal gaussien
+  (MU=0.02D, σ=0.05D imposés), source rayures entretenue (lignes 32-39),
+  T=600. Observable : excès radial e(r)=a(r)−a_loin, ajusté en A/(r+eps).
+- **Critère** : R²>0.9 ET R_h∈]0,maxD[. **NON REMPLI** (H0 honnête) :
+  le tueur creuse un PUITS (a_centre=4.3, divergence négative), pas une
+  ombre ; A/(r+eps) donne R²=0.88 ; l'exponentielle C·exp(−r/l) donne
+  R²=0.98 (l=0.066). Chapeau mexicain (anneau de dépression). Leçons :
+  T=250 insuffisant (q_max=0.22<0.30, tueur muet) ; sondes imposées
+  interdites (v1 biaisée, remplacée en TEST-75 v2).
+
+## TEST-74 — Loi de gravité focale (V13)
+- **Méthode** : balayage 4 MU × 3 σ (12 runs, T=400), 4 candidats
+  (A: A/(r+eps), B: 1/r², C: exp, D: constante) sur le profil radial.
+- **Critère** : même gagnant ≥9/12 ET R² moyen >0.9. **REMPLI** :
+  C (exponentielle) gagne 12/12, R²=0.998. Loi R_h=k·MU^p : p≈0 —
+  la taille du puits est fixée par la diffusion, PAS par la masse.
+  La gravité focale est à portée finie (écrantée), pas newtonienne.
+
+## TEST-75 — Horloges près de la singularité (V13)
+- **Méthode** : 24 sondes LIBRES (règle focale pure), frappées 1 fois
+  à t=100, τ(r) par ajustement exp du retour (T=600). Classes DILATÉE
+  (τ_in>1.2·τ_out) / INVERSÉE / PLATE.
+- **Critère** : DILATÉE. **NON REMPLI** : PLATE (τ_in=29.2,
+  τ_out=31.4, 12/24 valides — les 12 sondes centrales noyées dans la
+  croissance du puits, pas de relaxation mesurable). Pas de dilatation
+  temporelle détectée avec cet opérateur d'horloge.
+
+## TEST-76 — U vs trou noir local (V13)
+- **Méthode** : ligne TEST-38 (T=20, mêmes graines/messages), région B
+  trouée (spaghettification N(0,1) dans r<1.0). 30 partagé + 30 indép.
+  Classes TIENT (barre TEST-38) / ÉRODÉ / ROMPU.
+- **Critère** : TIENT. **NON REMPLI** : ÉRODÉ (10/30 vs 4/30, sép=6
+  ; réf TEST-38 : 28/30 vs 9/30). U survit partiellement : le sanctuaire
+  encaisse mais perd plus de la moitié de sa fidélité partagée.
+
+## TEST-77 — Q vs capture (V13)
+- **Méthode** : anneau NQ=24 + hubs (K=3, DT=0.3), k oscillateurs
+  proches de l'angle 0 re-tirés uniformes à chaque pas. R sur 20
+  derniers pas. k∈{0,2,4,6,8,10}.
+- **Critère** : k_c identifié (1er k avec R<0.5). **REMPLI** :
+  k_c=6 (R : 0.83→0.57→0.69→0.34→0.38→0.26). La capture d'un quart
+  de l'anneau tue la synchronisation globale.
+
+## TEST-78 — Unification V13 (TEST-73→77)
+- **Méthode** : fusion des 5 critères → univers/unifie_v13.json.
+- **Observé** : score 2/5 (S2 loi expo, S5 capture Q). Verdict :
+  singularité = puits exponentiel écranté + capture Q à k_c=6 ;
+  Newton, dilatation des horloges et sanctuaire U NON établis.
+
+---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 72.* 🔒
+dans l'ordre, 01 → 78.* 🔒
