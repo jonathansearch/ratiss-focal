@@ -30,6 +30,19 @@
 - F8 → volatilité STRUCTURÉE à mémoire (TEST-37) : signal, pas erreur.
 - U4 robuste au bruit Q natif (TEST-38).
 
+## closes par la V11 ✅/❌
+- Symétrie Q → FLIP symétrique, pas de Qbar (TEST-56 ✅, M25).
+- Distribution → ni gaussienne ni bêta (TEST-57 ❌, skew +0.69).
+- Seuil U → σ_c = 0.06, sigmoïde 0.964 (TEST-58 ✅).
+
+## Nées de la V11 (V12 ?)
+- Paysage Q : quel potentiel donne skew +0.69 sans forme simple ?
+  (mélange ? fractal ? mémoire longue dans Kuramoto ?)
+- Flip contrariant : mécanisme (phase ? resync ?) — forcer la phase
+  post-choc et prédire le côté du flip ?
+- U au-delà de σ=0.10 : rupture complète ? (S_U → indep ?)
+- Biais HIGH→LOW de TEST-53 relu : moitié d'un flip symétrique (clos).
+
 ## closes par la V10 ✅/❌
 - Phase → attracteur → RIEN : continuum, pas d'attracteurs (TEST-52 ❌).
 - Bassin Q → profondeur NULLE : P=1.0 dès 0.25× (TEST-53 ✅ fragile).
