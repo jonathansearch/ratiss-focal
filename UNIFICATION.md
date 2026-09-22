@@ -271,5 +271,32 @@ Ticket SANCTUAIRE_U_CONSCIENCE mis à jour (σ_c = 0.06, bruit chronique).
 
 ---
 *Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
-*Prochaine étape sur ordre du chef (piste : paysage Q ? potentiel
-sous-jacent au re-tirage ?).* 🔒
+## v12 — le flip obéit au doigt (TEST-60 → 63, score 1/3)
+Ticket SANCTUAIRE_U_CONSCIENCE mis à jour (σ_c, environnement).
+
+| Pilier | Test | Résultat |
+|---|---|---|
+| D1 Forçage flip | 60 | CONTRÔLABLE ✅ ([0,π]→LOW, {5π/4,3π/2}→HIGH, P=1.0 pré-indépendant, M26) |
+| D2 Rupture U | 61 | MIXTE ❌ (pas de rupture jusqu'à 0.30 ; plancher ~30 % ; IRRÉVERSIBLE) |
+| D3 Structure Q/U | 62 | COUPLÉ_STRUCTUREL ❌ (Δ=+2/+4 même signe, 2 blocs — HIGH protège mieux) |
+| Unifié-v12 | 63 | 1/3 |
+
+## Lecture physique V12
+- Le flip Q est DÉTERMINISTE : la phase injectée post-choc pilote
+  l'état final à P=1.0, quel que soit l'avant. L'anti-persistence a un
+  volant : la phase absolue (brisure de symétrie par les ancres).
+  Zone 7π/4 = transition (ambiguïté maximale = frontière de contrôle).
+- U ne MEURT pas jusqu'à σ=0.30 : il s'érode vers un plancher partiel
+  (~30 % vs ~16 % contrôle, 5 points plats). Pas de transition
+  catastrophique observée. MAIS : l'érosion est IRRÉVERSIBLE — 20 pas
+  de calme ne sauvent pas un essai mal parti (12/30 ≈ pur-haut).
+  Leçon de protocole : barrière calibrée sur contrôle global au lieu
+  du local — assumée sans retouche (pas de M27).
+- La STRUCTURE des fluctuations Q compte : à σ identique, les séries
+  HIGH portent U à +2/+4 au-dessus des LOW (reproductible, 2 blocs).
+  U lit la texture du bruit, pas seulement son volume.
+
+---
+*Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
+*Prochaine étape sur ordre du chef (piste : plancher U ? σ>0.30 ?
+mécanisme de l'irréversibilité ?).* 🔒
