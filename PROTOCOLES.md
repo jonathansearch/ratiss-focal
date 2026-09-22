@@ -563,4 +563,28 @@ R7 : 1 commande par test. Graines fixées partout.*
 
 ---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 89.* 🔒
+---
+## TEST-90 — Carte du twist (chasse au pli, observation)
+- **Méthode** : anneau 24 + hubs, 2 puits en 0 et Δ, Δ∈{π/4,π/2,3π/4,π},
+  G0 0→1.5 (16 pts), T=300. Cartes R et twist.
+- **Observé** : twist −2…+2, paysage GRENU sans lignes de pli propres ;
+  agitation à fort G0 (surtout Δ=π). Pas de bifurcation lisible à T=300.
+
+## TEST-91 — Boucle G0 monte-descend (chasse au pli, observation)
+- **Méthode** : 2 puits en 0,π, G0 0→1.2→0 (13 paliers × 60 pas, th
+  continué). R et twist par palier, aire de boucle.
+- **Observé** : boucle EXISTE (aire 0.064, écart max 0.17 à mi-montée).
+  La descente ne relit pas la montée : la courbure écrit une mémoire
+  dans le QM. Twists : branches différentes aussi.
+
+## TEST-92 — Holonomie (chasse au pli, observation)
+- **Méthode** : 1 puits (G0=1.0) fixe vs tournant ±1 tour (T=600),
+  même init. Phase déroulée de la sonde 0.
+- **Observé** : stat −15.24, +tour −6.35, −tour −6.24 rad : les deux sens
+  donnent le MÊME décalage (+9 rad). Pas de phase géométrique ;
+  traînée symétrique (moyenne du mouvement). Question relayée au QPU
+  (PONT-BERRY).
+
+---
+*Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
+dans l'ordre, 01 → 92.* 🔒
