@@ -193,6 +193,24 @@ R7 : 1 commande par test. Graines fixées partout.*
 - **Méthode** : fusion 36–38 → `univers/unifie_v6.json`.
 - **Résultat** : 3/3 ✅ + ticket NOYAU_RÉSIDUEL_G (V7).
 
+## TEST-40 — Loi du noyau G (V7)
+- **Méthode** : scan α×σ×N (3×3×3=27), T=14, plancher = moy. 4 derniers.
+- **Critère** : forme simple R² > 0.9. **Résultat** : logF 0.920 ✅
+  (exp(−0.29−7.16α−6.59σ+0.0012N) — M24)
+
+## TEST-41 — Collapse ↔ noyau (V7)
+- **Méthode** : 1 pré + branches {0.1..0.5}×3 masques, 6 pas post.
+- **Critère** : classe nette. **Résultat** : COUPLÉ ✅ (corr −0.87,
+  non invariant : −0.10 → −0.21)
+
+## TEST-42 — Choc extrême (V7)
+- **Méthode** : 14 baseline + 3 choc (α=−0.15, σ×10) + 10 relâche.
+- **Critère** : survit. **Résultat** : PLASTIQUE ✅ (0.345→0.273 stable)
+
+## TEST-43 — Unification V7 (noyau révélé ?)
+- **Méthode** : fusion 40–42 → `univers/unifie_v7.json`.
+- **Résultat** : 3/3 ✅
+
 ---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 39.* 🔒
+dans l'ordre, 01 → 43.* 🔒
