@@ -149,12 +149,16 @@
 - Redshift : loi exacte freq(d) ? (expo comme le potentiel ?)
 - Resync d=10 jamais : accident ou distance aveugle ?
 
-## Nées de la chasse au pli (TEST-93 ?)
+## Nées de la chasse au pli (TEST-93 ✅, Berry-fermé ✅)
 - Twist grenu : transitoire (T=300 court) ou chaos vrai ? (T=2000 ?)
 - Boucle 91 : aire vs vitesse de balayage ? (lent = boucle nulle ?)
-- Pli orienté : cycle FERMÉ (G0, position puits) ± en virtuel, puis Berry
-  fermé sur QPU (boucle U=I + écho) ?
+- Pli orienté ✅ : cycle fermé −0.221 rad (virtuel, état ouvert) ;
+  Berry fermé 0.966 vs 0.028 à φ=π (QPU, état fermé).
 - Traînée +9 rad : loi en 1/TLOOP ? (tours lents vs rapides)
+- La courbure GR induit-elle une phase géométrique orientée (Berry)
+  dans les états quantiques ? Ou seulement une hystérésis dynamique ?
+  (Éléments : hystérésis 91 en anneau dissipatif ; Berry pur sur QPU
+  fermé ; chaînon manquant : boucle QM qui se ferme EN espace courbe.)
 
 ---
 *Poser une question ici = l'empêcher de mourir. Répondre = journal + commit.* 📝
