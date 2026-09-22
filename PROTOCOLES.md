@@ -400,5 +400,17 @@ R7 : 1 commande par test. Graines fixées partout.*
   feedback q→th dans RUQ-1).
 
 ---
+## TEST-71 — RUQ-2 feedback charge↔phase (exploration ouverte)
+- **Méthode** : RUQ-1 + dth += 0.5·(q−q̄)·DT et dq += 0.05·sin(th−Ψ)
+  (version circulaire-safe de la spec). 400 groupés (barrière R≥0.85)
+  → séparation brusque → 300 pas. Graine 7101.
+- **Observables** (zéro critère) : R(t), var(q)(t), corr(th,q) post,
+  τ_relax (fit exp), q min/max.
+- **Observé** : H1_RÉVERSIBLE (descriptif) — R 0.98 → 0.26, τ = 15.1
+  (R²=0.51, relaxation fluctuante, pas proprement exponentielle),
+  corr(th,q) = −0.57, q stable ([−0.12, 0.88], pas d'explosion).
+  Le feedback local ne suffit pas : l'unité meurt à la séparation.
+
+---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 70.* 🔒
+dans l'ordre, 01 → 71.* 🔒
