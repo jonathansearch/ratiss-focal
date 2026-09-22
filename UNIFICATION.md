@@ -153,6 +153,26 @@ Ordre du chef : adapter l'instrument à Q, pas l'inverse. Résidu V5 levé.
 - U4 plus robuste que prévu : la capsule survit au régime Q natif.
 - Ticket V7 ouvert : NOYAU_RÉSIDUEL_G (plancher gravitationnel info).
 
+## v7 — le noyau révèle sa loi (TEST-40 → 43, score 3/3)
+Ticket NOYAU_RÉSIDUEL_G traité. (Note : instruction VRN annulée par le chef —
+focal reste sans neurones, ticket de portage supprimé.)
+
+| Pilier | Test | Résultat |
+|---|---|---|
+| N1 Loi du plancher | 40 | logF R²=0.920 ✅ (÷2 par +0.1 α — M24) |
+| N2 Collapse↔noyau | 41 | COUPLÉ ✅ (corr −0.87, non invariant) |
+| N3 Choc extrême | 42 | PLASTIQUE ✅ (0.345→0.273, pas d'oscillation) |
+| Unifié-v7 | 43 | 3/3 ✅ |
+
+## Lecture physique V7
+- Le noyau résiste EXPONENTIELLEMENT : ×0.49 par +0.1 de contraction.
+  La taille le renforce (+13 % par +100 pts), le bruit l'érode doucement.
+- Le collapse ÉRODE le noyau (pas de protection topologique) : −28 % à 10 %,
+  −58 % à 50 %. Le noyau n'est pas un sanctuaire.
+- Le choc DÉFORME sans casser (plastique, pas d'hystérésis) ; pendant le choc,
+  sursaut d'artefacts (famille F4 — expansion+bruit créent du faux P).
+- Lien Bekenstein : NON testé (forme exacte du lien ouverte — ticket V8 ?).
+
 ---
 *Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
-*Prochaine étape : V7 — noyau résiduel G (ticket dédié).* 🔒
+*Prochaine étape sur ordre du chef (piste : ticket MEMOIRE_Q_STRUCTURELLE).* 🔒
