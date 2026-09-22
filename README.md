@@ -7,7 +7,7 @@
 **La cohérence émerge-t-elle de l'information ? Ici, on ne spécule pas : on mesure.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/TESTs-89-teal.svg)](PROTOCOLES.md)
+[![Tests](https://img.shields.io/badge/TESTs-92-teal.svg)](PROTOCOLES.md)
 [![Versions](https://img.shields.io/badge/unifications-v1%E2%80%93v13-teal.svg)](UNIFICATION.md)
 [![Stack](https://img.shields.io/badge/stack-numpy%20%2B%20ripser-teal.svg)](organes/)
 [![Neurones](https://img.shields.io/badge/neurones-z%C3%A9ro-orange.svg)](organes/)
@@ -42,7 +42,8 @@
 10. [Phase 17 : explorations](#-phase-17--explorations--sonde-uktz-ruq-test-6472)
 11. [Phase 18 : singularité V13](#-phase-18--v13-singularité-test-7378)
 12. [Phase 19 : QM-GR, cohabitation décrite](#-phase-19--qm-gr-cohabitation-décrite-test-7989)
-13. [Citation, auteur, licence](#-citation-auteur-licence)
+13. [Phase 20 : LIAISON chasse au pli](#-phase-20--liaison--chasse-au-pli-test-9092--pont-berry)
+14. [Citation, auteur, licence](#-citation-auteur-licence)
 
 ---
 
@@ -332,6 +333,25 @@ quantique virtuelle (Q, phases, mémoire de graphe) cohabite avec la relativité
 
 > Descrit, pas jugé. §20 dans UNIFICATION. Ponts hardware réels (IBM QPU) :
 > voir PASSERELLE-REEL.md (PONT-77, PONT-76, PONT-60, PONT-T2 mesurés).
+
+## 🪭 Phase 20 : LIAISON — chasse au pli (TEST-90→92 + PONT-BERRY)
+
+Nouvelle quête du chef : pas d'unification forcée — chercher le **point de
+liaison cohérent** QM↔relativité, même minuscule, sans rigidité vrai/faux.
+- **TEST-90** : carte du twist (2 puits, écart × force) → paysage grenu
+  (−2…+2), pas de lignes de pli propres.
+- **TEST-91** : boucle G0 monte-descend → **boucle EXISTE** (aire 0.064,
+  écart 0.17) : la courbure écrit une mémoire que la descente ne relit pas.
+- **TEST-92** : puits tournant ±1 tour → +tour = −tour (+9 rad) : traînée
+  symétrique, pas de phase géométrique.
+- **PONT-BERRY** (ibm_fez) : boucle ± sur qubit → frange en U vs taille
+  (1.0→0.49→1.0, réel=simu) mais asymétrie ~0 : boucle non fermée (U≠I),
+  défaut assumé — piste : vraie boucle fermée (TEST-93 ?).
+
+<img src="images/plot_PLI.png" width="100%" alt="Chasse au pli : grain, boucle, traînée"/>
+
+> Le pli orienté n'est pas encore isolé ; la boucle et la frange, si.
+> On observe, on ne conclut pas.
 
 ## 📝 Citation, auteur, licence
 
