@@ -20,7 +20,9 @@ Critère : tout le § "idées" est écrit et poussé.
 bistabilité réfutée, continuum + re-tirage)
 ## Phase 14 — V11 : anti-persistence Q ✅ FAIT (TEST-56→59 : 2/3,
 Unifié-v11 — flip symétrique, σ_c=0.06)
-## Phase 15 — V12 : paysage Q ? (sur ordre — potentiel du re-tirage)
+## Phase 15 — V12 : flip & rupture ✅ FAIT (TEST-60→63 : 1/3,
+Unifié-v12 — flip pilotable, plancher U, couplage structurel)
+## Phase 16 — V13 : plancher U ? (sur ordre — barrière locale, σ>0.30)
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
