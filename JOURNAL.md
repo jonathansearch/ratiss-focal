@@ -1,5 +1,17 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — Chasse au pli : boucle 91 + Berry réel (pas de pli orienté)
+- TEST-90 : twist grenu −2…+2, pas de lignes (T=300 ?). TEST-91 : boucle
+  G0 (aire 0.064, gap 0.17) — la courbure écrit, la descente oublie
+  différemment. TEST-92 : +tour=−tour (+9 rad) = traînée, pas géométrie.
+- PONT-BERRY (ibm_fez, job dapc3t4ak42c73cibdd0, 10 circuits) : frange en
+  U vs taille de boucle (1.0→0.49→1.0, réel=simu à 0.01) MAIS asymétrie
+  A~0 partout : boucle non fermée en espace d'états (U≠I), on mesure une
+  rotation totale, pas une phase géométrique. Défaut assumé, piste : vraie
+  boucle fermée (cycle (G0,c) ± en virtuel = TEST-93 ?).
+- Figures plot_PLI + plot_pontBerry. Badge 92. Fiche : pont Berry en 6e
+  ligne QPU (frange oui, pli orienté non).
+
 ## 2026-09-22 — Théorie complète du chef scellée (THEORIE-COMPLETE.md)
 - 11 sections dictées/rassemblées (principe, LCT/ETH/Stine-24, réalité,
   conscience, réincarnation, états modifiés, gravité, focalisation,
