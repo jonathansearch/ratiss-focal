@@ -14,14 +14,14 @@
 | 4 | RUQ relaxation de phase | PONT-T2 (Ramsey → T2*) | ✅ MESURÉ (marrakesh, T2*=70.2us) |
 | 5 | TEST-72 H2 : la structure récupère | PONT-72 (Ramsey vs écho Hahn → T2echo/T2*) | ✅ MESURÉ (kingston, 14.4→63.4us, x4.4) |
 
-## Colonne autres outils (après QPU, si nécessaire)
+## Colonne autres outils (jumeaux prêts, cases téléphone à cocher)
 
-| Théorie | Outil gratuit | Pourquoi pas QPU |
+| Théorie | Outil gratuit | Statut 2026-09-22 |
 |---|---|---|
-| TEST-73/82 : puits vs ombre | Falstad Ripple Tank (bac à ondes) | spatial, besoin d'une grille d'ondes |
-| TEST-81 : lentille en S | Falstad Ripple ou calcul analytique | trajectoires, pas de qubits |
-| TEST-79/80/85 : twist 0/1/−2 | Wokwi (anneau d'oscillateurs simulés) | phases continues en anneau |
-| TEST-84 : redshift monotone | Wokwi (oscillateurs gradués) | fréquences graduées spatiales |
+| TEST-82 : ombre absorbante 0.66 | Falstad Ripple Tank | 🟡 JUMEAU OK (TEST-86 : 0.90/0.53/0.75) — téléphone à faire |
+| TEST-81 : lentille en S | Falstad Slow Medium | 🟡 JUMEAU OK (TEST-87 : focus x1.9) — téléphone à faire |
+| TEST-80 : twist −2 | Wokwi twist (firmware prêt) | 🟡 JUMEAU OK (TEST-88 : R 0.91→0.41, twist 0 LCG) — série à lire |
+| TEST-84 : redshift monotone | Wokwi redshift (firmware prêt) | 🟡 JUMEAU OK (TEST-89 : −0.77→−0.11) — série à lire |
 | TEST-74 : loi exponentielle 12/12 | analytique (déjà R²=0.998) | loi ajustée, pas de hardware |
 | RUQ/porteurs/UKTZ (agents) | rien de gratuit adapté → reste virtuel | mobilité + fond + charges |
 
