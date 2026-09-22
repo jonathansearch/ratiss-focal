@@ -1,0 +1,87 @@
+{
+ "G": {
+  "candidats": {
+   "single_exp": {
+    "R2": 0.7162,
+    "params": [
+     0.10809,
+     0.305,
+     14.17672
+    ]
+   },
+   "double_exp": {
+    "R2": 0.9017,
+    "params": [
+     0.09469,
+     0.3375,
+     7.23188,
+     0.05,
+     399.5
+    ]
+   },
+   "lineaire": {
+    "R2": 0.3445,
+    "params": [
+     0.14384,
+     -6e-05
+    ]
+   }
+  },
+  "gagnant": "double_exp",
+  "R2": 0.9017,
+  "params": [
+   0.09469,
+   0.3375,
+   7.23188,
+   0.05,
+   399.5
+  ],
+  "pic_spectral": 76.68,
+  "oscillations": true
+ },
+ "Q_secondaire": {
+  "candidats": {
+   "single_exp": {
+    "R2": -3.6859,
+    "params": [
+     0.6,
+     0.37812,
+     500.0
+    ]
+   },
+   "double_exp": {
+    "R2": -0.0254,
+    "params": [
+     0.59553,
+     -0.2,
+     60.0,
+     0.29688,
+     2000.0
+    ]
+   },
+   "lineaire": {
+    "R2": -3.9035,
+    "params": [
+     0.6,
+     0.00031
+    ]
+   }
+  },
+  "gagnant": "double_exp",
+  "R2": -0.0254,
+  "params": [
+   0.59553,
+   -0.2,
+   60.0,
+   0.29688,
+   2000.0
+  ],
+  "pic_spectral": 271.2,
+  "oscillations": true
+ },
+ "plancher_final_G": 0.0966,
+ "rappel_TEST42": 0.2727,
+ "tau_cicatrisation": 399.5,
+ "hypothese": "double-exp inverse (rapide + verrouillage lent)",
+ "critere": true
+}
