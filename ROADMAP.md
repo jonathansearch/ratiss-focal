@@ -28,7 +28,8 @@ tickets soldés, pause stratégique — repos cognitif ordonné)
 TEST-64→66 : 3 AVEUGLE assumés, leçon horizon-mémoire ; UKTZ TEST-67→69 :
 3 explorations (RUQ-1 transition R 0.30→0.98) ; TEST-70 H1 réversible
 (t_half=11) ; TEST-71 RUQ-2 H1 aussi (τ=15.1, feedback insuffisant) ;
-piste RUQ-3 non-local ; suite sur ordre)
+piste RUQ-3 non-local ; TEST-72 RUQ-3 H2 (R→0.73 séparés, graphe
+tient) ; explorations closes, README conclu ; suite = idée chef)
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
