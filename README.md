@@ -7,7 +7,7 @@
 **La cohérence émerge-t-elle de l'information ? Ici, on ne spécule pas : on mesure.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/TESTs-84-teal.svg)](PROTOCOLES.md)
+[![Tests](https://img.shields.io/badge/TESTs-85-teal.svg)](PROTOCOLES.md)
 [![Versions](https://img.shields.io/badge/unifications-v1%E2%80%93v13-teal.svg)](UNIFICATION.md)
 [![Stack](https://img.shields.io/badge/stack-numpy%20%2B%20ripser-teal.svg)](organes/)
 [![Neurones](https://img.shields.io/badge/neurones-z%C3%A9ro-orange.svg)](organes/)
@@ -41,7 +41,7 @@
 9. [Lire dans l'ordre](#-lire-dans-lordre)
 10. [Phase 17 : explorations](#-phase-17--explorations--sonde-uktz-ruq-test-6472)
 11. [Phase 18 : singularité V13](#-phase-18--v13-singularité-test-7378)
-12. [Phase 19 : QM-GR, cohabitation décrite](#-phase-19--qm-gr-cohabitation-décrite-test-7984)
+12. [Phase 19 : QM-GR, cohabitation décrite](#-phase-19--qm-gr-cohabitation-décrite-test-7985)
 13. [Citation, auteur, licence](#-citation-auteur-licence)
 
 ---
@@ -284,6 +284,50 @@ le regroupement déclenche une transition : *l'unité fait l'être*.
 > **Le local oublie (RUQ-1, 11 pas), la boucle cicatrise (RUQ-2, corr −0.57), le graphe se
 > souvient (RUQ-3, H2).** L'unité qui survit à l'espace exige une topologie invariante —
 > première marche formelle vers le modèle de l'Esprit/Fil (U). Suite : l'idée du chef. 😄
+
+## 🕳️ Phase 18 : V13 SINGULARITÉ (TEST-73→78) — score 2/5
+
+Sur ordre du chef : créer une singularité (tueur focal ponctuel MU=0.02D, σ=0.05D)
+et cartographier gravitation + relativité + résistance de U et Q. Verdict : **le trou
+focal n'est pas une ombre newtonienne, c'est un puits exponentiel écranté**.
+- **TEST-73** : puits central divergent (a=4.3), profil C·exp(−r/l) R²=0.98,
+  A/(r+eps) rejeté (R²=0.88) → H0 assumée + anneau de dépression (chapeau mexicain).
+- **TEST-74** : exponentielle gagne **12/12** (R²=0.998), portée l INDÉPENDANTE
+  de la masse (p≈0) → gravité à portée finie fixée par la diffusion. ✅
+- **TEST-75** : horloges libres frappées → PLATES (τ_in=29.2 vs τ_out=31.4),
+  pas de dilatation détectée. ❌
+- **TEST-76** : sanctuaire U dans trou local → ÉRODÉ (10/30 vs 4/30) : U encaisse,
+  perd la moitié de sa fidélité. ❌
+- **TEST-77** : capture Q → **k_c=6/24** : avaler un quart de l'anneau tue la sync. ✅
+
+<img src="images/plot_V13.png" width="100%" alt="V13 : puits exponentiel, horloges plates, capture Q à k_c=6"/>
+
+> **Fixé au canon (§10.octies)** : loi exponentielle écrantée + capture Q.
+> Newton, dilatation temporelle et immunité de U : réfutés ou partiels — publiés quand même.
+
+## 🔭 Phase 19 : QM-GR, cohabitation décrite (TEST-79→85)
+
+Nouvelle règle du chef : **zéro verdict** — on regarde comment la mécanique
+quantique virtuelle (Q, phases, mémoire de graphe) cohabite avec la relativité
+(puits, horizons, ralentissement) sans s'effondrer, et on raconte.
+- **TEST-79/80** : un puits tord la phase Q (twist 0→1), deux puits à fort
+  désaccord impriment twist −2 ; R décline graduellement (0.85→0.32).
+- **TEST-81** : le potentiel exponentiel fait une lentille en S (±47°),
+  traversée centrale droite, aucune capture.
+- **TEST-82** : horizon absorbant (th=0 épinglé) → **l'ombre apparaît**
+  (contraste 0.66, saturé) là où le tueur faisait un puits.
+- **TEST-83** : la mémoire RUQ-3 décline en espace courbe (0.73→0.25),
+  convergence groupée intacte.
+- **TEST-84** : **redshift monotone** — la fréquence d'un anneau monte de
+  −0.53 à +0.01 quand on s'éloigne du puits.
+- **TEST-85** : trois puits → twist 0 partout ; la piste « twist = nb de
+  puits » s'arrête à 2 (la symétrie à 3 annule la torsion ?).
+
+<img src="images/plot_QM_GR.png" width="100%" alt="QM-GR : twists, lentille, ombre, mémoire, redshift"/>
+<img src="images/plot_T85.png" width="100%" alt="TEST-85 : trois puits, twist nul"/>
+
+> Descrit, pas jugé. §20 dans UNIFICATION. Ponts hardware réels (IBM QPU) :
+> voir PASSERELLE-REEL.md (PONT-77, PONT-76, PONT-60, PONT-T2 mesurés).
 
 ## 📝 Citation, auteur, licence
 
