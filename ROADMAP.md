@@ -12,7 +12,8 @@ Critère : tout le § "idées" est écrit et poussé.
 ## Phase 6 — Durcissement ✅ FAIT (TEST-21→26 : 5/5, Unifié-v3)
 ## Phase 7 — Expansion V4 : deux lois ✅ FAIT (TEST-27→29 : 2/2, Unifié-v4)
 ## Phase 8 — Unification V5 ✅ FAIT (TEST-30→35 : 3/5 partielle, Unifié-v5)
-## Phase 9 — V6 : durcir Q (sur ordre — finir U3/U5 : N↑, débruitage, forme S_quant)
+## Phase 9 — V6 : Q révélé ✅ FAIT (TEST-36→39 : 3/3, Unifié-v6)
+## Phase 10 — V7 : noyau résiduel G (sur ordre — ticket NOYAU_RESIDUEL_G)
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
