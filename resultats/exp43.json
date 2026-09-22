@@ -1,0 +1,10 @@
+{
+ "univers": "Unifi\u00e9-v7",
+ "check": {
+  "N1_loi": true,
+  "N2_collapse": true,
+  "N3_choc": true
+ },
+ "score": "3/3",
+ "verdict": "Noyau : loi logF (R2=0.9196), collapse COUPL\u00c9, choc PLASTIQUE."
+}
