@@ -199,5 +199,30 @@ Ticket MEMOIRE_Q_STRUCTURELLE traité. Ticket HYSTERESIS_INFO créé.
 
 ---
 *Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
-*Prochaine étape sur ordre du chef (piste : ticket HYSTERESIS_INFO —
-chocs cumulés ?).* 🔒
+## v9 — le sanctuaire est absolu (TEST-48 → 51, score 3/3)
+Ticket HYSTERESIS_INFO traité. Ticket SANCTUAIRE_U_CONSCIENCE créé.
+(VRN §14 exclu sur vote du chef — consigne permanente maintenue.)
+
+| Pilier | Test | Résultat |
+|---|---|---|
+| H1 Escalier G | 48 | H3 SATURANTE R²=0.978 ✅ (noyau absolu 0.083, bande [0.06,0.11]) |
+| H2 Sanctuaire U | 49 | SANCTUAIRE_ABSOLU ✅ (28/30 × 7 niveaux, Δ=0, N_c=néant) |
+| H3 Fatigue Q | 50 | FATIGUE ✅ par règle (dérive 13 %, N_bas=2) — en fait BISTABILITÉ |
+| Unifié-v9 | 51 | 3/3 ✅ |
+
+## Lecture physique V9
+- G a un plancher INDESTRUCTIBLE par accumulation : 0.083. Le premier
+  choc fait tout l'effondrement ; les suivants brassent (non monotone :
+  0.073→0.088→0.110→0.064). Rupture totale (→0) réfutée, H1/H2 réfutés.
+- U ne cille pas : 7/7 niveaux à 28/30. Aucun seuil d'érosion détecté
+  jusqu'à 6 chocs. L'intrication est primitive, pas émergente de Φ.
+- Q ne décline pas : il SAUTE entre deux attracteurs (0.78/0.87). La
+  « fatigue » classée est une bistabilité — Q_final(6) ≈ Q_final(1).
+  Question ouverte : qu'est-ce qui choisit l'attracteur ?
+- Réserve honnête : H3 doit son R² à la première chute (variance
+  dominée) ; λ=3.0 en borne de grille (chute plus rapide que résolue).
+
+---
+*Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
+*Prochaine étape sur ordre du chef (piste : bistabilité Q ? attracteurs
+de mémoire ?).* 🔒
