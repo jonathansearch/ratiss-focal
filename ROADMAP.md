@@ -39,6 +39,8 @@ verdict — twist 1/−2, lentille en S, ombre absorbante 0.66, mémoire
 ## Phase 20 — LIAISON chasse au pli ✅ FAITE (TEST-90→93 : grain,
 boucle 0.064, traînée +9, cycle fermé Δ−0.22 ; BERRY-FERMÉ marrakesh :
 pli orienté 0.966 vs 0.028 à φ=π ; §21 scellé, pas de .tex)
+## Phase 21 — SYNTHÈSE QM×GR 🟡 OUVERTE (TEST-94 : décohérence
+gravitationnelle τ=√2/(sw·|Δf|), 18/18 à 8 %, contrôles ∞)
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
