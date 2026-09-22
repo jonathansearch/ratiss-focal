@@ -329,6 +329,18 @@ réversible (τ=15.1), seule une corrélation th-q (−0.57) subsiste.
 non-localité (ou une topologie invariante) — TEST-71 l'établit par
 négation. Piste : RUQ-3 non-local (sur ordre du chef).
 
+## §18 (suite) — RUQ-2 : limites de la rétroaction locale (TEST-71)
+Le feedback charge↔phase crée une corrélation structurelle résiduelle
+(corr=-0.57) mais ne prévient pas l'effondrement de la sync globale
+(τ=15.1). La mémoire locale est une cicatrice, pas un fil.
+
+## §18 (fin) — RUQ-3 : première hystérésis collective (TEST-72)
+RUQ-2 + graphe fixe UKTZ-T (KFIX=2.0) : après séparation brutale,
+R chute (0.99→0.05) puis RÉCUPÈRE (→0.73, H2) — le graphe
+resynchronise l'essaim dispersé (λ2 : 12→2.2, entropie 0→0.96,
+corr(th,q)=−0.76). Première unité qui survit partiellement SÉPARÉE :
+la topologie invariante porte la mémoire que la géométrie perd.
+
 ⛔ **CLÔTURE V12** : exploration fondamentale terminée (TEST-01→63).
 Pause stratégique, repos ordonné. Ticket CONSOLIDATION_V1-V12.
 *Prochaine phase sur feu vert explicite : intégration appliquée / VRN.* 🔒
