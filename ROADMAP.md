@@ -16,7 +16,9 @@ Critère : tout le § "idées" est écrit et poussé.
 ## Phase 10 — V7 : noyau révélé ✅ FAIT (TEST-40→43 : 3/3, Unifié-v7)
 ## Phase 11 — V8 : mémoire Q ✅ FAIT (TEST-44→47 : 2/3, Unifié-v8)
 ## Phase 12 — V9 : hystérésis cumulée ✅ FAIT (TEST-48→51 : 3/3, Unifié-v9)
-## Phase 13 — V10 : bistabilité Q ? (sur ordre — attracteurs de mémoire)
+## Phase 13 — V10 : bistabilité Q ✅ FAIT (TEST-52→55 : 1/3, Unifié-v10 —
+bistabilité réfutée, continuum + re-tirage)
+## Phase 14 — V11 : anti-persistence Q ? (sur ordre — biais contrariant)
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
