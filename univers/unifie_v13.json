@@ -1,0 +1,12 @@
+{
+ "univers": "Unifi\u00e9-v13",
+ "check": {
+  "S1_horizon": false,
+  "S2_loi": true,
+  "S3_horloges": false,
+  "S4_U": false,
+  "S5_Q": true
+ },
+ "score": "2/5",
+ "verdict": "Singularite : exces central (A:R2=0.8799822221330273, expo:R2=0.9812033811099489), loi C (12/12, p=1.3755542641846087e-16), horloges PLATE, U \u00c9ROD\u00c9 (10/30), Q K_C=6."
+}
