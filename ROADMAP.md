@@ -13,7 +13,8 @@ Critère : tout le § "idées" est écrit et poussé.
 ## Phase 7 — Expansion V4 : deux lois ✅ FAIT (TEST-27→29 : 2/2, Unifié-v4)
 ## Phase 8 — Unification V5 ✅ FAIT (TEST-30→35 : 3/5 partielle, Unifié-v5)
 ## Phase 9 — V6 : Q révélé ✅ FAIT (TEST-36→39 : 3/3, Unifié-v6)
-## Phase 10 — V7 : noyau résiduel G (sur ordre — ticket NOYAU_RESIDUEL_G)
+## Phase 10 — V7 : noyau révélé ✅ FAIT (TEST-40→43 : 3/3, Unifié-v7)
+## Phase 11 — V8 : mémoire Q ? (sur ordre — ticket MEMOIRE_Q_STRUCTURELLE)
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
