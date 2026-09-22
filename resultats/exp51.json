@@ -1,0 +1,10 @@
+{
+ "univers": "Unifi\u00e9-v9",
+ "check": {
+  "H1_escalier": true,
+  "H2_sanctuaire": true,
+  "H3_fatigue": true
+ },
+ "score": "3/3",
+ "verdict": "Hyst\u00e9r\u00e9sis cumul\u00e9e : escalier H3_saturante (R2=0.9777), U SANCTUAIRE_ABSOLU (parts=[28, 28, 28, 28, 28, 28, 28]), Q FATIGUE (d\u00e9rive=0.1287)."
+}
