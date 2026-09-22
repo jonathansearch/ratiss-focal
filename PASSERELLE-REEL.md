@@ -52,6 +52,10 @@
   Mesure du 2026-09-22 (job dap8jg8pqrnc739b0hc0, ibm_kingston) :
   T2*~14.4us (chute rapide) vs T2echo=63.4us (R2=0.84) — récupération
   x4.4 par l'impulsion centrale. Figure : `passerelle_quantique/plot_pont72.png`.
+- **PONT-BERRY** (`pontBerry_phase.py`, réplique TEST-92) : boucle ± sur
+  qubit. Mesure du 2026-09-22 (job dapc3t4ak42c73cibdd0, ibm_fez) :
+  frange en U vs taille (1.0→0.49→1.0, réel=simu à 0.01), asymétrie A~0
+  (boucle non fermée U≠I, défaut assumé). Figure : `passerelle_quantique/plot_pontBerry.png`.
 - **D-Wave Leap** : niveau gratuit développeur historiquement (1 min QPU
   + 20 min solveur hybride/mois, code public sur GitHub) + programme
   LaunchPad (essai 3 mois). À vérifier à l'inscription (offre 2023).
