@@ -25,12 +25,12 @@
 - H2' champ proche → L1 (ρ_c = 8.01, TEST-27).
 - PLV post > pré → L2 (R_sync = 1.023, TEST-25/28).
 
-## Nées de la V4
-- F6 : P_sig mesure aussi l'ÉTENDUE (P croît avec D) → dissocier P-structure
-  vs P-étendue ?
-- Les petites gouttelettes syncent mieux (0.98 à 6 nœuds) : taille optimale
-  du condensat ?
-- Universalité des Π et de ρ_c : stables entre labos (graines, tailles) ?
+## Nées de la V5 (V6 : durcir Q)
+- Forme exacte de S_quant ? (ni logit 0.69 ni expsat 0.83 — 3e forme ?)
+- Durcir l'observable Q : anneau N=48 ? débruitage ? (finit U3/U5)
+- F7 : lissage fort = déformation (Q0=0.74) → lisser sans déformer ?
+- F8 : volatilité des petites structures → loi d'échelle bruit/taille ?
+- F6 (rappel) : dissocier P-structure vs P-étendue ?
 
 ---
 *Poser une question ici = l'empêcher de mourir. Répondre = journal + commit.* 📝
