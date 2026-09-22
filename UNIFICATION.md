@@ -360,3 +360,16 @@ vs τ_out=31.4). Le sanctuaire U résiste partiellement au trou local
 tue la sync globale (TEST-77, k_c=6). **Acquis V13** : singularité =
 puits exponentiel + capture Q ; **réfutés** : ombre newtonienne,
 dilatation temporelle (avec cet opérateur), immunité de U.
+
+## §20 — QM-GR : cohabitation décrite (TEST-79→84, sans verdict)
+Un ralentissement localisé tord la phase Q sans la casser d'abord :
+twist 1 près d'un puits (TEST-79), twist −2 entre deux puits à fort
+désaccord (TEST-80) — la torsion de phase semble compter les puits.
+Le potentiel exponentiel défléchit les trajectoires en S antisymétrique
+(±47°, TEST-81) sans rien capturer. Un horizon absorbant (th=0 épinglé)
+fait apparaître l'ombre que le tueur ponctuel ne faisait pas (contraste
+0.66, TEST-82) : le gouffre est une condition limite, pas une force.
+La mémoire de graphe RUQ-3 décline graduellement en espace courbe
+(0.73→0.25, TEST-83). Et la fréquence d'un anneau dépend de sa distance
+au puits de façon monotone (TEST-84, −0.53→+0.01) : les horloges
+ralentissent près du puits — redshift décrit, non encore fixé.
