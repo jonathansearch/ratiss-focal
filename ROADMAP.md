@@ -18,7 +18,9 @@ Critère : tout le § "idées" est écrit et poussé.
 ## Phase 12 — V9 : hystérésis cumulée ✅ FAIT (TEST-48→51 : 3/3, Unifié-v9)
 ## Phase 13 — V10 : bistabilité Q ✅ FAIT (TEST-52→55 : 1/3, Unifié-v10 —
 bistabilité réfutée, continuum + re-tirage)
-## Phase 14 — V11 : anti-persistence Q ? (sur ordre — biais contrariant)
+## Phase 14 — V11 : anti-persistence Q ✅ FAIT (TEST-56→59 : 2/3,
+Unifié-v11 — flip symétrique, σ_c=0.06)
+## Phase 15 — V12 : paysage Q ? (sur ordre — potentiel du re-tirage)
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
