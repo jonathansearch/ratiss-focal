@@ -30,6 +30,18 @@
 - F8 → volatilité STRUCTURÉE à mémoire (TEST-37) : signal, pas erreur.
 - U4 robuste au bruit Q natif (TEST-38).
 
+## closes par la V10 ✅/❌
+- Phase → attracteur → RIEN : continuum, pas d'attracteurs (TEST-52 ❌).
+- Bassin Q → profondeur NULLE : P=1.0 dès 0.25× (TEST-53 ✅ fragile).
+- Q ↔ U → couplage faible Δ=3 (TEST-54 ❌ indépendance réfutée).
+
+## Nées de la V10 (V11 ?)
+- Biais contrariant : départ haut → arrivée basse 44/44. Anti-persistence ?
+  (tester départ LOW + sonde : symétrique ?)
+- Distribution du re-tirage : uniforme ? gaussienne ? (n=200, histogramme)
+- U vs bruit : courbe S_U(σ) complète (seuil de rupture du sanctuaire ?)
+- TEST-50 close comme artefact n=6 (leçon : répliquer avant de nommer).
+
 ## closes par la V9 ✅
 - Escalier G → H3 saturante, noyau absolu 0.083 (TEST-48).
 - Sanctuaire U → ABSOLU jusqu'à 6 chocs, N_c=néant (TEST-49).
