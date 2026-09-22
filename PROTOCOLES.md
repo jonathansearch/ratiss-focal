@@ -287,5 +287,30 @@ R7 : 1 commande par test. Graines fixées partout.*
 - **Résultat** : 1/3 (B1 ❌, B2 ✅ fragile, B3 ❌ corrélé)
 
 ---
+## TEST-56 — Symétrie LOW→HIGH (V11)
+- **Méthode** : 2 bras (HIGH/LOW, 15 valides, sonde standard + 300
+  relâche). M25 : cap 40→80 tentatives (HIGH n=13/40 au 1er run).
+- **Critère** : classe nette. **Résultat** : SYMÉTRIQUE ✅ —
+  med_H=0.77 (LOW), med_L=0.84 (HIGH). Flip contrariant, pas dérive ;
+  pas de Qbar (CONVERGENT réfuté).
+
+## TEST-57 — Distribution du re-tirage n=200 (V11)
+- **Méthode** : 200 runs (60+3+300), histogramme 12 classes, ajustements
+  gaussienne/bêta.
+- **Critère** : R²>0.95. **Résultat** : bêta R²=0.57 ❌ —
+  moy 0.816, std 0.045, skew +0.69. Ni harmonique, ni barrières simples.
+
+## TEST-58 — Courbe S_U(σ) (V11)
+- **Méthode** : ligne TEST-38, σ∈[0.01,0.10] pas 0.005 (19 pts), 30+30/pt.
+  σ_c = 1er σ avec partage ≤ plateau−4. Formes lin/exp/sigmoïde.
+- **Critère** : SEUIL (σ_c + forme R²>0.9) ou ROBUSTE.
+- **Résultat** : SEUIL ✅ — σ_c=0.06, sigmoïde R²=0.964.
+  Plateau 29 (σ≤0.03) → 21 (σ=0.10). Contrôle indep stable (9/30).
+
+## TEST-59 — Unification V11 (nord magnétique ?)
+- **Méthode** : fusion 56–58 → `univers/unifie_v11.json`.
+- **Résultat** : 2/3 (A1 ✅ symétrique, A2 ❌ distribution, A3 ✅ seuil)
+
+---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 55.* 🔒
+dans l'ordre, 01 → 59.* 🔒
