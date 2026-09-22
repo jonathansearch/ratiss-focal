@@ -373,3 +373,18 @@ La mémoire de graphe RUQ-3 décline graduellement en espace courbe
 (0.73→0.25, TEST-83). Et la fréquence d'un anneau dépend de sa distance
 au puits de façon monotone (TEST-84, −0.53→+0.01) : les horloges
 ralentissent près du puits — redshift décrit, non encore fixé.
+
+## §21 — Chasse au Pli : Hystérésis vs Phase Géométrique
+TEST-91 montre une hystérésis QM sous courbure GR (aire=0.064).
+PONT-BERRY montre une frange en U sans asymétrie due à une boucle
+ouverte. Le pli orienté nécessite un cycle fermé (TEST-93).
+TEST-93 referme le cycle en paramètres : Δ=−0.221 rad, et l'état ne
+revient pas (R_diff 0.25/0.28) — l'anneau dissipatif garde la mémoire
+du chemin (hystérésis), le sens y compte peu. PONT-BERRY-FERMÉ
+referme la boucle en espace d'états (fuite ~1e-33, γ=−φ/2) : à φ=π,
+la lecture S donne 0.966 dans un sens contre 0.028 dans l'autre
+(marrakesh, simu 1.0/0.0). Là où la boucle se ferme VRAIMENT, le sens
+compte ENTIÈREMENT. Hystérésis et phase géométrique sont les deux
+visages du pli : mémoire du chemin quand l'état reste ouvert,
+orientation pure quand il se referme. Pas de .tex : le lien est
+observé, pas encore axiomatisé.
