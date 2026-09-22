@@ -334,7 +334,7 @@ quantique virtuelle (Q, phases, mémoire de graphe) cohabite avec la relativité
 > Descrit, pas jugé. §20 dans UNIFICATION. Ponts hardware réels (IBM QPU) :
 > voir PASSERELLE-REEL.md (PONT-77, PONT-76, PONT-60, PONT-T2 mesurés).
 
-## 🪭 Phase 20 : LIAISON — chasse au pli (TEST-90→92 + PONT-BERRY)
+## 🪭 Phase 20 : LIAISON — chasse au pli (TEST-90→93 + BERRY-FERMÉ)
 
 Nouvelle quête du chef : pas d'unification forcée — chercher le **point de
 liaison cohérent** QM↔relativité, même minuscule, sans rigidité vrai/faux.
