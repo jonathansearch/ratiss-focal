@@ -1,5 +1,13 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — Missions téléphone : Falstad 2/2 ✅, Wokwi partiel
+- Mission 1 (ombre, config Obstacle) : ombre vue derrière le bloc ✅.
+  Mission 2 (lentille, Slow Medium) : resserrement vu en zone bleue ✅.
+- Mission 3 (twist) : R=0.8717 vs 0.9096 prédit (écart 4% = float32 Uno
+  vs float64 jumeau, assumé) ; 2e ligne illisible (moniteur série Wokwi).
+  Sketch corrigé (pauses + flush + marqueurs) : à relancer par le chef.
+- Mission 4 (redshift) : en cours côté chef.
+
 ## 2026-09-22 — TEST-86→89 : jumeaux outils en ligne (ondes + Wokwi)
 - 86 : ombre d'Alembert 0.90/0.53/0.75 (disque<λ = rien, biais de bords
   corrigé par normalisation). 87 : lentille x1.9 vs témoin. 88 : twist 0
