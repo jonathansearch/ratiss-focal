@@ -20,7 +20,7 @@
 |---|---|---|
 | TEST-82 : ombre absorbante 0.66 | Falstad Ripple Tank | ✅ VALIDÉ TÉLÉPHONE (chef : ombre vue, Obstacle) |
 | TEST-81 : lentille en S | Falstad Slow Medium | ✅ VALIDÉ TÉLÉPHONE (chef : resserrement vu, zone bleue) |
-| TEST-80 : twist −2 | Wokwi twist (firmware prêt) | 🟡 PARTIEL (R=0.8717 vs 0.9096 ; 2e ligne illisible, sketch corrigé, à relancer) |
+| TEST-80 : twist −2 | Wokwi twist (firmware prêt) | ✅ VALIDÉ (Manus IA, Wokwi saturé : R=0.9096/0.4081 pile prédit) |
 | TEST-84 : redshift monotone | Wokwi redshift (firmware prêt) | 🟡 JUMEAU OK (TEST-89 : −0.77→−0.11) — série à lire |
 | TEST-74 : loi exponentielle 12/12 | analytique (déjà R²=0.998) | loi ajustée, pas de hardware |
 | RUQ/porteurs/UKTZ (agents) | rien de gratuit adapté → reste virtuel | mobilité + fond + charges |
