@@ -22,7 +22,9 @@ bistabilité réfutée, continuum + re-tirage)
 Unifié-v11 — flip symétrique, σ_c=0.06)
 ## Phase 15 — V12 : flip & rupture ✅ FAIT (TEST-60→63 : 1/3,
 Unifié-v12 — flip pilotable, plancher U, couplage structurel)
-## Phase 16 — V13 : plancher U ? (sur ordre — barrière locale, σ>0.30)
+## Phase 16 — CONSOLIDATION ✅ FAITE (clôture V12 : .tex canonique,
+tickets soldés, pause stratégique — repos cognitif ordonné)
+## Phase 17 — Intégration appliquée / VRN (sur feu vert explicite du chef)
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
