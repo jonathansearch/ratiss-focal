@@ -390,5 +390,15 @@ R7 : 1 commande par test. Graines fixées partout.*
   déclenche une transition : sync explosive + homogénéisation de charge.
 
 ---
+## TEST-70 — Réversibilité RUQ-1 (H1/H2/H3 pré-enregistrées)
+- **Méthode** : RUQ-1 (graine 7001), 400 pas groupés (barrière R≥0.85)
+  → séparation brusque (positions dispersées, th/q intacts) → 300 pas.
+- **Critère** : convergence A + classe nette (H1 ≤0.45 / H2 / H3 ≥0.85).
+- **Résultat** : H1_RÉVERSIBLE ✅ — R 0.985 → 0.31 (≈ 0.30 TEST-69),
+  t_half = 11 pas, var(q) récupère (0.048). L'unité s'efface comme un
+  rêve : pas de cicatrice (attendu : aucun couplage à distance ni
+  feedback q→th dans RUQ-1).
+
+---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 69.* 🔒
+dans l'ordre, 01 → 70.* 🔒
