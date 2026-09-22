@@ -1,5 +1,12 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — TEST-70 : fusion RÉVERSIBLE (H1, t_half=11)
+- RUQ-1 groupé R=0.985 → séparé R=0.31 en ~11 pas, var(q) récupère.
+  Pas d'hystérésis : RUQ-1 n'a ni couplage à distance ni feedback q→th.
+  Piste : RUQ-2 avec feedback charge→phase (vraie mémoire d'unité ?).
+- Bug parenthèse (bis) fixé au sed. Figure plot_RUQ70. Pas de .tex
+  (règle : exploration, pas canon).
+
 ## 2026-09-22 — UKTZ : 3 essaims lâchés dans le tore (explorations)
 - TEST-67 S : codes 0.44 → 0.97 groupés (code partagé).
   TEST-68 T : R 0.72 → 0.69 (topologie > géométrie).
