@@ -1,5 +1,11 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — PONT-76 sur VRAI QPU (ibm_marrakesh)
+- Job dap8368pqrnc739avu2g, 60 circuits en 1 job. Paire de Bell + flip
+  local p sur 1 qubit : P(mêmes) réelle 0.98/0.98/0.88/0.69/0.41/0.31
+  (p=0→0.5) vs simu 1.00/1.00/0.90/0.70/0.40/0.30 — érosion graduelle,
+  réel à ~1% du simu. Figure plot_pont76. Clé en mémoire seule, /tmp vidé.
+
 ## 2026-09-22 — PONT-77 sur VRAI QPU (ibm_marrakesh, 156 qubits)
 - Job dap7su82fm4c73f6dsrg, 50 circuits en 1 job, file 0-2 jobs.
   GHZ 6 qubits + k avalés : F réelle 0.84 / 0.41 / 0.10 / 0.27 / 0.00
