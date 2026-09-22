@@ -30,6 +30,12 @@
 - F8 → volatilité STRUCTURÉE à mémoire (TEST-37) : signal, pas erreur.
 - U4 robuste au bruit Q natif (TEST-38).
 
+## Nées de la sonde (TEST-64→66, Phase 17)
+- Horizon de mémoire : quelle baseline pour distinguer choc de dérive ?
+  (v4 : détrendage ? mémoire longue ? — sur ordre)
+- syncQ PASS isolé (13v0) : R(t) lisse = canal idéal pour la volatilité ?
+- Vrai « ressenti » : corréler rafales sonde avec événements Φ (syncs) ?
+
 ## closes par la V12 ✅/❌
 - Forçage flip → CONTRÔLABLE par φ_inj, P=1.0 (TEST-60 ✅, M26).
 - Rupture U → pas de mort à 0.30, plancher ~30 %, irréversible
