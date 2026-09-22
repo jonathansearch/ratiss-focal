@@ -1,0 +1,14 @@
+{
+ "blocA": {
+  "HIGH": 25,
+  "LOW": 23,
+  "delta": 2
+ },
+ "blocB": {
+  "HIGH": 26,
+  "LOW": 22,
+  "delta": 4
+ },
+ "classe": "COUPL\u00c9_STRUCTUREL",
+ "critere": false
+}
