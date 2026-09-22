@@ -1,0 +1,42 @@
+{
+ "nom": "Univers-Unifi\u00e9-v5 (unification)",
+ "subsistance": {
+  "C_G": 0.0961,
+  "C_Q": 0.04
+ },
+ "non_reduction": {
+  "RED_R2": [
+   0.0045,
+   0.0029
+  ],
+  "COH_R2": [
+   0.1673,
+   0.5472
+  ],
+  "ratios": [
+   0.836,
+   0.454
+  ]
+ },
+ "secteurs": {
+  "S_grav_lin_R2": 0.989,
+  "S_quant_expsat_R2": 0.826,
+  "noyau_residuel": 0.3051,
+  "pente_noyau": 0.0098,
+  "saturation_Q": -0.0206
+ },
+ "ligne_invisible": {
+  "partage": "30/30",
+  "indep": "10/30",
+  "indep_proportion": 0.333
+ },
+ "marqueurs": {
+  "douceur": [
+   true,
+   false
+  ],
+  "causalite": 0.6686,
+  "reference": true
+ },
+ "base_v4": "univers/unifie_v4.json (inchang\u00e9e)"
+}
