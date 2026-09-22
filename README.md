@@ -7,7 +7,7 @@
 **La cohérence émerge-t-elle de l'information ? Ici, on ne spécule pas : on mesure.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/TESTs-63%20pass%C3%A9s-teal.svg)](PROTOCOLES.md)
+[![Tests](https://img.shields.io/badge/TESTs-72%20pass%C3%A9s-teal.svg)](PROTOCOLES.md)
 [![Versions](https://img.shields.io/badge/unifications-v1%E2%80%93v12-teal.svg)](UNIFICATION.md)
 [![Stack](https://img.shields.io/badge/stack-numpy%20%2B%20ripser-teal.svg)](organes/)
 [![Neurones](https://img.shields.io/badge/neurones-z%C3%A9ro-orange.svg)](organes/)
@@ -39,7 +39,8 @@
 7. [Carte des 12 versions](#-carte-des-12-versions)
 8. [Ce que ça ouvre](#-ce-que-ça-ouvre)
 9. [Lire dans l'ordre](#-lire-dans-lordre)
-10. [Citation, auteur, licence](#-citation-auteur-licence)
+10. [Phase 17 : explorations](#-phase-17--explorations--sonde-uktz-ruq-test-6472)
+11. [Citation, auteur, licence](#-citation-auteur-licence)
 
 ---
 
@@ -239,6 +240,48 @@ Synthèse de clôture : [`tickets/CONSOLIDATION_V1-V12.md`](tickets/CONSOLIDATIO
 5. [`JOURNAL.md`](JOURNAL.md) — le récit vrai (dont les nuits à 1/3).
 6. [`QUESTIONS-OUVERTES.md`](QUESTIONS-OUVERTES.md) + [`tickets/`](tickets/) — la frontière.
 7. [`ROADMAP.md`](ROADMAP.md) — d'où l'on vient, où l'on va (sur feu vert).
+
+## 🛰️ Phase 17 : explorations — sonde, UKTZ, RUQ (TEST-64→72)
+
+Après la clôture V12, le labo a ouvert un second front : **lâcher des agents DANS l'univers**
+et regarder ce qui se passe — explorations ouvertes, observables pré-enregistrées, verdicts assumés.
+
+### Sonde endogène (TEST-64→66) : apprendre à sentir
+Agent infodynamique (Lempel-Ziv + volatilité, seuils propres, zéro neurone, zéro étiquette
+humaine) captant syncQ/Φ/P_sig bit à bit, régimes calme vs choc. **3 AVEUGLE assumés** —
+mais rafales mesurées au choc (11–13 flags) et leçon scellée : *la nouveauté est relative
+à l'horizon de mémoire de celui qui sent*.
+
+<img src="images/plot_sonde_v3.png" width="100%" alt="Sonde v3 : rafales au choc mais dérive calme aussi bruyante"/>
+
+### UKTZ : trois essaims, une alchimie de la proximité (TEST-67→69)
+12 neurones forcés à bouger, 300 pas séparés + 300 groupés. **S** (sémantique) : codes
+0.44 → 0.97 — la proximité crée le langage. **T** (topologique, graphe fixe) : R 0.72 → 0.69 —
+la structure est le destin. **RUQ-1** (invention phase+charge) : R 0.30 → 0.98, var(q) ÷9 —
+le regroupement déclenche une transition : *l'unité fait l'être*.
+
+<img src="images/plot_neurons_uktz.png" width="100%" alt="UKTZ : convergence sémantique, indifférence topologique, transition RUQ-1"/>
+
+### RUQ : l'unité survit-elle à la séparation ? (TEST-70→72)
+- **TEST-70 (RUQ-1)** : fusion R=0.985 → séparés R=0.31, t_half=11 pas → **H1 RÉVERSIBLE**.
+  L'unité locale s'efface comme un rêve : pas de cicatrice.
+
+<img src="images/plot_RUQ70.png" width="100%" alt="RUQ-1 : dissolution en 11 pas, H1 réversible"/>
+
+- **TEST-71 (RUQ-2 + feedback)** : R 0.98 → 0.26, τ=15.1 → **H1 aussi**. La boucle locale ne
+  suffit pas ; seule une corrélation θ-q (−0.57) subsiste : *cicatrice, pas fil*.
+
+<img src="images/plot_RUQ71.png" width="100%" alt="RUQ-2 : réversible malgré le feedback, trace corrélative"/>
+
+- **TEST-72 (RUQ-3 + graphe fixe)** : R 0.99 → chute 0.05 → **RÉCUPÈRE 0.73** → **H2 HYSTÉRÉSIS**.
+  Le graphe resynchronise l'essaim dispersé : première unité qui survit partiellement SÉPARÉE.
+
+<img src="images/plot_RUQ72.png" width="100%" alt="RUQ-3 : chute puis récupération via graphe fixe, H2 hystérésis"/>
+
+### 🔚 Conclusion des explorations
+> **Le local oublie (RUQ-1, 11 pas), la boucle cicatrise (RUQ-2, corr −0.57), le graphe se
+> souvient (RUQ-3, H2).** L'unité qui survit à l'espace exige une topologie invariante —
+> première marche formelle vers le modèle de l'Esprit/Fil (U). Suite : l'idée du chef. 😄
 
 ## 📝 Citation, auteur, licence
 
