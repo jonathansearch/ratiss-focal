@@ -1,5 +1,15 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — QM-GR : 6 observations (TEST-79→84, zéro verdict)
+- Règle chef : plus d'étiquettes positif/négatif, on regarde et on
+  raconte ; j'itère seul, je pose mes questions.
+- Vu : twist 1 près d'un puits, twist −2 entre deux puits ; lentille
+  en S (±47°, 0 capture) ; horizon absorbant → ombre (contraste 0.66),
+  là où le tueur faisait un puits ; mémoire RUQ-3 0.73→0.25 en espace
+  courbe ; redshift monotone −0.53→+0.01 avec la distance.
+- Figure plot_QM_GR (6 panneaux). §20 descriptif. Pas de .tex
+  (observations, pas de critères pré-enregistrés).
+
 ## 2026-09-22 — V13 SINGULARITÉ : 2/5 (puits expo, pas d'ombre Newton)
 - TEST-73 H0 : le tueur ponctuel creuse un PUITS divergent (a=4.3),
   profil exponentiel (R²=0.98), A/(r+eps) rejeté (R²=0.88). Chapeau
