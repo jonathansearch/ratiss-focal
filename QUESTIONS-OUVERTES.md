@@ -30,6 +30,19 @@
 - F8 → volatilité STRUCTURÉE à mémoire (TEST-37) : signal, pas erreur.
 - U4 robuste au bruit Q natif (TEST-38).
 
+## closes par la V9 ✅
+- Escalier G → H3 saturante, noyau absolu 0.083 (TEST-48).
+- Sanctuaire U → ABSOLU jusqu'à 6 chocs, N_c=néant (TEST-49).
+- Fatigue Q → pas de déclin : bistabilité 0.78↔0.87 (TEST-50).
+
+## Nées de la V9 (V10 ?)
+- Bistabilité Q : qu'est-ce qui choisit l'attracteur ? (phase Kuramoto ?
+  histoire des chocs ? testable : forcer la phase initiale)
+- Noyau absolu 0.083 : structure des survivants (quels cycles ? H1 ? H2 ?)
+- U au-delà de 6 chocs : N_c existe-t-il ? (escalier long, chocs + violents)
+- Bande stochastique G [0.06,0.11] : distribution ? (résidu de mesure ?)
+- λ=3.0 en borne : re-résoudre la chute rapide (grille fine, pas infra-choc)
+
 ## closes par la V8 ✅/❌
 - Spectre Q post-choc → BLANCHIMENT, pas passe-bas (TEST-44 ❌ franche).
 - Ligne sous choc → SANCTUAIRE, U indépendant de G (TEST-45).
