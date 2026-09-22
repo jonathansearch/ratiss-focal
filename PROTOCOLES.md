@@ -237,5 +237,30 @@ R7 : 1 commande par test. Graines fixées partout.*
 - **Résultat** : 2/3 (M1 ❌ réfutation franche, M2 ✅, M3 ✅)
 
 ---
+## TEST-48 — Escalier G, 6 chocs (V9)
+- **Méthode** : tore TEST-42, 14 baseline + 6×(3 choc + 1000 relâche).
+  Gmin(k) = moy. 50 derniers (k=0..6). H1/H2/H3 en grille.
+- **Critère** : f(N) avec R²>0.95.
+- **Résultat** : H3 SATURANTE R²=0.978 ✅ — noyau absolu 0.083.
+  0.345→0.097→0.073→0.088→0.110→0.064→0.073 (bande [0.06,0.11],
+  non monotone ; λ=3.0 en borne = chute instantanée).
+
+## TEST-49 — Sanctuaire U cumulé (V9)
+- **Méthode** : TEST-45 à k=0..6 fenêtres de choc (T=10+23k), 30+30/niveau.
+- **Critère** : ΔS_U=0 (absolu) ou N_c identifié.
+- **Résultat** : 28/30 aux 7 niveaux, Δ=0 ✅ SANCTUAIRE_ABSOLU, N_c=néant.
+
+## TEST-50 — Fatigue Q cumulée (V8→V9)
+- **Méthode** : Q TEST-37, 60 + 6×(3 choc + 300 relâche). Ajustement par
+  segment → τ_lent(k), Q_final(k). Règle FATIGUE/INFATIGABLE/MIXTE.
+- **Critère** : classe nette. **Résultat** : FATIGUE ✅ (dérive 13 %,
+  N_bascule=2) — MAIS par bistabilité (0.78↔0.87), pas déclin ;
+  Q_final(6)=0.868 ≈ Q_final(1). Fits médiocres (R² 0.15–0.71).
+
+## TEST-51 — Unification V9 (sanctuaire éternel ?)
+- **Méthode** : fusion 48–50 → `univers/unifie_v9.json`.
+- **Résultat** : 3/3 ✅
+
+---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 47.* 🔒
+dans l'ordre, 01 → 51.* 🔒
