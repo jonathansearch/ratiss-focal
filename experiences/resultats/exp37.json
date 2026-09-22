@@ -1,0 +1,12 @@
+{
+ "std": 0.0389,
+ "skew": -0.877,
+ "kurt": 2.968,
+ "pente_spectre": -0.721,
+ "bursts_frac": 0.0,
+ "autocorr_lag1": 0.63,
+ "classe": "STRUCTUR\u00c9E: spectre_pente=-0.72",
+ "structurelle": true,
+ "integration": "composante signal : m\u00e9moire spectrale pente -0.72 + autocorr 0.63",
+ "critere": true
+}
