@@ -25,11 +25,16 @@
 - H2' champ proche → L1 (ρ_c = 8.01, TEST-27).
 - PLV post > pré → L2 (R_sync = 1.023, TEST-25/28).
 
-## Nées de la V5 (V6 : durcir Q)
-- Forme exacte de S_quant ? (ni logit 0.69 ni expsat 0.83 — 3e forme ?)
-- Durcir l'observable Q : anneau N=48 ? débruitage ? (finit U3/U5)
-- F7 : lissage fort = déformation (Q0=0.74) → lisser sans déformer ?
-- F8 : volatilité des petites structures → loi d'échelle bruit/taille ?
+## closes par la V6 ✅
+- Forme S_quant → double-exp (R²=0.968, TEST-36).
+- F8 → volatilité STRUCTURÉE à mémoire (TEST-37) : signal, pas erreur.
+- U4 robuste au bruit Q natif (TEST-38).
+
+## Nées de la V6 (V7 : noyau + liberté Q)
+- Interprétation des 2 temps (k1 hubs ? k2 anneau ?) → tester en coupant
+  les hubs (réseau sans hubs : k1 disparaît ?).
+- Volatilité = transitions topologiques discrètes ? (compter les sauts H1/H2)
+- TICKET NOYAU_RÉSIDUEL_G : loi du plancher f(α,σ,N) + survivants.
 - F6 (rappel) : dissocier P-structure vs P-étendue ?
 
 ---
