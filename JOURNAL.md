@@ -1,5 +1,13 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-21 (nuit) — V5 : VERDICT D'UNIFICATION 3/5 PARTIELLE (fil retrouvé)
+- Recentrage chef : origine = unification GR×QM (postulat ~6 p.) ; 29 tests =
+  instruments ; V5 = le postulat aux instruments.
+- U1 ✅ subsistance (+0.096/+0.040, 6/6) · U2 ✅ non-réduction (RED≈0)
+  · U3 🟡 (S-grav complète + noyau 0.305, forme Q ouverte) · U4 ✅ ligne
+  (30/30 vs 0.33) · U5 🟡 (2/3, F8 volatilité Q). Chaîne M11-M23 documentée.
+- Leçon : tout le résidu vit côté Q → V6 = durcir Q. .tex §10. Tout poussé.
+
 ## 2026-09-21 (nuit) — V4 : DEUX LOIS 2/2 (ordre d'exécution immédiat)
 - L1 (TEST-27) : ρ_c = 8.01 émergé de la mesure ; interrupteur bilatéral vérifié
   (actifs 0.98 vs inactifs 0.11 à D=5, corr 0.94). Chaîne M8→M10c documentée.
