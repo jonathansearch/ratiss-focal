@@ -1,0 +1,58 @@
+{
+ "nom": "Univers-Unifi\u00e9-v6 (Q r\u00e9v\u00e9l\u00e9)",
+ "forme_Q": {
+  "meilleur": "double_exp",
+  "R2": 0.968,
+  "params": [
+   0.40806,
+   0.09759,
+   0.001
+  ],
+  "candidats": {
+   "stretched": {
+    "R2": 0.9099,
+    "params": [
+     0.65,
+     0.04095,
+     0.56812
+    ]
+   },
+   "hill": {
+    "R2": 0.6991,
+    "params": [
+     3.0,
+     0.582
+    ]
+   },
+   "double_exp": {
+    "R2": 0.968,
+    "params": [
+     0.40806,
+     0.09759,
+     0.001
+    ]
+   },
+   "power": {
+    "R2": 0.8734,
+    "params": [
+     0.7175,
+     0.33563
+    ]
+   }
+  }
+ },
+ "volatilite": {
+  "classe": "STRUCTUR\u00c9E: spectre_pente=-0.72",
+  "std": 0.0389,
+  "pente_spectre": -0.721,
+  "bursts": 0.0,
+  "autocorr": 0.63,
+  "integration": "composante signal : m\u00e9moire spectrale pente -0.72 + autocorr 0.63"
+ },
+ "ligne_bruit": {
+  "partage": "28/30",
+  "indep": "9/30",
+  "separation": 19
+ },
+ "base_v5": "univers/unifie_v5.json (inchang\u00e9e)"
+}
