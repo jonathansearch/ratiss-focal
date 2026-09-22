@@ -15,7 +15,8 @@ Critère : tout le § "idées" est écrit et poussé.
 ## Phase 9 — V6 : Q révélé ✅ FAIT (TEST-36→39 : 3/3, Unifié-v6)
 ## Phase 10 — V7 : noyau révélé ✅ FAIT (TEST-40→43 : 3/3, Unifié-v7)
 ## Phase 11 — V8 : mémoire Q ✅ FAIT (TEST-44→47 : 2/3, Unifié-v8)
-## Phase 12 — V9 : hystérésis cumulée ? (sur ordre — ticket HYSTERESIS_INFO)
+## Phase 12 — V9 : hystérésis cumulée ✅ FAIT (TEST-48→51 : 3/3, Unifié-v9)
+## Phase 13 — V10 : bistabilité Q ? (sur ordre — attracteurs de mémoire)
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
