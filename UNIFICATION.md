@@ -298,5 +298,6 @@ Ticket SANCTUAIRE_U_CONSCIENCE mis à jour (σ_c, environnement).
 
 ---
 *Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
-*Prochaine étape sur ordre du chef (piste : plancher U ? σ>0.30 ?
-mécanisme de l'irréversibilité ?).* 🔒
+⛔ **CLÔTURE V12** : exploration fondamentale terminée (TEST-01→63).
+Pause stratégique, repos ordonné. Ticket CONSOLIDATION_V1-V12.
+*Prochaine phase sur feu vert explicite : intégration appliquée / VRN.* 🔒
