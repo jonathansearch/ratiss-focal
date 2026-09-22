@@ -1,5 +1,12 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — UKTZ : 3 essaims lâchés dans le tore (explorations)
+- TEST-67 S : codes 0.44 → 0.97 groupés (code partagé).
+  TEST-68 T : R 0.72 → 0.69 (topologie > géométrie).
+  TEST-69 RUQ-1 (invention) : R 0.30 → 0.98 + var(q) ÷9 — TRANSITION.
+- Explorations ouvertes : observables pré-enregistrées, aucun verdict.
+  Bug parenthèse 68/69 fixé avant exécution. Figure plot_neurons_uktz.
+
 ## 2026-09-22 — SONDE ENDOGÈNE : 3 tentatives, 3 AVEUGLE assumés
 - TEST-64 : pointe Phi réelle (pic=201) mais gates-plateau ratées.
   TEST-65 : W=16 = silence total (LZ sans dynamique). TEST-66 : sonde
