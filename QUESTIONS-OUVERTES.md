@@ -141,5 +141,13 @@
 - k_c=6/24 : ratio universel 1/4 ou effet hubs ? (anneau sans hubs ?)
 - Deux singularités : fusionnent-elles ? Orbite ? (problème à 2 corps focal)
 
+## Nées des observations QM-GR (suite ?)
+- Twist = nombre de puits ? (3 puits → twist −3 ? anneau sans hubs ?)
+- Twist 1 à G0=0.1 puis 0 à 0.2/0.5 : intermittence ou hystérésis ?
+- Lentille : potentiel avec capture ? (cœur singulier vs fini)
+- Ombre saturée r_h=4≈6 : taille caractéristique de la grille ?
+- Redshift : loi exacte freq(d) ? (expo comme le potentiel ?)
+- Resync d=10 jamais : accident ou distance aveugle ?
+
 ---
 *Poser une question ici = l'empêcher de mourir. Répondre = journal + commit.* 📝
