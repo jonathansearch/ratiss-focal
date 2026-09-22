@@ -1,5 +1,11 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — PONT-60 sur VRAI QPU (ibm_kingston)
+- Job dap88g02fm4c73f6eb3g, 28 circuits en 1 job. T1 : P(1) décroît en
+  exponentielle, T1=285.4 us (R2=0.9994) ; simu plat à 1 (pas de
+  relaxation idéale). Flip : P(0) en cosinus de phi, simu et réel
+  superposés. Figure plot_pont60. Clé mémoire seule, /tmp vidé.
+
 ## 2026-09-22 — PONT-76 sur VRAI QPU (ibm_marrakesh)
 - Job dap8368pqrnc739avu2g, 60 circuits en 1 job. Paire de Bell + flip
   local p sur 1 qubit : P(mêmes) réelle 0.98/0.98/0.88/0.69/0.41/0.31
