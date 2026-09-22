@@ -1,0 +1,33 @@
+{
+ "job": "dap7su82fm4c73f6dsrg",
+ "backend": "ibm_marrakesh",
+ "N": 6,
+ "shots": 2000,
+ "lignes": [
+  {
+   "k": 0,
+   "fidelite_moy": 0.8364,
+   "tirages": 10
+  },
+  {
+   "k": 1,
+   "fidelite_moy": 0.4139,
+   "tirages": 10
+  },
+  {
+   "k": 2,
+   "fidelite_moy": 0.1009,
+   "tirages": 10
+  },
+  {
+   "k": 3,
+   "fidelite_moy": 0.2658,
+   "tirages": 10
+  },
+  {
+   "k": 4,
+   "fidelite_moy": 0.0021,
+   "tirages": 10
+  }
+ ]
+}
