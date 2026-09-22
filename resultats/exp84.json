@@ -1,0 +1,42 @@
+{
+ "G0": 1.0,
+ "w": 3.0,
+ "lignes": [
+  {
+   "d": 2,
+   "freq": -0.5261,
+   "R_final": 0.639,
+   "resync_pas": 17
+  },
+  {
+   "d": 4,
+   "freq": -0.2652,
+   "R_final": 0.8687,
+   "resync_pas": 57
+  },
+  {
+   "d": 6,
+   "freq": -0.1822,
+   "R_final": 0.7761,
+   "resync_pas": 19
+  },
+  {
+   "d": 8,
+   "freq": -0.0892,
+   "R_final": 0.9864,
+   "resync_pas": 18
+  },
+  {
+   "d": 10,
+   "freq": -0.0153,
+   "R_final": 0.7971,
+   "resync_pas": null
+  },
+  {
+   "d": 12,
+   "freq": 0.0148,
+   "R_final": 0.7157,
+   "resync_pas": 16
+  }
+ ]
+}
