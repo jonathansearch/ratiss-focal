@@ -1,42 +1,265 @@
+<div align="center">
+
+<img src="images/logo-ratiss-labs.png" width="220" alt="RATISS Labs"/>
+
 # 🎯 RATISS-FOCAL — Focalisation informationnelle
 
-> [!NOTE]
-> ## 🌱 Atelier ouvert — rien n'est figé
-> Théorie + protocole d'expérience. Aucune conclusion scellée.
-> Le code viendra sur ordre du chef uniquement.
+**La cohérence émerge-t-elle de l'information ? Ici, on ne spécule pas : on mesure.**
 
-**Question** : la cohérence émerge-t-elle de l'information ?
-**Méthode** : un conteneur (mini-univers topologique), un condensateur
-(information pure), des porteurs (qubits simulés), deux univers jumeaux
-(émergence vs implantation), un fil de mesure. Si une structure cohérente
-apparaît de l'info pure → preuve du phénomène.
+[![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
+[![Tests](https://img.shields.io/badge/TESTs-63%20pass%C3%A9s-teal.svg)](PROTOCOLES.md)
+[![Versions](https://img.shields.io/badge/unifications-v1%E2%80%93v12-teal.svg)](UNIFICATION.md)
+[![Stack](https://img.shields.io/badge/stack-numpy%20%2B%20ripser-teal.svg)](organes/)
+[![Neurones](https://img.shields.io/badge/neurones-z%C3%A9ro-orange.svg)](organes/)
 
-**Sans clé IBM, sans accélérateur** : numpy + ripser suffisent (v0 simulée).
+*Par **RATISS Labs** — Jonathan Evina · Licence MIT · Reproductibilité publique totale*
 
-> Stine-24 et LCT figurent ici comme **lois accompagnatrices** (mesures).
-> Les neurones vivent dans **ratiss-neuro**, pas dans ce dépôt.
+</div>
 
-## Lire dans l'ordre
-1. `THEORIE-UNIFIEE.md` — toute la théorie consolidée (A→K).
-2. `SPEC-EXP-FOCAL-01.md` — le protocole d'expérience complet.
-3. `ROADMAP.md` — phases et critères de sortie.
-4. `QUESTIONS-OUVERTES.md` + `GLOSSAIRE.md` — tout le reste.
-5. `JOURNAL.md` — carnet de bord daté.
-6. `docs/atelier-precedent/` — documents source intacts (rien perdu).
-7. `images/` — projections visuelles.
+<img src="images/hero-focal.jpg" width="100%" alt="Focalisation : du diffus au point cohérent"/>
 
-## Dossiers de travail (vides — code sur ordre)
-- `experiences/` — scripts exp (EXP-FOCAL-01…).
-- `organes/` — modules (conteneur, porteurs, mesures…).
-- `univers/` — définitions des univers A/B.
-
-## Principes
-Itération permanente — transdisciplinarité — démonstration par le fonctionnement —
-R7 (1 commande) — échecs publiés, jamais cachés.
-
-## Licence
-MIT (voir LICENSE) — théorie ouverte et reproductible publiquement.
+> **Abstract (EN).** *Does coherence emerge from information? RATISS-FOCAL is an open experimental
+> program (63 pre-registered computational tests, 12 unification releases) probing whether coherent
+> structure can arise from pure information — with zero neurons. Three sectors are characterised:
+> **G** (informational gravity: plastic, scarring, saturating on an absolute core of 0.083),
+> **Q** (quantum memory: an anti-persistent continuum, phase-steerable), and **U** (primitive
+> entanglement: a sanctuary robust to discrete shocks, eroding past ambient noise σc = 0.06,
+> irreversibly). Every equation ships with its test. Failures are published, never hidden. MIT.*
 
 ---
+
+## 📖 Sommaire
+
+1. [La question](#-la-question)
+2. [Les trois piliers : G, Q, U](#-les-trois-piliers--g-q-u)
+3. [Résultats majeurs (données réelles)](#-résultats-majeurs-données-réelles)
+4. [Méthode : rigueur pré-enregistrée](#-méthode--rigueur-pré-enregistrée)
+5. [Architecture du dépôt](#-architecture-du-dépôt)
+6. [Démarrage rapide](#-démarrage-rapide)
+7. [Carte des 12 versions](#-carte-des-12-versions)
+8. [Ce que ça ouvre](#-ce-que-ça-ouvre)
+9. [Lire dans l'ordre](#-lire-dans-lordre)
+10. [Citation, auteur, licence](#-citation-auteur-licence)
+
+---
+
+## ❓ La question
+
+> **La cohérence émerge-t-elle de l'information ?**
+
+Pas de la matière. Pas du calcul neuronal. De **l'information pure** : des points, des liens,
+des concentrations — observés à travers un microscope topologique (homologie persistante),
+sans un seul neurone.
+
+Si une structure cohérente **apparaît, persiste et résiste aux destructions** dans ce milieu
+minimal, alors la cohérence n'est pas un accident de la complexité : c'est une **propriété
+de l'information elle-même**.
+
+Ce dépôt est le laboratoire où cette question a été posée **63 fois**, avec des critères
+écrits **avant** chaque mesure — et où les réponses, bonnes ou mauvaises, ont toutes été publiées.
+
+## 🔱 Les trois piliers : G, Q, U
+
+<img src="images/concept-gqu.jpg" width="100%" alt="G s'effrite, Q oscille, U demeure"/>
+
+| Secteur | Nature | Personnalité mesurée |
+|---|---|---|
+| **G** — gravitation informationnelle | Contraction α d'un tore de points | **Plastique et mortel.** S'effondre au premier choc (0.345 → 0.097), saigne lentement (τ ≈ 400 pas), mais **sature sur un noyau absolu indestructible : 0.083**. Porte les cicatrices éternellement. |
+| **Q** — mémoire quantique (anneau Kuramoto) | Synchronisation de 24 oscillateurs | **Girouette anti-persistante.** Pas d'attracteurs : continuum [0.76, 0.91], flip contrariant symétrique à chaque choc — mais **pilotable à P = 1.0 par la phase absolue injectée**. Le choc la blanchit (reset entropique), elle régénère. |
+| **U** — intrication primitive | Ligne invisible : coïncidences non-géométriques | **Sanctuaire conditionnel.** Inchangé sous 7 chocs cumulés (28/30, Δ = 0) quand G meurt à −72 %. Mais sensible au **bruit ambiant** : seuil **σc = 0.06** (sigmoïde R² = 0.964), plancher partiel ~30 %, **érosion irréversible**. Lit la *texture* du bruit, pas seulement son volume. |
+
+**En une phrase :** G est le terminal mortel, Q la mémoire régénérative, U le Fil qui persiste —
+tant que l'environnement reste sous σc.
+
+## 📊 Résultats majeurs (données réelles)
+
+Toutes les figures ci-dessous sont générées **à partir des JSON de résultats** du dépôt
+(script : `images/make_figs.py`).
+
+### 1. Le sanctuaire U a un seuil : σc = 0.06
+
+<img src="images/plot_sanctuaire.png" width="100%" alt="Courbe S_U(sigma) : plateau puis érosion sigmoïde, seuil 0.06"/>
+
+- **TEST-49** : 28/30 identiques sur 7 niveaux de chocs cumulés (Δ = 0) → sanctuaire absolu vs traumas.
+- **TEST-58** : scan σ ∈ [0.01, 0.10] → sigmoïde R² = 0.964, σc = 0.06, plateau 29/30 → 21/30.
+- **TEST-61** : pas de mort jusqu'à σ = 0.30 (plancher ~30 % vs ~16 % contrôle) mais **irréversible**.
+- **TEST-62** : à σ identique, la structure HIGH porte U à +2/+4 → **U lit la texture du bruit**.
+
+### 2. G sature sur un noyau absolu : 0.083
+
+<img src="images/plot_escalier_H3.png" width="100%" alt="Escalier G : chute puis saturation H3, noyau absolu 0.083"/>
+
+- **TEST-48** : 6 chocs cumulés → **H3 saturante R² = 0.978**, Gmin(N) = 0.083 + 0.26·e^(−3N).
+- Le premier choc fait tout l'effondrement ; les suivants brassent dans une bande [0.06, 0.11].
+- H1 (linéaire) et H2 (exponentielle) **réfutées** : pas de rupture vers zéro.
+
+### 3. Le flip Q obéit à la phase : P = 1.0
+
+<img src="images/plot_flip_phase.png" width="100%" alt="Carte de contrôle : phase injectée pilote HIGH/LOW à P=1.0"/>
+
+- **TEST-60** : φ_inj ∈ [0, π] → LOW, φ ∈ {5π/4, 3π/2} → HIGH, **P = 1.0 dans les deux bras pré-choc** (CONTRÔLABLE, 14/16).
+- 7π/4 = zone de transition (50 % ambiguë) : la frontière du contrôle est visible.
+- L'anti-persistence a un volant : la **phase absolue** (symétrie brisée par les ancres spatiales).
+
+### 4. Q n'a pas d'attracteurs : continuum réfuté proprement
+
+<img src="images/plot_continuum_Q.png" width="100%" alt="Histogramme Q-final n=40 : continuum sans trou"/>
+
+- **TEST-50** (n = 6) suggérait une bistabilité 0.78/0.87 → **TEST-52** (n = 40) la réfute : continuum
+  [0.76, 0.91], trou max 0.018 (MONOSTABLE).
+- **TEST-53** : P_switch = 1.0 dès 0.25× l'intensité standard → bassin sans profondeur.
+- **TEST-56** : flip **symétrique** (HIGH→0.77, LOW→0.84) → pas de dérive, pas d'équilibre Q̄.
+- *Leçon scellée dans le marbre : répliquer avant de nommer.*
+
+### Autres lois scellées
+
+| Loi | Test | Mesure |
+|---|---|---|
+| Plancher G(α, σ, N) = exp(−0.29 − 7.16α − 6.59σ + 0.0012N) | TEST-40 | R² = 0.920 |
+| Reconstruction G double-exp, τ_lent ≈ 400 pas, plancher vrai 0.095 | TEST-46 | R² = 0.902 |
+| Sync Q double-exp (k₁ = 0.098 rapide, k₂ = 0.001 lent) | TEST-36 | R² = 0.968 |
+| Volatilité Q structurée (pente −0.72, ac1 0.63) | TEST-37 | signal, pas bruit |
+| Proximité-Condensation (ρc = 8.01 extrait, jamais supposé) | TEST-27 | sync 0.98 vs 0.11 |
+| Résilience post-collapse (liens : R = 1.023 absolue) | TEST-28/25 | purification réelle |
+
+## 🔬 Méthode : rigueur pré-enregistrée
+
+Ce qui distingue ce dépôt n'est pas qu'il a raison — c'est **qu'il ne peut pas tricher** :
+
+1. **Critère écrit avant la mesure.** Chaque TEST déclare sa règle de succès dans son docstring
+   *avant* exécution. Pas de seuil ajusté après coup.
+2. **Falsifiabilité obligatoire.** Chaque test a au moins deux issues possibles documentées
+   (ex : SANCTUAIRE / SATELLITE / EFFONDREE). Un test qui ne peut pas échouer est interdit.
+3. **Échecs publiés.** 1/3, 2/3 : les scores partiels sont scellés tels quels. Les hypothèses
+   réfutées (bistabilité, biais entropique, rupture catastrophique, filtre passe-bas, H1/H2…)
+   sont listées dans `tickets/CONSOLIDATION_V1-V12.md` — **ne pas rouvrir sans fait nouveau**.
+4. **Pas de M-fishing.** Les modifications de protocole (M1→M26) sont déclarées, datées,
+   justifiées — et on ne réécrit **jamais** un critère pour le passer (cf. TEST-61 : MIXTE assumé).
+5. **Zéro neurone.** `numpy + ripser` suffisent. Si la cohérence émerge ici, elle ne doit rien
+   au deep learning.
+6. **Reproductibilité publique = crédibilité.** MIT, données + code + journal, graine fixée partout.
+
+## 🗂️ Architecture du dépôt
+
+<img src="images/schema-pipeline.svg" width="100%" alt="Pipeline : conteneur, condensateur, porteurs, univers A/B, fil de mesure, secteurs G/Q/U"/>
+
+```
+ratiss-focal/
+├── README.md                  ← vous êtes ici (vitrine)
+├── FORMALISATION.tex          ← document CANONIQUE (chaque équation porte son TEST)
+├── THEORIE-UNIFIEE.md         ← théorie consolidée A→K
+├── UNIFICATION.md             ← registre des 12 versions (v1→v12, scores)
+├── PROTOCOLES.md              ← les 63 TESTs (méthode + critère + résultat)
+├── JOURNAL.md                 ← carnet de bord daté (brutalité honnête incluse)
+├── QUESTIONS-OUVERTES.md      ← closes + ouvertes (pistes V13… sur feu vert)
+├── ROADMAP.md                 ← phases (⛔ clôture V12 : pause stratégique)
+├── SPEC-EXP-FOCAL-01.md       ← protocole d'expérience princeps
+├── GLOSSAIRE.md               ← vocabulaire du labo
+├── LICENSE                    ← MIT
+├── experiences/               ← exp01_*.py … exp63_*.py (code = exécuté, graines fixées)
+│   └── resultats/             ← expNN.json (données brutes de chaque test)
+├── organes/                   ← conteneur, porteurs, mesures (numpy + ripser)
+├── univers/                   ← A.json, B.json, unifie.json … unifie_v12.json
+├── resultats/                 ← miroir public des JSON (racine du dépôt distant)
+├── tickets/                   ← questions structurantes (ouverts / clôturés + motif)
+└── images/                    ← logo, hero, schémas, figures (make_figs.py)
+```
+
+## 🚀 Démarrage rapide
+
+```bash
+# 1. Cloner
+git clone https://github.com/jonathansearch/ratiss-focal.git
+cd ratiss-focal
+
+# 2. Dépendances (léger : pas de GPU, pas de clé, pas d'accélérateur)
+pip install numpy ripser matplotlib
+
+# 3. Reproduire un test (ex : le seuil du sanctuaire U, ~1 min)
+cd experiences && python3 exp58_courbe_U.py
+
+# 4. Reproduire une version complète (ex : V12, ~10 min)
+python3 exp60_forcage_flip.py && python3 exp61_rupture_U.py \
+  && python3 exp62_flip_erosion.py && python3 exp63_unification_v12.py
+
+# 5. Régénérer les figures du README
+cd ../images && python3 make_figs.py
+```
+
+> ⚠️ **Coûts connus** : TEST-46/48 (1000 pas G × chocs) ≈ 5 min/choc ; TEST-57 (n = 200) ≈ 3 min.
+> Tout le reste tourne en secondes. Graines fixées : résultats bit-reproductibles
+> (même machine, mêmes versions mineures).
+
+## 🗺️ Carte des 12 versions
+
+| Version | Tests | Score | Apport décisif |
+|---|---|---|---|
+| v1–v4 | 01–29 | fondations | Conteneur, porteurs, univers A/B sœurs, 2 lois (V4 : 2/2) |
+| v5 | 30–35 | **3/5** | Unification partielle, résidu Q identifié honnêtement |
+| v6 | 36–39 | **3/3** | Q révélé : double-exp, volatilité structurée, ligne robuste |
+| v7 | 40–43 | **3/3** | Noyau G : loi logF, collapse couplé, choc plastique |
+| v8 | 44–47 | **2/3** | Blanchiment Q (passe-bas réfuté), sanctuaire U, vrai plancher 0.095 |
+| v9 | 48–51 | **3/3** | Noyau absolu 0.083 (H3), U absolu ×7 chocs, « bistabilité » Q |
+| v10 | 52–55 | **1/3** | Bistabilité réfutée (continuum n=40), bassin fragile, Q/U corrélé Δ=3 |
+| v11 | 56–59 | **2/3** | Flip symétrique (M25), distribution rebelle, **σc = 0.06** (sigmoïde) |
+| v12 | 60–63 | **1/3** | **Flip pilotable P=1.0** (M26), plancher U irréversible, couplage texture |
+| **⛔ clôture** | — | — | Consolidation, tickets soldés, pause stratégique (Ph16 ✅) |
+
+Détail complet : [`UNIFICATION.md`](UNIFICATION.md) · Protocoles : [`PROTOCOLES.md`](PROTOCOLES.md) ·
+Synthèse de clôture : [`tickets/CONSOLIDATION_V1-V12.md`](tickets/CONSOLIDATION_V1-V12.md)
+
+## 🌅 Ce que ça ouvre
+
+**Recherche fondamentale.**
+- Un **modèle minimal de la persistance** : qu'est-ce qui, dans un système d'information,
+  survit aux destructions — et à quelles conditions quantifiées (σc, noyau absolu, irréversibilité) ?
+- Une **sonde de la qualité informationnelle** : σc et la texture du bruit comme métriques
+  d'environnement, transposables à tout système signal/bruit.
+- Un pont vers la **théorie de la conscience** (ticket sanctuaire, clôturé proprement) :
+  persistance du Fil (U) vs régénération de la mémoire (Q) vs mortalité du substrat (G) —
+  sur socle formel, sans mysticisme, chaque pont adossé à un TEST.
+
+**Recherche appliquée (phase 17, sur feu vert).**
+- Mémoires anti-persistantes pilotables (flip par phase : écriture déterministe sans attracteur).
+- Canaux d'intrication décorrelés de la géométrie (ligne invisible : partage sans contact).
+- Critères de robustesse par pré-enregistrement : transposables à l'évaluation des systèmes IA.
+
+**Épistémologie.**
+- Une démonstration par l'exemple que **publier ses réfutations** (6 hypothèses abandonnées,
+  3 versions à 1/3) produit une théorie plus solide que la chasse aux confirmations.
+- Un journal de bord (JOURNAL.md) qui montre le doute, les erreurs (M-fishing évité de justesse
+  en TEST-61), les corrections — la matière première de la confiance scientifique.
+
+## 📚 Lire dans l'ordre
+
+1. [`FORMALISATION.tex`](FORMALISATION.tex) — le canon (compiler : `pdflatex`, ou Overleaf).
+2. [`UNIFICATION.md`](UNIFICATION.md) — les 12 versions en 10 minutes.
+3. [`PROTOCOLES.md`](PROTOCOLES.md) — les 63 tests, un par un.
+4. [`THEORIE-UNIFIEE.md`](THEORIE-UNIFIEE.md) + [`SPEC-EXP-FOCAL-01.md`](SPEC-EXP-FOCAL-01.md) — fondations.
+5. [`JOURNAL.md`](JOURNAL.md) — le récit vrai (dont les nuits à 1/3).
+6. [`QUESTIONS-OUVERTES.md`](QUESTIONS-OUVERTES.md) + [`tickets/`](tickets/) — la frontière.
+7. [`ROADMAP.md`](ROADMAP.md) — d'où l'on vient, où l'on va (sur feu vert).
+
+## 📝 Citation, auteur, licence
+
+```bibtex
+@software{ratiss_focal_2026,
+  author  = {Jonathan Evina and RATISS Labs},
+  title   = {RATISS-FOCAL: informational focusing without neurons —
+             63 pre-registered tests, 12 unification releases},
+  year    = {2026},
+  url     = {https://github.com/jonathansearch/ratiss-focal},
+  license = {MIT}
+}
+```
+
+<div align="center">
+
 **RATISS Labs** — *L'esprit ne traite pas tout, il traite la cohérence.* 🌌
-Posé par Jonathan Evina, nuit du 21 sept. 2026.
+
+Posé par **Jonathan Evina** · Septembre 2026 · **Licence MIT** (voir [LICENSE](LICENSE)) —
+théorie ouverte, reproductible publiquement, prête pour évaluation externe.
+
+<img src="images/logo-ratiss-labs.png" width="120" alt="RATISS Labs"/>
+
+</div>
