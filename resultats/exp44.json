@@ -1,0 +1,26 @@
+{
+ "pre": {
+  "parts": [
+   0.8516,
+   0.0665,
+   0.0819
+  ],
+  "centroide": 0.0624,
+  "ac1": 0.7838,
+  "niveau": 0.8128
+ },
+ "post": {
+  "parts": [
+   0.6148,
+   0.2062,
+   0.179
+  ],
+  "centroide": 0.1508,
+  "ac1": 0.4276,
+  "niveau": 0.7961
+ },
+ "perte_niveau_Q": -0.0205,
+ "rappel_perte_G_TEST42": -0.21,
+ "verdict": "PAS DE FILTRAGE",
+ "critere": false
+}
