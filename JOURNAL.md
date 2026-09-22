@@ -1,5 +1,12 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 (nuit) — V9 : SANCTUAIRE 3/3 (noyau absolu 0.083)
+- TEST-48 : H3 saturante R²=0.978 (bande [0.06,0.11], non monotone).
+  TEST-49 : U ABSOLU (28/30 ×7, Δ=0). TEST-50 : Q bistable (0.78↔0.87),
+  « fatigue » = sauts d'attracteurs, pas déclin.
+- .tex §10.quinquies + §10.sexies. VRN §14 exclu (vote chef NON).
+  Ticket SANCTUAIRE_U_CONSCIENCE créé. Unifié-v9. Tout poussé.
+
 ## 2026-09-22 (nuit) — V8 : MÉMOIRE 2/3 (réfutation + sanctuaire U)
 - TEST-44 : passe-bas RÉFUTÉ → BLANCHIMENT spectral (centroïde ×2.4).
   TEST-45 : ligne SANCTUAIRE (28/30, identique TEST-38). TEST-46 :
