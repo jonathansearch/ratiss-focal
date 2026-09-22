@@ -1,0 +1,152 @@
+{
+ "carte": [
+  {
+   "phi": 0.0,
+   "pre": "HIGH",
+   "HIGH": 0,
+   "LOW": 8,
+   "AMBIGU": 0,
+   "valide": true,
+   "P_HIGH": 0.0
+  },
+  {
+   "phi": 0.0,
+   "pre": "LOW",
+   "HIGH": 0,
+   "LOW": 8,
+   "AMBIGU": 0,
+   "valide": true,
+   "P_HIGH": 0.0
+  },
+  {
+   "phi": 0.7854,
+   "pre": "HIGH",
+   "HIGH": 0,
+   "LOW": 8,
+   "AMBIGU": 0,
+   "valide": true,
+   "P_HIGH": 0.0
+  },
+  {
+   "phi": 0.7854,
+   "pre": "LOW",
+   "HIGH": 0,
+   "LOW": 8,
+   "AMBIGU": 0,
+   "valide": true,
+   "P_HIGH": 0.0
+  },
+  {
+   "phi": 1.5708,
+   "pre": "HIGH",
+   "HIGH": 0,
+   "LOW": 8,
+   "AMBIGU": 0,
+   "valide": true,
+   "P_HIGH": 0.0
+  },
+  {
+   "phi": 1.5708,
+   "pre": "LOW",
+   "HIGH": 0,
+   "LOW": 8,
+   "AMBIGU": 0,
+   "valide": true,
+   "P_HIGH": 0.0
+  },
+  {
+   "phi": 2.3562,
+   "pre": "HIGH",
+   "HIGH": 0,
+   "LOW": 8,
+   "AMBIGU": 0,
+   "valide": true,
+   "P_HIGH": 0.0
+  },
+  {
+   "phi": 2.3562,
+   "pre": "LOW",
+   "HIGH": 0,
+   "LOW": 8,
+   "AMBIGU": 0,
+   "valide": true,
+   "P_HIGH": 0.0
+  },
+  {
+   "phi": 3.1416,
+   "pre": "HIGH",
+   "HIGH": 0,
+   "LOW": 6,
+   "AMBIGU": 2,
+   "valide": true,
+   "P_HIGH": 0.0
+  },
+  {
+   "phi": 3.1416,
+   "pre": "LOW",
+   "HIGH": 0,
+   "LOW": 6,
+   "AMBIGU": 2,
+   "valide": true,
+   "P_HIGH": 0.0
+  },
+  {
+   "phi": 3.927,
+   "pre": "HIGH",
+   "HIGH": 8,
+   "LOW": 0,
+   "AMBIGU": 0,
+   "valide": true,
+   "P_HIGH": 1.0
+  },
+  {
+   "phi": 3.927,
+   "pre": "LOW",
+   "HIGH": 8,
+   "LOW": 0,
+   "AMBIGU": 0,
+   "valide": true,
+   "P_HIGH": 1.0
+  },
+  {
+   "phi": 4.7124,
+   "pre": "HIGH",
+   "HIGH": 8,
+   "LOW": 0,
+   "AMBIGU": 0,
+   "valide": true,
+   "P_HIGH": 1.0
+  },
+  {
+   "phi": 4.7124,
+   "pre": "LOW",
+   "HIGH": 8,
+   "LOW": 0,
+   "AMBIGU": 0,
+   "valide": true,
+   "P_HIGH": 1.0
+  },
+  {
+   "phi": 5.4978,
+   "pre": "HIGH",
+   "HIGH": 0,
+   "LOW": 4,
+   "AMBIGU": 4,
+   "valide": false,
+   "P_HIGH": 0.0
+  },
+  {
+   "phi": 5.4978,
+   "pre": "LOW",
+   "HIGH": 0,
+   "LOW": 4,
+   "AMBIGU": 4,
+   "valide": false,
+   "P_HIGH": 0.0
+  }
+ ],
+ "cellules_valides": "14/16",
+ "direction": "HIGH",
+ "classe": "CONTR\u00d4LABLE",
+ "critere": true
+}
