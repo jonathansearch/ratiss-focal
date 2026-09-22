@@ -96,4 +96,28 @@ Lissage restreint (masque $m_i = \mathbb{1}_{i \geq N_{\mathrm{fond}}}$) :
 Kuramoto $K = 3.0$, $T = 24$ : bascule sync à l'étape 9, finale $0.51$ (TEST-22).
 PLV 1000 pas : $0.866$ (var $0.0013$), post-collapse $0.886$ (TEST-25).
 Verdict : \textbf{A+B sœurs}. V3 : \textbf{5/5}, base blindée.
+
+\section{Loi de Proximité-Condensation (V4)}
+Soit $\rho(X)$ la densité informationnelle locale (noyau gaussien sur le
+champ d'info). Le couplage par nœud vaut : % TEST-27
+\begin{equation}
+K_{\mathrm{eff},i} = K \cdot \frac{\rho_i}{\rho_{\max}} \quad \text{(mesure)},
+\qquad K_{\mathrm{eff},i} = K \cdot \mathbb{1}_{\rho_i \geq \rho_c}
+\quad \text{(interrupteur, bilatéral : $\min$)},
+\end{equation}
+avec $\rho_c = 8.01$ EXTRAIT de la mesure (interpolation sync $= 0.3$),
+jamais supposé. Vérifié : à $D = 5.0$, nœuds actifs sync $= 0.98$ contre
+inactifs $= 0.11$ ; corrélation fraction-sync $= 0.94$. Sans proximité,
+même $K = 6.0$ reste quasi-nul (contrôle gaté $0.26$ contre pur $0.72$).
+
+\section{Principe de Résilience Post-Collapse (V4)}
+Couple $(C_{\mathrm{pre}}, C_{\mathrm{post}})$, indice : % TEST-28
+\begin{equation}
+R = \frac{C_{\mathrm{post}}}{C_{\mathrm{pre}}}.
+\end{equation}
+Mesuré au niveau $P$ : sélection $>$ neutre à fort bruit ($+3$-$4$ pts),
+mais $R < 1$ partout (pas de zone $R > 1$) : purification RELATIVE.
+Au niveau sync (TEST-25) : $R = 0.886/0.866 = 1.023 > 1$ : purification
+ABSOLUE. Domaine de la loi : les liens (sync), pas le niveau.
+Verdict V4 : \textbf{2/2}, deux lois codifiées.
 \end{document}
