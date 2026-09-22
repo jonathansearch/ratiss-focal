@@ -1,0 +1,50 @@
+{
+ "niveaux": [
+  {
+   "k": 0,
+   "partage": 28,
+   "indep": 9,
+   "separation": 19
+  },
+  {
+   "k": 1,
+   "partage": 28,
+   "indep": 9,
+   "separation": 19
+  },
+  {
+   "k": 2,
+   "partage": 28,
+   "indep": 9,
+   "separation": 19
+  },
+  {
+   "k": 3,
+   "partage": 28,
+   "indep": 9,
+   "separation": 19
+  },
+  {
+   "k": 4,
+   "partage": 28,
+   "indep": 9,
+   "separation": 19
+  },
+  {
+   "k": 5,
+   "partage": 28,
+   "indep": 9,
+   "separation": 19
+  },
+  {
+   "k": 6,
+   "partage": 28,
+   "indep": 9,
+   "separation": 19
+  }
+ ],
+ "delta_max": 0,
+ "Nc": null,
+ "classe": "SANCTUAIRE_ABSOLU",
+ "critere": true
+}
