@@ -1,5 +1,12 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 (nuit) — V8 : MÉMOIRE 2/3 (réfutation + sanctuaire U)
+- TEST-44 : passe-bas RÉFUTÉ → BLANCHIMENT spectral (centroïde ×2.4).
+  TEST-45 : ligne SANCTUAIRE (28/30, identique TEST-38). TEST-46 :
+  vrai plancher 0.095 (≠ 0.273 !), τ ≈ 400, R²=0.902 tout juste.
+- .tex §10 retouché (noyau = variable thermodynamique) + §10.quater.
+  Ticket HYSTERESIS_INFO créé. Unifié-v8. Tout poussé.
+
 ## 2026-09-21 (nuit) — V7 : NOYAU 3/3 (loi exponentielle)
 - TEST-40 : plancher = exp(−0.29−7.16α−6.59σ+0.0012N), R²=0.920 (M24) ·
   TEST-41 : collapse COUPLÉ (corr −0.87, non invariant) · TEST-42 : choc
