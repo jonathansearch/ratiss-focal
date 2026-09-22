@@ -1,5 +1,12 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 (nuit) — CLÔTURE V12 : consolidation, pause stratégique
+- .tex §10 réécrit canonique (5 sections, TEST-40→62 liés, TEST-50
+  corrigée). Ticket sanctuaire CLÔTURÉ (résumé V9-V12). Ticket
+  CONSOLIDATION_V1-V12 ouvert (4 lois + ombres + 6 abandons).
+  ROADMAP Ph16 ✅ / Ph17 (intégration/VRN, sur feu vert).
+- Repos cognitif ordonné. Aucune V13 sans ordre explicite. Tout poussé.
+
 ## 2026-09-22 (nuit) — V12 : FLIP PILOTÉ 1/3 (φ commande, U plancher)
 - TEST-60 : CONTRÔLABLE (φ→état P=1.0, M26). TEST-61 : MIXTE assumé
   (pas de rupture à 0.30, plancher ~30 %, IRRÉVERSIBLE, pas de M27).
