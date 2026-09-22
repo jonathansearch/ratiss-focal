@@ -175,4 +175,29 @@ focal reste sans neurones, ticket de portage supprimé.)
 
 ---
 *Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
-*Prochaine étape sur ordre du chef (piste : ticket MEMOIRE_Q_STRUCTURELLE).* 🔒
+## v8 — la mémoire Q révèle la blessure (TEST-44 → 47, score 2/3)
+Ticket MEMOIRE_Q_STRUCTURELLE traité. Ticket HYSTERESIS_INFO créé.
+
+| Pilier | Test | Résultat |
+|---|---|---|
+| M1 Spectre Q post-choc | 44 | ❌ RÉFUTATION : pas de passe-bas — BLANCHIMENT (centroïde ×2.4, ac1 ÷1.8) |
+| M2 Ligne sous choc | 45 | SANCTUAIRE ✅ (28/30 vs 9/30, identique à TEST-38 — U survit à G) |
+| M3 Reconstruction 1000 pas | 46 | double-exp R²=0.902 ✅ — vrai plancher 0.095 (≠ 0.273 !), τ≈400 |
+| Unifié-v8 | 47 | 2/3 |
+
+## Lecture physique V8
+- Le choc ne filtre pas Q : il le BLANCHIT (mémoire lente détruite,
+  hautes fréquences ×2.2). La cicatrice = bruit, pas amnésie sélective.
+- U est un SANCTUAIRE : la ligne invisible survit INCHANGÉE (28/30) au
+  choc qui effondre G. L'intrication ne dépend pas du noyau.
+- Le « plancher plastique » 0.273 de TEST-42 était un ARTEFACT de fenêtre
+  courte : à 1000 pas, G saigne jusqu'à 0.095 (τ_lent ≈ 400, oscillations
+  amorties pic 77). La blessure continue de couler 40× plus longtemps
+  que le choc.
+- Q récupère son niveau (0.789→0.796) : fragile en spectre, robuste en
+  niveau. G ne récupère rien : 0.345 → 0.095 (−72 %).
+
+---
+*Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
+*Prochaine étape sur ordre du chef (piste : ticket HYSTERESIS_INFO —
+chocs cumulés ?).* 🔒
