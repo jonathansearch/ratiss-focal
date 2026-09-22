@@ -318,6 +318,16 @@ Figure : `images/plot_neurons_uktz.png`. Aucun verdict (explorations).
   R 0.985 → 0.31, t_half = 11 pas, var(q) récupère. L'unité ne cicatrise
   pas (pas de couplage à distance dans RUQ-1). Figure : plot_RUQ70.png.
   Piste : RUQ-2 (feedback q→th) pour tester H2/H3 for real.
+- **TEST-71 (RUQ-2)** : feedback testé → **H1 aussi** (R 0.98→0.26,
+  τ=15.1, corr(th,q)=−0.57 résiduelle). La boucle locale ne suffit pas.
+
+## §18 — RUQ-1 : limites de l'unité locale (TEST-70/71)
+L'unité sans rétroaction ni non-localité est transitoire (t_half=11
+pas, TEST-70). Avec rétroaction locale (RUQ-2, TEST-71) : toujours
+réversible (τ=15.1), seule une corrélation th-q (−0.57) subsiste.
+**Ce n'est pas un modèle viable pour U.** L'Esprit exige de la
+non-localité (ou une topologie invariante) — TEST-71 l'établit par
+négation. Piste : RUQ-3 non-local (sur ordre du chef).
 
 ⛔ **CLÔTURE V12** : exploration fondamentale terminée (TEST-01→63).
 Pause stratégique, repos ordonné. Ticket CONSOLIDATION_V1-V12.
