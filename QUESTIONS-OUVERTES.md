@@ -30,6 +30,19 @@
 - F8 → volatilité STRUCTURÉE à mémoire (TEST-37) : signal, pas erreur.
 - U4 robuste au bruit Q natif (TEST-38).
 
+## closes par la V12 ✅/❌
+- Forçage flip → CONTRÔLABLE par φ_inj, P=1.0 (TEST-60 ✅, M26).
+- Rupture U → pas de mort à 0.30, plancher ~30 %, irréversible
+  (TEST-61 ❌ mixte assumé, barrière globale à revoir).
+- Structure Q/U → couplage structurel Δ=+2/+4 (TEST-62 ❌ découplage).
+
+## Nées de la V12 (V13 ?)
+- Plancher U : confirmer avec barrière locale (indep local+5) + σ>0.30 ?
+- Irréversibilité : mécanisme (fenêtre de sync précoce ? dispersion
+  au-delà du retour ?) — varier la position de la fenêtre calme.
+- Transition 7π/4 : cartographier la frontière (pas fin π/16 ?).
+- Texture HIGH vs LOW : quelle statistique protège U ? (spectre ? ac1 ?)
+
 ## closes par la V11 ✅/❌
 - Symétrie Q → FLIP symétrique, pas de Qbar (TEST-56 ✅, M25).
 - Distribution → ni gaussienne ni bêta (TEST-57 ❌, skew +0.69).
