@@ -7,7 +7,7 @@
 **La cohérence émerge-t-elle de l'information ? Ici, on ne spécule pas : on mesure.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/TESTs-92-teal.svg)](PROTOCOLES.md)
+[![Tests](https://img.shields.io/badge/TESTs-94-teal.svg)](PROTOCOLES.md)
 [![Versions](https://img.shields.io/badge/unifications-v1%E2%80%93v13-teal.svg)](UNIFICATION.md)
 [![Stack](https://img.shields.io/badge/stack-numpy%20%2B%20ripser-teal.svg)](organes/)
 [![Neurones](https://img.shields.io/badge/neurones-z%C3%A9ro-orange.svg)](organes/)
@@ -42,8 +42,9 @@
 10. [Phase 17 : explorations](#-phase-17--explorations--sonde-uktz-ruq-test-6472)
 11. [Phase 18 : singularité V13](#-phase-18--v13-singularité-test-7378)
 12. [Phase 19 : QM-GR, cohabitation décrite](#-phase-19--qm-gr-cohabitation-décrite-test-7989)
-13. [Phase 20 : LIAISON chasse au pli](#-phase-20--liaison--chasse-au-pli-test-9092--pont-berry)
-14. [Citation, auteur, licence](#-citation-auteur-licence)
+13. [Phase 20 : LIAISON chasse au pli](#-phase-20--liaison--chasse-au-pli-test-9093--berry-fermé)
+14. [Phase 21 : SYNTHÈSE QM-GR](#phase-21--synthèse-qm-gr-test-94)
+15. [Citation, auteur, licence](#-citation-auteur-licence)
 
 ---
 
@@ -346,12 +347,28 @@ liaison cohérent** QM↔relativité, même minuscule, sans rigidité vrai/faux.
   symétrique, pas de phase géométrique.
 - **PONT-BERRY** (ibm_fez) : boucle ± sur qubit → frange en U vs taille
   (1.0→0.49→1.0, réel=simu) mais asymétrie ~0 : boucle non fermée (U≠I),
-  défaut assumé — piste : vraie boucle fermée (TEST-93 ?).
+  défaut assumé.
+- **TEST-93** : cycle (G0,c) FERMÉ ± → Δ=−0.221 rad seulement :
+  les paramètres se referment, l'état ne revient pas (R_diff 0.25).
+- **BERRY-FERMÉ** (ibm_marrakesh) : boucle fermée ± (fuite ~1e-33,
+  γ=−φ/2) → lecture S : **0.966 vs 0.028 à φ=π** (réel≈simu) :
+  **le sens compte — le pli orienté est mesuré.**
 
 <img src="images/plot_PLI.png" width="100%" alt="Chasse au pli : grain, boucle, traînée"/>
 
-> Le pli orienté n'est pas encore isolé ; la boucle et la frange, si.
-> On observe, on ne conclut pas.
+<img src="passerelle_quantique/plot_pontBerryFerme.png" width="100%" alt="Berry fermé : le sens compte (0.97 vs 0.03)"/>
+
+> Le pli orienté est isolé là où la boucle se ferme vraiment.
+> Hystérésis (état ouvert) et Berry (état fermé) : deux visages du pli.
+
+## Phase 21 : SYNTHÈSE QM-GR (TEST-94)
+
+Premier calcul du modèle qui exige les deux échelles : superposition à
+deux hauteurs (spread interne sw, pilier QM) × horloges locales du puits
+(redshift, pilier GR). τ=√2/(sw·|Δf|) à ~8 % (18 cas) ; τ=∞ si un pilier
+retiré (30 contrôles).
+
+<img src="images/plot_DECO94.png" width="100%" alt="Décohérence gravitationnelle : QM x GR obligatoires"/>
 
 ## 📝 Citation, auteur, licence
 
