@@ -1,0 +1,18 @@
+{
+ "RED_Q_par_G": {
+  "R2": 0.0045
+ },
+ "COH_Q": {
+  "R2": 0.1673
+ },
+ "ratio_Q": 0.836,
+ "RED_G_par_Q": {
+  "R2": 0.0029
+ },
+ "COH_G": {
+  "R2": 0.5472
+ },
+ "ratio_G": 0.454,
+ "critere": true,
+ "note": "d\u00e9cisif c\u00f4t\u00e9 G (0.454), indicatif c\u00f4t\u00e9 Q (0.836, observable bruit\u00e9e)"
+}
