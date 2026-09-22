@@ -1,5 +1,12 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 (nuit) — V12 : FLIP PILOTÉ 1/3 (φ commande, U plancher)
+- TEST-60 : CONTRÔLABLE (φ→état P=1.0, M26). TEST-61 : MIXTE assumé
+  (pas de rupture à 0.30, plancher ~30 %, IRRÉVERSIBLE, pas de M27).
+  TEST-62 : COUPLÉ_STRUCTUREL (Δ=+2/+4, 2 blocs).
+- .tex §10.septies (flip pilotable) + §10.sexies (σ_c). Ticket :
+  environnement. Unifié-v12. Tout poussé.
+
 ## 2026-09-22 (nuit) — V11 : GIROUETTE 2/3 (flip symétrique, σ_c=0.06)
 - TEST-56 : SYMÉTRIQUE (M25 top-up n=15, pas de Qbar). TEST-57 :
   distribution rebelle (bêta 0.57, skew +0.69). TEST-58 : SEUIL
