@@ -1,0 +1,18 @@
+{
+ "plus": {
+  "sens": "plus",
+  "PHI_sonde": -4.724,
+  "PHI_Psi": -3.939,
+  "R_diff": 0.2484,
+  "R_final": 0.8484
+ },
+ "moins": {
+  "sens": "moins",
+  "PHI_sonde": -4.503,
+  "PHI_Psi": -3.718,
+  "R_diff": 0.2827,
+  "R_final": 0.7843
+ },
+ "DELTA_sonde": -0.221,
+ "DELTA_Psi": -0.221
+}
