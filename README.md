@@ -7,7 +7,7 @@
 **La cohérence émerge-t-elle de l'information ? Ici, on ne spécule pas : on mesure.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/TESTs-85-teal.svg)](PROTOCOLES.md)
+[![Tests](https://img.shields.io/badge/TESTs-89-teal.svg)](PROTOCOLES.md)
 [![Versions](https://img.shields.io/badge/unifications-v1%E2%80%93v13-teal.svg)](UNIFICATION.md)
 [![Stack](https://img.shields.io/badge/stack-numpy%20%2B%20ripser-teal.svg)](organes/)
 [![Neurones](https://img.shields.io/badge/neurones-z%C3%A9ro-orange.svg)](organes/)
@@ -41,7 +41,7 @@
 9. [Lire dans l'ordre](#-lire-dans-lordre)
 10. [Phase 17 : explorations](#-phase-17--explorations--sonde-uktz-ruq-test-6472)
 11. [Phase 18 : singularité V13](#-phase-18--v13-singularité-test-7378)
-12. [Phase 19 : QM-GR, cohabitation décrite](#-phase-19--qm-gr-cohabitation-décrite-test-7985)
+12. [Phase 19 : QM-GR, cohabitation décrite](#-phase-19--qm-gr-cohabitation-décrite-test-7989)
 13. [Citation, auteur, licence](#-citation-auteur-licence)
 
 ---
@@ -305,7 +305,7 @@ focal n'est pas une ombre newtonienne, c'est un puits exponentiel écranté**.
 > **Fixé au canon (§10.octies)** : loi exponentielle écrantée + capture Q.
 > Newton, dilatation temporelle et immunité de U : réfutés ou partiels — publiés quand même.
 
-## 🔭 Phase 19 : QM-GR, cohabitation décrite (TEST-79→85)
+## 🔭 Phase 19 : QM-GR, cohabitation décrite (TEST-79→89)
 
 Nouvelle règle du chef : **zéro verdict** — on regarde comment la mécanique
 quantique virtuelle (Q, phases, mémoire de graphe) cohabite avec la relativité
@@ -322,6 +322,10 @@ quantique virtuelle (Q, phases, mémoire de graphe) cohabite avec la relativité
   −0.53 à +0.01 quand on s'éloigne du puits.
 - **TEST-85** : trois puits → twist 0 partout ; la piste « twist = nb de
   puits » s'arrête à 2 (la symétrie à 3 annule la torsion ?).
+- **TEST-86/87** (jumeaux Falstad, moteur d'ondes indépendant) : disque
+  absorbant → ombre 0.90/0.53/0.75 ; zone lente → focus x1.9.
+- **TEST-88/89** (jumeaux Wokwi, firmwares prêts) : twist prédit R 0.91→0.41 ;
+  redshift prédit −0.77→−0.11. Guide téléphone : outils_en_ligne/OUTILS-EN-LIGNE.md.
 
 <img src="images/plot_QM_GR.png" width="100%" alt="QM-GR : twists, lentille, ombre, mémoire, redshift"/>
 <img src="images/plot_T85.png" width="100%" alt="TEST-85 : trois puits, twist nul"/>
