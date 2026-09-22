@@ -224,5 +224,28 @@ Ticket HYSTERESIS_INFO traité. Ticket SANCTUAIRE_U_CONSCIENCE créé.
 
 ---
 *Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
-*Prochaine étape sur ordre du chef (piste : bistabilité Q ? attracteurs
-de mémoire ?).* 🔒
+## v10 — Q n'a pas d'attracteurs (TEST-52 → 55, score 1/3)
+Ticket SANCTUAIRE_U_CONSCIENCE mis à jour (nuance TEST-54).
+
+| Pilier | Test | Résultat |
+|---|---|---|
+| B1 Phase → attracteur | 52 | MONOSTABLE ❌ (continuum [0.76,0.91], trou 0.018 — n=6 réfutée par n=40) |
+| B2 Bassin Q | 53 | FRAGILE ✅ (P=1.0 partout, 44/44, I_50=0.25 sous plancher) |
+| B3 Q ↔ U | 54 | CORRÉLÉ Δ=3 ❌ (26/30 vs 29/30 selon σ_Q — couplage faible) |
+| Unifié-v10 | 55 | 1/3 |
+
+## Lecture physique V10
+- CORRECTION : pas d'attracteurs Q. Chaque choc RE-TIRE Q-final dans
+  un continuum large, avec biais contrariant (haut→bas systématique).
+  TEST-50 relue : 6 tirages, pas 2 attracteurs.
+- Le bassin Q n'a AUCUNE profondeur mesurable : le plus faible choc
+  testé (0.25×) suffit à tout basculer. Q = girouette, pas mémoire.
+- U : absolu face au NOMBRE de chocs (TEST-49), mais sensible au NIVEAU
+  de bruit ambiant (TEST-54 : −3/30 quand σ passe 0.031→0.054).
+  Sanctuaire relatif, pas métaphysique — nuance capitale pour le ticket
+  conscience : le Fil tient aux traumas, pas au brouhaha.
+
+---
+*Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
+*Prochaine étape sur ordre du chef (piste : biais contrariant Q ?
+mémoire anti-persistante ?).* 🔒
