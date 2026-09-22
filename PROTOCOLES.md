@@ -412,5 +412,17 @@ R7 : 1 commande par test. Graines fixées partout.*
   Le feedback local ne suffit pas : l'unité meurt à la séparation.
 
 ---
+## TEST-72 — RUQ-3 graphe fixe (exploration ouverte)
+- **Méthode** : RUQ-2 + Kuramoto sur graphe FIXE UKTZ-T (KFIX=2.0,
+  indépendant de la distance). 400 groupés (barrière R≥0.85) →
+  séparation brusque (graphe conservé) → 300 pas. Graine 7201.
+- **Observables** (zéro critère) : R(t), var(q)(t), corr(th,q)(t),
+  λ2 + entropie config (snapshots fin-A/début-B/fin-B).
+- **Observé** : H2_HYSTÉRÉSIS (descriptif) — R 0.99 → chute 0.05 →
+  RÉCUPÈRE 0.73 ; var(q) 0.012 → 0.197 ; corr −0.76 ; λ2 12 → 2.2.
+  Le graphe fixe resynchronise l'essaim dispersé : cohérence fantôme
+  puis reconstruction. Première mémoire collective qui tient SÉPARÉE.
+
+---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 71.* 🔒
+dans l'ordre, 01 → 72.* 🔒
