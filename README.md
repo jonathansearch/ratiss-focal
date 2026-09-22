@@ -7,8 +7,8 @@
 **La cohérence émerge-t-elle de l'information ? Ici, on ne spécule pas : on mesure.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/TESTs-72%20pass%C3%A9s-teal.svg)](PROTOCOLES.md)
-[![Versions](https://img.shields.io/badge/unifications-v1%E2%80%93v12-teal.svg)](UNIFICATION.md)
+[![Tests](https://img.shields.io/badge/TESTs-78-teal.svg)](PROTOCOLES.md)
+[![Versions](https://img.shields.io/badge/unifications-v1%E2%80%93v13-teal.svg)](UNIFICATION.md)
 [![Stack](https://img.shields.io/badge/stack-numpy%20%2B%20ripser-teal.svg)](organes/)
 [![Neurones](https://img.shields.io/badge/neurones-z%C3%A9ro-orange.svg)](organes/)
 
@@ -282,6 +282,40 @@ le regroupement déclenche une transition : *l'unité fait l'être*.
 > **Le local oublie (RUQ-1, 11 pas), la boucle cicatrise (RUQ-2, corr −0.57), le graphe se
 > souvient (RUQ-3, H2).** L'unité qui survit à l'espace exige une topologie invariante —
 > première marche formelle vers le modèle de l'Esprit/Fil (U). Suite : l'idée du chef. 😄
+
+## 📝 Citation, auteur, licence
+
+```bibtex
+@software{ratiss_focal_2026,
+  author  = {Jonathan Evina and RATISS Labs},
+  title   = {RATISS-FOCAL: informational focusing without neurons —
+             63 pre-registered tests, 12 unification releases},
+  year    = {2026},
+  url     = {https://github.com/jonathansearch/ratiss-focal},
+  license = {MIT}
+}
+```
+
+<div align="center">
+
+**RATISS Labs** — *L'esprit ne traite pas tout, il traite la cohérence.* 🌌
+
+Posé par **Jonathan Evina** · Septembre 2026 · **Licence MIT** (voir [LICENSE](LICENSE)) —
+théorie ouverte, reproductible publiquement, prête pour évaluation externe.
+
+<img src="images/logo-ratiss-labs.png" width="120" alt="RATISS Labs"/>
+
+</div>
+s → **PLATES** (τ_in=29.2 vs τ_out=31.4),
+  pas de dilatation détectée. ❌
+- **TEST-76** : sanctuaire U dans trou local → **ÉRODÉ** (10/30 vs 4/30) : U encaisse,
+  perd la moitié de sa fidélité. ❌
+- **TEST-77** : capture Q → **k_c=6/24** : avaler un quart de l'anneau tue la sync. ✅
+
+<img src="images/plot_V13.png" width="100%" alt="V13 : puits exponentiel, horloges plates, capture Q à k_c=6"/>
+
+> **Fixé au canon (§10.octies)** : loi exponentielle écrantée + capture Q.
+> Newton, dilatation temporelle et immunité de U : réfutés ou partiels — publiés quand même.
 
 ## 📝 Citation, auteur, licence
 
