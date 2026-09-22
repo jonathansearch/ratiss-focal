@@ -212,5 +212,30 @@ R7 : 1 commande par test. Graines fixées partout.*
 - **Résultat** : 3/3 ✅
 
 ---
+## TEST-44 — Spectre Q post-choc (V8)
+- **Méthode** : Q TEST-37, 300 baseline + 3 choc (K=0, σ×10) + 300 relâche.
+  Spectres pré/post (250 pts, burn-in 50).
+- **Critère** : filtre passe-bas (basses ≥, hautes ≤50 %, centroïde ↓).
+- **Résultat** : RÉFUTÉ ❌ — BLANCHIMENT : basses 0.85→0.61, hautes
+  0.08→0.18, centroïde 0.06→0.15, ac1 0.78→0.43. Niveau −2 % (vs G −21 %).
+
+## TEST-45 — Ligne invisible sous choc (V8)
+- **Méthode** : TEST-38 + fenêtre choc pas 11-13 (transport −0.12, jitter
+  ×10), T=33. 30 partagé + 30 indépendant.
+- **Critère** : SANCTUAIRE (barre TEST-38). **Résultat** : 28/30 vs 9/30,
+  sép 19 — IDENTIQUE à TEST-38 ✅ U indépendant de G.
+
+## TEST-46 — Reconstruction 1000 pas (V8)
+- **Méthode** : G (14+3+1000) et Q (60+3+1000). Ajustements single/double-exp.
+- **Critère** : double-exp gagne R²>0.9 sur G.
+- **Résultat** : double-exp R²=0.902 ✅ (tout juste) — plancher VRAI 0.095
+  (≠ 0.273 à 10 pas !), τ_lent ≈ 400 pas, oscillations détectées (pic 77).
+  Q : niveau récupéré (0.789→0.796), série plate.
+
+## TEST-47 — Unification V8 (mémoire Q ?)
+- **Méthode** : fusion 44–46 → `univers/unifie_v8.json`.
+- **Résultat** : 2/3 (M1 ❌ réfutation franche, M2 ✅, M3 ✅)
+
+---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 43.* 🔒
+dans l'ordre, 01 → 47.* 🔒
