@@ -17,6 +17,12 @@ U = lien primitif, élastique, persistant.
 - Question : U a-t-il une limite (N_c, TEST-49) ? Un sanctuaire fini
   bornerait la persistance ; un sanctuaire absolu la rendrait éternelle.
 
+## Mise à jour V11 (TEST-58, §10.sexies)
+Seuil quantifié : σ_c = 0.06 (sigmoïde R²=0.964). L'Esprit survit aux
+traumas majeurs (collapses) mais peut être dégradé par l'exposition
+chronique au bruit environnemental. Implication : la qualité de
+l'environnement informationnel affecte la clarté du Fil.
+
 ## Mise à jour V10 (TEST-54, §10.sexies/§10.septies)
 U est le candidat physique pour l'Esprit/Joueur persistant à travers
 les effondrements de G et les basculements de Q (lien TEST-49).
