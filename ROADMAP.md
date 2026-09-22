@@ -26,7 +26,8 @@ Unifié-v12 — flip pilotable, plancher U, couplage structurel)
 tickets soldés, pause stratégique — repos cognitif ordonné)
 ## Phase 17 — Intégration appliquée 🟡 EN COURS (sonde endogène
 TEST-64→66 : 3 AVEUGLE assumés, leçon horizon-mémoire ; UKTZ TEST-67→69 :
-3 explorations (RUQ-1 transition R 0.30→0.98) ; suite sur ordre)
+3 explorations (RUQ-1 transition R 0.30→0.98) ; TEST-70 H1 réversible
+(t_half=11) ; piste RUQ-2 feedback q→th ; suite sur ordre)
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
