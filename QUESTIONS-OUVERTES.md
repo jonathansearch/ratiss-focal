@@ -30,6 +30,12 @@
 - F8 → volatilité STRUCTURÉE à mémoire (TEST-37) : signal, pas erreur.
 - U4 robuste au bruit Q natif (TEST-38).
 
+## Nées d'UKTZ (TEST-67→69)
+- RUQ-1 : la transition est-elle réversible (re-séparer → R retombe ?) ?
+- UKTZ-S : le code partagé 0.97 porte-t-il le champ (décodable ?) ?
+- UKTZ-T vs RUQ : topologie fixe vs spatiale — hybride ?
+- Formaliser UKTZ en critères (V13 ?) ou garder l'exploration ?
+
 ## Nées de la sonde (TEST-64→66, Phase 17)
 - Horizon de mémoire : quelle baseline pour distinguer choc de dérive ?
   (v4 : détrendage ? mémoire longue ? — sur ordre)
