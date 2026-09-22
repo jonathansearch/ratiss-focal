@@ -1,0 +1,16 @@
+{
+ "n": 200,
+ "min": 0.7592,
+ "max": 0.9097,
+ "moyenne": 0.8162,
+ "variance": 0.00201,
+ "skewness": 0.685,
+ "meilleur": "beta",
+ "R2": 0.5656,
+ "params": {
+  "a": 0.7,
+  "b": 1.182,
+  "amp": 5.4426
+ },
+ "critere": false
+}
