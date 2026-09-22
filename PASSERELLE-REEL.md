@@ -29,6 +29,12 @@
   Marche à suivre : créer le compte → copier le token → lancer
   `python3 pont77_capture_reelle.py --reel TOKEN` → comparer la courbe
   réelle à la courbe simulateur.
+- **Mesure du 2026-09-22** (job dap7su82fm4c73f6dsrg, ibm_marrakesh) :
+  F réelle = 0.84 / 0.41 / 0.10 / 0.27 / 0.00 (k=0..4), même allure que
+  simu (1.00 / 0.50 / 0.10 / 0.30 / 0.00), bruit réel ~0.84 à k=0.
+  Figure : `passerelle_quantique/plot_pont77.png`. Outil files :
+  `file_qpu.py TOKEN [JOB_ID]` (choisir le QPU le moins saturé avant
+  d'envoyer — conseil du chef).
 - **D-Wave Leap** : niveau gratuit développeur historiquement (1 min QPU
   + 20 min solveur hybride/mois, code public sur GitHub) + programme
   LaunchPad (essai 3 mois). À vérifier à l'inscription (offre 2023).
