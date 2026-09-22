@@ -30,6 +30,11 @@
 - F8 → volatilité STRUCTURÉE à mémoire (TEST-37) : signal, pas erreur.
 - U4 robuste au bruit Q natif (TEST-38).
 
+## Nées de TEST-70 (RUQ-1 réversible)
+- RUQ-2 avec feedback charge→phase : hystérésis H2/H3 accessible ?
+- t_half=11 : universalité du temps de dissolution (N, K, γ) ?
+- Blip R=0.43 à B+200 : fluctuation ou résurgence partielle ?
+
 ## Nées d'UKTZ (TEST-67→69)
 - RUQ-1 : la transition est-elle réversible (re-séparer → R retombe ?) ?
 - UKTZ-S : le code partagé 0.97 porte-t-il le champ (décodable ?) ?
