@@ -130,12 +130,20 @@ C_G = +0.096,\ C_Q = +0.040\ (6/6\ \mathrm{positifs}).
 Non-réduction : $R^2_{\mathrm{RED}} \simeq 0.00$ dans les deux sens, modèle
 joint strictement meilleur (ratios $0.84$, $0.45$) --- TEST-31.
 Secteurs : S-grav = décroissance linéaire ($R^2 = 0.989$) + noyau résiduel
-($0.305$, pente $0.0098$) ; S-quant = croissance saturante (ratio $-0.02$),
-forme exacte ouverte (ni logit $0.69$ ni expsat $0.83$) --- TEST-32.
+($0.305$, pente $0.0098$) ; S-quant : forme double-exponentielle % TEST-36
+\begin{equation}
+r(t) = 1 - a\,e^{-k_1 \tau} - (C_0-a)\,e^{-k_2 \tau}, \quad R^2 = 0.968,
+\end{equation}
+($a = 0.41$, $k_1 = 0.098$ rapide, $k_2 = 0.001$ lent : deux temps physiques).
+Volatilité Q STRUCTURELLE : pente spectrale $-0.72$, autocorr $0.63$
+(mémoire, pas bruit blanc) --- TEST-37.
 Ligne invisible : seuil $\Phi_c = 100 + 1900\,u(\mathrm{message})$,
-coïncidences $30/30$ partagé contre $0.33$ indépendant --- TEST-33.
+coïncidences $30/30$ partagé contre $0.33$ indépendant, robuste sous bruit
+Q natif ($28/30$ vs $9/30$, séparation $19$) --- TEST-33/38 : transmission
+informationnelle non-géométrique validée.
 Marqueurs : causalité $0.67$, référence partagée ; douceur partielle
-(volatilité Q, F8) --- TEST-34.
-Verdict V5 : \textbf{3/5, partielle} — subsistance, non-réduction et ligne
-validées ; le reste vit côté Q (observable à durcir, V6).
+(volatilité Q = signal, F8) --- TEST-34.
+Verdict V5 : \textbf{3/5, partielle}, résidu Q levé en V6 (\textbf{3/3}) :
+S-grav = décroissance linéaire + noyau résiduel constant ;
+S-quant = saturation double-exponentielle + volatilité structurelle.
 \end{document}
