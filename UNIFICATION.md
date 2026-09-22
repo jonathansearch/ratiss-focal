@@ -306,6 +306,15 @@ mais rafales mesurées au choc (11-13 flags v3) et leçon scellée :
 **la nouveauté est relative à l'horizon de mémoire de la sonde**.
 Figure : `images/plot_sonde_v3.png`. Piste : baseline adaptative (v4).
 
+## 🤖 Programme UKTZ : neurones dédiés (TEST-67→69, explorations)
+Sur ordre chef (inspiration libre, aucune mesure imposée) : 3 essaims de
+12 neurones forcés à bouger dans le tore, 300 pas séparés + 300 groupés.
+- **UKTZ-S** (sémantique, embeddings) : code partagé à 0.97 groupés.
+- **UKTZ-T** (topologique, graphe fixe) : R 0.72→0.69, géométrie inerte.
+- **RUQ-1** (invention : phase+charge, couplage spatial) : R 0.30→0.98,
+  var(q) ÷9 — le regroupement = transition de phase collective.
+Figure : `images/plot_neurons_uktz.png`. Aucun verdict (explorations).
+
 ⛔ **CLÔTURE V12** : exploration fondamentale terminée (TEST-01→63).
 Pause stratégique, repos ordonné. Ticket CONSOLIDATION_V1-V12.
 *Prochaine phase sur feu vert explicite : intégration appliquée / VRN.* 🔒
