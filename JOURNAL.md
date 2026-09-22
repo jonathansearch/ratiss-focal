@@ -1,5 +1,12 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — TEST-94 : SYNTHÈSE QM×GR (décohérence gravitationnelle)
+- Ordre chef : un calcul qui exige OBLIGATOIREMENT les deux échelles.
+  Réponse : superposition à deux hauteurs, horloges locales GR (puits
+  expo, redshift 84) × spread interne QM (sw). τ=√2/(sw·|Δf|) à ~8 %
+  sur 18 cas ; 30 contrôles (dh/G0/sw=0) → τ=∞. Retirer un pilier tue
+  l'effet. Figure plot_DECO94 (courbes + effondrement). Badge 94.
+
 ## 2026-09-22 — TEST-93 + BERRY-FERMÉ réel : LE PLI ORIENTÉ MESURÉ
 - TEST-93 (virtuel) : cycle (G0,c) fermé ± → Δ=−0.221 rad seulement,
   R_diff 0.25/0.28 : l'état ne revient pas (hystérésis). En anneau
