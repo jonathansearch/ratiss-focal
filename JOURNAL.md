@@ -1,5 +1,12 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 (nuit) — V11 : GIROUETTE 2/3 (flip symétrique, σ_c=0.06)
+- TEST-56 : SYMÉTRIQUE (M25 top-up n=15, pas de Qbar). TEST-57 :
+  distribution rebelle (bêta 0.57, skew +0.69). TEST-58 : SEUIL
+  σ_c=0.06, sigmoïde 0.964.
+- .tex §10.septies retitré + §10.sexies (σ_c). Ticket sanctuaire :
+  bruit chronique. Unifié-v11. Tout poussé.
+
 ## 2026-09-22 (nuit) — V10 : CORRECTION 1/3 (pas d'attracteurs Q)
 - TEST-52 : MONOSTABLE (continuum n=40, TEST-50 réfutée). TEST-53 :
   FRAGILE (P=1.0 partout, 44/44). TEST-54 : Q/U CORRÉLÉS (Δ=3).
