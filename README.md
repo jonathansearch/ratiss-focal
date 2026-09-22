@@ -7,7 +7,7 @@
 **La cohérence émerge-t-elle de l'information ? Ici, on ne spécule pas : on mesure.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/TESTs-78-teal.svg)](PROTOCOLES.md)
+[![Tests](https://img.shields.io/badge/TESTs-84-teal.svg)](PROTOCOLES.md)
 [![Versions](https://img.shields.io/badge/unifications-v1%E2%80%93v13-teal.svg)](UNIFICATION.md)
 [![Stack](https://img.shields.io/badge/stack-numpy%20%2B%20ripser-teal.svg)](organes/)
 [![Neurones](https://img.shields.io/badge/neurones-z%C3%A9ro-orange.svg)](organes/)
@@ -19,7 +19,7 @@
 <img src="images/hero-focal.jpg" width="100%" alt="Focalisation : du diffus au point cohérent"/>
 
 > **Abstract (EN).** *Does coherence emerge from information? RATISS-FOCAL is an open experimental
-> program (63 pre-registered computational tests, 12 unification releases) probing whether coherent
+> program (69 pre-registered computational tests plus 15 open explorations, 13 unification releases) probing whether coherent
 > structure can arise from pure information — with zero neurons. Three sectors are characterised:
 > **G** (informational gravity: plastic, scarring, saturating on an absolute core of 0.083),
 > **Q** (quantum memory: an anti-persistent continuum, phase-steerable), and **U** (primitive
@@ -40,7 +40,9 @@
 8. [Ce que ça ouvre](#-ce-que-ça-ouvre)
 9. [Lire dans l'ordre](#-lire-dans-lordre)
 10. [Phase 17 : explorations](#-phase-17--explorations--sonde-uktz-ruq-test-6472)
-11. [Citation, auteur, licence](#-citation-auteur-licence)
+11. [Phase 18 : singularité V13](#-phase-18--v13-singularité-test-7378)
+12. [Phase 19 : QM-GR, cohabitation décrite](#-phase-19--qm-gr-cohabitation-décrite-test-7984)
+13. [Citation, auteur, licence](#-citation-auteur-licence)
 
 ---
 
@@ -289,7 +291,7 @@ le regroupement déclenche une transition : *l'unité fait l'être*.
 @software{ratiss_focal_2026,
   author  = {Jonathan Evina and RATISS Labs},
   title   = {RATISS-FOCAL: informational focusing without neurons —
-             63 pre-registered tests, 12 unification releases},
+             69 pre-registered tests, 13 unification releases},
   year    = {2026},
   url     = {https://github.com/jonathansearch/ratiss-focal},
   license = {MIT}
@@ -323,7 +325,7 @@ s → **PLATES** (τ_in=29.2 vs τ_out=31.4),
 @software{ratiss_focal_2026,
   author  = {Jonathan Evina and RATISS Labs},
   title   = {RATISS-FOCAL: informational focusing without neurons —
-             63 pre-registered tests, 12 unification releases},
+             69 pre-registered tests, 13 unification releases},
   year    = {2026},
   url     = {https://github.com/jonathansearch/ratiss-focal},
   license = {MIT}
