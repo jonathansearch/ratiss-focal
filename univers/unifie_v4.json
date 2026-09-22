@@ -1,0 +1,181 @@
+{
+ "nom": "Univers-Unifi\u00e9-v4 (deux lois)",
+ "loi_proximite_condensation": {
+  "D_c": null,
+  "rho_c": 8.009,
+  "table_doux": {
+   "0.5": {
+    "rho_bar": 21.2,
+    "sync": 0.6117
+   },
+   "1.0": {
+    "rho_bar": 20.17,
+    "sync": 0.5945
+   },
+   "1.5": {
+    "rho_bar": 18.92,
+    "sync": 0.5717
+   },
+   "2.0": {
+    "rho_bar": 17.48,
+    "sync": 0.5444
+   },
+   "2.5": {
+    "rho_bar": 15.74,
+    "sync": 0.5022
+   },
+   "3.0": {
+    "rho_bar": 13.69,
+    "sync": 0.4166
+   },
+   "3.5": {
+    "rho_bar": 11.37,
+    "sync": 0.3709
+   },
+   "4.0": {
+    "rho_bar": 8.98,
+    "sync": 0.3252
+   },
+   "4.5": {
+    "rho_bar": 6.76,
+    "sync": 0.2676
+   },
+   "5.0": {
+    "rho_bar": 4.91,
+    "sync": 0.2194
+   }
+  },
+  "table_dur": {
+   "0.5": {
+    "sync": 0.7194,
+    "sync_actifs": 0.7194198706480192,
+    "sync_inactifs": null,
+    "n_actifs": 24,
+    "P_norme": 1.1816
+   },
+   "1.0": {
+    "sync": 0.7194,
+    "sync_actifs": 0.7194198706480192,
+    "sync_inactifs": null,
+    "n_actifs": 24,
+    "P_norme": 1.2056
+   },
+   "1.5": {
+    "sync": 0.6535,
+    "sync_actifs": 0.7927324548914907,
+    "sync_inactifs": null,
+    "n_actifs": 22,
+    "P_norme": 1.1939
+   },
+   "2.0": {
+    "sync": 0.4273,
+    "sync_actifs": 0.6474859388083676,
+    "sync_inactifs": 0.5009195606255769,
+    "n_actifs": 19,
+    "P_norme": 1.2136
+   },
+   "2.5": {
+    "sync": 0.3893,
+    "sync_actifs": 0.8144922751462838,
+    "sync_inactifs": 0.31944370586586635,
+    "n_actifs": 15,
+    "P_norme": 1.1877
+   },
+   "3.0": {
+    "sync": 0.3713,
+    "sync_actifs": 0.7684301465854437,
+    "sync_inactifs": 0.13493490815748954,
+    "n_actifs": 13,
+    "P_norme": 1.1725
+   },
+   "3.5": {
+    "sync": 0.3414,
+    "sync_actifs": 0.6680449148463508,
+    "sync_inactifs": 0.10748736723086215,
+    "n_actifs": 11,
+    "P_norme": 1.3339
+   },
+   "4.0": {
+    "sync": 0.375,
+    "sync_actifs": 0.8471111998213896,
+    "sync_inactifs": 0.10888443525660214,
+    "n_actifs": 10,
+    "P_norme": 1.3931
+   },
+   "4.5": {
+    "sync": 0.3479,
+    "sync_actifs": 0.9110874926105359,
+    "sync_inactifs": 0.12630446315121877,
+    "n_actifs": 8,
+    "P_norme": 1.449
+   },
+   "5.0": {
+    "sync": 0.2524,
+    "sync_actifs": 0.9765662451258683,
+    "sync_inactifs": 0.10540881428723647,
+    "n_actifs": 6,
+    "P_norme": 1.5224
+   }
+  },
+  "controle_D5_gate_K6": 0.2552,
+  "controle_D5_pur_K4": 0.7194
+ },
+ "principe_resilience": {
+  "R_neutre": {
+   "0.005": [
+    0.8168,
+    0.0444
+   ],
+   "0.01": [
+    0.7957,
+    0.0742
+   ],
+   "0.02": [
+    0.785,
+    0.0473
+   ],
+   "0.04": [
+    0.7472,
+    0.0342
+   ],
+   "0.08": [
+    0.8048,
+    0.0801
+   ],
+   "0.16": [
+    0.7906,
+    0.0613
+   ]
+  },
+  "R_selectif": {
+   "0.005": [
+    0.7966,
+    0.0397
+   ],
+   "0.01": [
+    0.7897,
+    0.0636
+   ],
+   "0.02": [
+    0.7804,
+    0.0638
+   ],
+   "0.04": [
+    0.7777,
+    0.0397
+   ],
+   "0.08": [
+    0.8298,
+    0.0678
+   ],
+   "0.16": [
+    0.8308,
+    0.0638
+   ]
+  },
+  "zone_purification": [],
+  "rupture_haute": null,
+  "verdict": "S\u00e9lection CONFIRM\u00c9E relativement (+3-4 pts \u00e0 fort bruit) ; R>1 absolu R\u00c9FUT\u00c9 au niveau P \u2014 domaine = niveau sync (TEST-25 : R=1.023)"
+ },
+ "base_v3": "univers/unifie_v3.json (inchang\u00e9e)"
+}
