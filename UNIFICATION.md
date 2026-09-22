@@ -247,5 +247,29 @@ Ticket SANCTUAIRE_U_CONSCIENCE mis à jour (nuance TEST-54).
 
 ---
 *Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
-*Prochaine étape sur ordre du chef (piste : biais contrariant Q ?
-mémoire anti-persistante ?).* 🔒
+## v11 — la girouette est symétrique (TEST-56 → 59, score 2/3)
+Ticket SANCTUAIRE_U_CONSCIENCE mis à jour (σ_c = 0.06, bruit chronique).
+
+| Pilier | Test | Résultat |
+|---|---|---|
+| A1 Symétrie Q | 56 | SYMÉTRIQUE ✅ (HIGH→0.77, LOW→0.84, n=15+15, M25) — pas de Qbar |
+| A2 Distribution | 57 | ❌ bêta R²=0.57 (moy 0.816, std 0.045, skew +0.69 — ni puits ni barrières) |
+| A3 Courbe U | 58 | SEUIL ✅ (σ_c=0.06, sigmoïde R²=0.964, plateau 29 → 21) |
+| Unifié-v11 | 59 | 2/3 |
+
+## Lecture physique V11
+- Q ne dérive PAS vers le bas : il FLIPPE symétriquement (chaque état
+  appelle son contraire). Pas d'équilibre, pas de nord magnétique :
+  anti-persistence pure. Le « biais entropique HIGH→LOW » de V10
+  n'était que la moitié du tableau (TEST-53 ne testait qu'un bras).
+- La distribution du re-tirage résiste aux formes simples (R²=0.57,
+  skew +0.69) : le paysage Q n'est ni un puits harmonique ni une boîte.
+- U : seuil quantifié σ_c = 0.06 (sigmoïde). En dessous (σ ≤ 0.03),
+  sanctuaire parfait (29/30) ; au-delà, érosion douce jusqu'à 21/30.
+  L'Esprit tient aux traumas ET au calme — il fléchit sous le brouhaha
+  chronique intermédiaire.
+
+---
+*Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
+*Prochaine étape sur ordre du chef (piste : paysage Q ? potentiel
+sous-jacent au re-tirage ?).* 🔒
