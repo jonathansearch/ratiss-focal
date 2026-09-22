@@ -36,6 +36,9 @@ Newton/horloges/U réfutés ou partiels ; §19 + §10.octies restreint)
 ## Phase 19 — QM-GR ✅ FAITE (TEST-79→89 : 11 observations, zéro
 verdict — twist 1/−2, lentille en S, ombre absorbante 0.66, mémoire
 0.73→0.25, redshift monotone ; §20 descriptif, pas de .tex)
+## Phase 20 — LIAISON chasse au pli 🟡 EN COURS (TEST-90→92 : grain,
+boucle 0.064, traînée +9 ; PONT-BERRY fez : frange U, A~0 non fermé ;
+piste TEST-93 cycle fermé)
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
