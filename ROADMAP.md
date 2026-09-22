@@ -33,6 +33,9 @@ tient) ; explorations closes, README conclu ; suite = idée chef)
 ## Phase 18 — V13 SINGULARITÉ ✅ FAITE (TEST-73→78 : 2/5,
 Unifié-v13 — puits exponentiel 12/12 R²=0.998 p≈0, capture Q k_c=6 ;
 Newton/horloges/U réfutés ou partiels ; §19 + §10.octies restreint)
+## Phase 19 — QM-GR ✅ FAITE (TEST-79→84 : 6 observations, zéro
+verdict — twist 1/−2, lentille en S, ombre absorbante 0.66, mémoire
+0.73→0.25, redshift monotone ; §20 descriptif, pas de .tex)
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
