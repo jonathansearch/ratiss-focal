@@ -30,6 +30,18 @@
 - F8 → volatilité STRUCTURÉE à mémoire (TEST-37) : signal, pas erreur.
 - U4 robuste au bruit Q natif (TEST-38).
 
+## closes par la V8 ✅/❌
+- Spectre Q post-choc → BLANCHIMENT, pas passe-bas (TEST-44 ❌ franche).
+- Ligne sous choc → SANCTUAIRE, U indépendant de G (TEST-45).
+- Reconstruction → double-exp, vrai plancher 0.095, τ ≈ 400 (TEST-46).
+
+## Nées de la V8 (ticket HYSTERESIS_INFO)
+- Chocs cumulés : escalier de planchers ? Saturation ou effondrement → 0 ?
+- Oscillations amorties G (pic 77) : forme, fréquence, amortissement ?
+- Cicatrice spectrale Q : réversible (resync forcée) ou définitive ?
+- La cicatrice suit-elle le substrat ou la structure ? (réincarnation)
+- R²=0.902 tout juste : confirmer double-exp sur réplique indépendante ?
+
 ## closes par la V7 ✅
 - Loi du noyau → exp(−0.29−7.16α−6.59σ+0.0012N), R²=0.920 (TEST-40).
 - Collapse ↔ noyau → COUPLÉ, non invariant (TEST-41).
