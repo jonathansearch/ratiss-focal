@@ -149,5 +149,12 @@
 - Redshift : loi exacte freq(d) ? (expo comme le potentiel ?)
 - Resync d=10 jamais : accident ou distance aveugle ?
 
+## Nées de la chasse au pli (TEST-93 ?)
+- Twist grenu : transitoire (T=300 court) ou chaos vrai ? (T=2000 ?)
+- Boucle 91 : aire vs vitesse de balayage ? (lent = boucle nulle ?)
+- Pli orienté : cycle FERMÉ (G0, position puits) ± en virtuel, puis Berry
+  fermé sur QPU (boucle U=I + écho) ?
+- Traînée +9 rad : loi en 1/TLOOP ? (tours lents vs rapides)
+
 ---
 *Poser une question ici = l'empêcher de mourir. Répondre = journal + commit.* 📝
