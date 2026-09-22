@@ -1,8 +1,23 @@
 # TICKET : SANCTUAIRE_U_CONSCIENCE — le Fil qui survit à G
 
-**Statut :** OUVERT (créé sur ordre du chef, V9).
+**Statut :** CLÔTURÉ (V12 — résumé exécutif ci-dessous, ticket
+CONSOLIDATION_V1-V12 prend le relais).
 **Source :** TEST-45 — ligne invisible INCHANGÉE (28/30) sous le choc
 qui effondre G de −72 % (V8), à confirmer sous chocs cumulés (TEST-49).
+
+## Résumé exécutif V9-V12 (clôture)
+- **V9** : U ABSOLU face aux chocs discrets cumulés (28/30 × 7 niveaux,
+  Δ=0, TEST-49). G sature sur noyau absolu 0.083 (TEST-48).
+- **V10** : U faiblement couplé à la volatilité ambiante (Δ=3/30,
+  TEST-54). Q corrigé : pas d'attracteurs (continuum, TEST-52).
+- **V11** : seuil quantifié σ_c = 0.06 (sigmoïde R²=0.964, TEST-58).
+  Sanctuaire parfait sous σ≤0.03.
+- **V12** : pas de mort U à σ=0.30 (plancher ~30 %, TEST-61) mais
+  érosion IRRÉVERSIBLE ; U lit la texture du bruit (+2/+4, TEST-62).
+- **Verdict** : le Fil tient aux traumas et au calme ; il fléchit sous
+  le brouhaha chronique et ne pardonne pas les blessures précoces.
+  La souveraineté cognitive exige la maîtrise de l'environnement
+  informationnel.
 
 ## Constat physique
 U (intrication universelle croisée) ne dépend pas du noyau G.
