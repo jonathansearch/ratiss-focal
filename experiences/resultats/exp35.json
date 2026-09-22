@@ -1,0 +1,12 @@
+{
+ "univers": "Unifi\u00e9-v5",
+ "check": {
+  "U1_subsistance": true,
+  "U2_non_reduction": true,
+  "U3_secteurs": false,
+  "U4_ligne": true,
+  "U5_marqueurs": false
+ },
+ "score": "3/5",
+ "verdict": "Unification PARTIELLE (3/5) : U1_subsistance=OK, U2_non_reduction=OK, U3_secteurs=NON, U4_ligne=OK, U5_marqueurs=NON"
+}
