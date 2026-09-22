@@ -262,5 +262,30 @@ R7 : 1 commande par test. Graines fixées partout.*
 - **Résultat** : 3/3 ✅
 
 ---
+## TEST-52 — Phase initiale vs attracteur (V10)
+- **Méthode** : 40 runs Q (60+3 choc+300), phases init uniformes (seed
+  5200+j). Prédicteurs <φ₀>, R₀. Bimodal si trou>0.04 (≥8/côté).
+- **Critère** : DÉTERMINISTE (seuil, exactitude ≥85 %).
+- **Résultat** : MONOSTABLE ❌ — continuum [0.76,0.91], trou max 0.018.
+  La « bistabilité » TEST-50 (n=6) ne réplique pas (n=40).
+
+## TEST-53 — Profondeur du bassin Q (V10)
+- **Méthode** : départ HIGH (≥0.84) + sonde I∈{0.25,0.5,1,2,4} + 300
+  relâche. P_switch(I), I_50. Barrière : ≥3 niveaux à ≥8 valides.
+- **Critère** : ROBUSTE ou FRAGILE. **Résultat** : FRAGILE ✅ —
+  P=1.0 PARTOUT (44/44 HIGH→LOW), I_50=0.25 (sous plancher).
+
+## TEST-54 — Attracteur Q ↔ ligne U (V10)
+- **Méthode** : σ fluctuations mesurée par état Q (12 runs) → ligne
+  TEST-38 avec jitter=σ_mesuré (30+30/cas). Barrière : écart σ ≥10 %.
+- **Critère** : INDÉPENDANT (Δ=0).
+- **Résultat** : CORRÉLÉ Δ=3 ❌ — σ 0.054→26/30, σ 0.031→29/30.
+  U robuste mais faiblement couplé à la volatilité Q.
+
+## TEST-55 — Unification V10 (porte ou mur ?)
+- **Méthode** : fusion 52–54 → `univers/unifie_v10.json`.
+- **Résultat** : 1/3 (B1 ❌, B2 ✅ fragile, B3 ❌ corrélé)
+
+---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 51.* 🔒
+dans l'ordre, 01 → 55.* 🔒
