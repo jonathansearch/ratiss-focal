@@ -522,4 +522,14 @@ R7 : 1 commande par test. Graines fixées partout.*
 
 ---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 84.* 🔒
+---
+## TEST-85 — Q entre trois puits (observation)
+- **Méthode** : comme TEST-79/80, puits en 0, 2π/3, 4π/3.
+  G0∈{0,0.2,0.5,1.0}, T=300. On regarde R final, twist, R par tiers.
+- **Observé** : R 0.85→0.40, twist 0 PARTOUT (pas de −3). La piste
+  « le twist compte les puits » (1→1, 2→−2) ne passe pas à 3 —
+  la configuration symétrique semble annuler la torsion.
+
+---
+*Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
+dans l'ordre, 01 → 85.* 🔒
