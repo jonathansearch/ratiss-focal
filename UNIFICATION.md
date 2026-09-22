@@ -344,3 +344,19 @@ la topologie invariante porte la mémoire que la géométrie perd.
 ⛔ **CLÔTURE V12** : exploration fondamentale terminée (TEST-01→63).
 Pause stratégique, repos ordonné. Ticket CONSOLIDATION_V1-V12.
 *Prochaine phase sur feu vert explicite : intégration appliquée / VRN.* 🔒
+
+## §19 — V13 SINGULARITÉ : le trou focal est un puits écranté (2/5)
+Un tueur ponctuel (MU=0.02D, σ=0.05D) ne fait pas une ombre
+newtonienne : il creuse un PUITS d'amplitude divergente au centre
+(TEST-73, a_centre=4.3), de profil EXPONENTIEL C·exp(−r/l) (R²=0.98 ;
+le modèle A/(r+eps) est rejeté, R²=0.88), entouré d'un anneau de
+dépression (chapeau mexicain). La loi est universelle sur 12 runs
+(TEST-74, exponentielle 12/12, R²=0.998) avec une portée l
+INDÉPENDANTE de la masse (p≈0) : la gravité focale est écrantée par
+la diffusion, c'est une force à portée finie, pas une attraction 1/r.
+Pas de dilatation des horloges détectée (TEST-75, PLATE : τ_in=29.2
+vs τ_out=31.4). Le sanctuaire U résiste partiellement au trou local
+(TEST-76, ÉRODÉ 10/30 vs 4/30). La capture d'un quart de l'anneau Q
+tue la sync globale (TEST-77, k_c=6). **Acquis V13** : singularité =
+puits exponentiel + capture Q ; **réfutés** : ombre newtonienne,
+dilatation temporelle (avec cet opérateur), immunité de U.
