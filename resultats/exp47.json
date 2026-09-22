@@ -1,0 +1,10 @@
+{
+ "univers": "Unifi\u00e9-v8",
+ "check": {
+  "M1_spectre": false,
+  "M2_ligne": true,
+  "M3_reconstruction": true
+ },
+ "score": "2/3",
+ "verdict": "M\u00e9moire Q : spectre PAS DE FILTRAGE (R:centro\u00efde 0.0624->0.1508), ligne SANCTUAIRE (28/30), reconstruction double_exp (R2=0.9017, tau_cicat=399.5)."
+}
