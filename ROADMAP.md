@@ -30,6 +30,9 @@ TEST-64→66 : 3 AVEUGLE assumés, leçon horizon-mémoire ; UKTZ TEST-67→69 :
 (t_half=11) ; TEST-71 RUQ-2 H1 aussi (τ=15.1, feedback insuffisant) ;
 piste RUQ-3 non-local ; TEST-72 RUQ-3 H2 (R→0.73 séparés, graphe
 tient) ; explorations closes, README conclu ; suite = idée chef)
+## Phase 18 — V13 SINGULARITÉ ✅ FAITE (TEST-73→78 : 2/5,
+Unifié-v13 — puits exponentiel 12/12 R²=0.998 p≈0, capture Q k_c=6 ;
+Newton/horloges/U réfutés ou partiels ; §19 + §10.octies restreint)
 
 ## Plus tard (parqué, pas oublié)
 S_grav (équation de secteur gravitationnelle) · corps-laboratoire (Φ bio) ·
