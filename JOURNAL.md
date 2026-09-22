@@ -1,5 +1,10 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — Théorie complète du chef scellée (THEORIE-COMPLETE.md)
+- 11 sections dictées/rassemblées (principe, LCT/ETH/Stine-24, réalité,
+  conscience, réincarnation, états modifiés, gravité, focalisation,
+  9 validations, dépôts, phrase-résumé). Document source intouchable.
+
 ## 2026-09-22 — Missions téléphone : 4/4 ✅ FICHE COMPLÈTE
 - Mission 4 (redshift, Manus IA) : 12 freqs −0.7577→−0.1145 vs prédit
   −0.7565→−0.1140 (écart max 0.0014, précision flottante). Gradient +
