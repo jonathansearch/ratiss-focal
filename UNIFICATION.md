@@ -109,6 +109,33 @@ Les 2 questions V3 promues en lois, testées, gravées (.tex §8-§9).
 - Niveau sync : purification ABSOLUE (R = 1.023, TEST-25).
 - Lecture : le collapse purifie les LIENS, pas le niveau (= tryperposition).
 
+## v5 — le postulat passe aux instruments (TEST-30 → 35, verdict 3/5 PARTIELLE)
+Recentrage du chef : le fil originel = l'UNIFICATION (gravitation × quantique).
+Les 29 tests étaient les instruments ; la V5 teste le postulat de base.
+
+| Pilier | Test | Résultat |
+|---|---|---|
+| U1 Subsistance | 30 | C_G=+0.096, C_Q=+0.040, 6/6 ✅ (M11-M13) |
+| U2 Non-réduction | 31 | RED R²≈0.00, joint meilleur ✅ (M14) |
+| U3 Secteurs | 32 | S-grav lin+noyau ✅, saturation Q ✅, forme Q ouverte 🟡 (M15-M23) |
+| U4 Ligne invisible | 33 | 30/30 vs 0.333 ✅ (M16-M22) |
+| U5 Marqueurs | 34 | causal 0.67 ✅, échelle ✅, douceur Q ✗ 🟡 (M17-M20, F8) |
+| Verdict | 35 | 3/5 PARTIELLE — le reste vit côté Q (1 friction, pas 5) |
+
+## Chaîne d'itération V5 (résumé)
+- M11-M13 : multi-graines → régime fort → critère robustesse (devinette 0.05
+  abandonnée, 6/6 positifs).
+- M14 : RED morte (R²≈0.00) + joint meilleur ; décisif côté G.
+- M15-M23 : les données corrigent les lois (exp→lin, logit→expsat→ouverte) ;
+  S-grav complète (lin 0.989 + noyau 0.305 plat).
+- M16-M22 : canal trivial → canal à contenu (seuil sha256, 30+30 essais).
+- M17-M20 : burn-in + échelle ; douceur Q résiste = donnée (F8).
+
+## Trouvailles V5
+- **Noyau résiduel** : G ne s'effondre pas à zéro (plancher 0.305 plat).
+- **F7** : lissage fort déforme (Q0 = 0.74 au 1er pas).
+- **F8** : petites structures volatiles (anneau 24 pts : sauts mid-run).
+
 ---
 *Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
-*Prochaines étapes sur ordre du chef.* 🔒
+*Prochaine étape : V6 — durcir Q (N↑, débruitage) pour finir U3/U5.* 🔒
