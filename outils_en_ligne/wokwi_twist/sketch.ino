@@ -61,7 +61,10 @@ void run(float G0) {
 }
 
 void setup() {
-  Serial.begin(115200); build();
-  run(0.0); run(1.0);
+  Serial.begin(115200); delay(1000); build();
+  Serial.println("--- debut ---"); Serial.flush();
+  run(0.0); Serial.flush(); delay(300);
+  run(1.0); Serial.flush(); delay(300);
+  Serial.println("--- fin ---"); Serial.flush();
 }
 void loop() {}
