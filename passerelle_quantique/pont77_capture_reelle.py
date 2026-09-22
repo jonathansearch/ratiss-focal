@@ -64,19 +64,43 @@ def run_simulateur():
 
 
 def run_reel(token):
+    import time
     from qiskit_ibm_runtime import QiskitRuntimeService, SamplerV2 as Sampler
-    service = QiskitRuntimeService(channel="ibm_quantum", token=token)
+    QiskitRuntimeService.save_account(
+        channel="ibm_quantum_platform", token=token, instance="auto",
+        filename="/tmp/qiskit-ibm.json", overwrite=True)
+    service = QiskitRuntimeService(channel="ibm_quantum_platform",
+                                   filename="/tmp/qiskit-ibm.json")
     backend = service.least_busy(min_num_qubits=N, operational=True,
                                  simulator=False)
     print(f"[pont77] backend réel : {backend.name}", flush=True)
-    lignes = []
+    # UN seul job pour les 50 circuits (1 file d'attente au lieu de 50)
+    pubs = []
     for k in (0, 1, 2, 3, 4):
-        job = Sampler(backend).run([transpile(circuit(k), backend)],
-                                   shots=SHOTS)
-        counts = job.result()[0].data.c.get_counts()
-        f = float(hellinger_fidelity(counts, IDEAL))
-        lignes.append({"k": k, "fidelite": round(f, 4)})
-        print(f"[pont77] réel k={k} : F={f:.4f}", flush=True)
+        for tirage in range(TIRAGES):
+            pubs.append(transpile(circuit(k, tirage), backend))
+    job = Sampler(backend).run(pubs, shots=SHOTS)
+    print(f"[pont77] job envoyé : {job.job_id()}", flush=True)
+    while str(job.status()) != "DONE":
+        try:
+            q = job.queue_position()
+        except Exception:
+            q = "?"
+        print(f"[pont77] statut={job.status()} file={q}", flush=True)
+        if str(job.status()) in ("ERROR", "CANCELLED"):
+            raise RuntimeError(f"job {job.status()}")
+        time.sleep(60)
+    res = job.result()
+    lignes = []
+    i = 0
+    for k in (0, 1, 2, 3, 4):
+        fs = []
+        for _ in range(TIRAGES):
+            fs.append(fidelite(res[i].data.c.get_counts()))
+            i += 1
+        lignes.append({"k": k, "fidelite_moy": round(float(np.mean(fs)), 4),
+                       "tirages": TIRAGES})
+        print(f"[pont77] réel k={k} : F_moy={np.mean(fs):.4f}", flush=True)
     return lignes
 
 
