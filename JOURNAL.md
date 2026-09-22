@@ -1,5 +1,12 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-21 (nuit) — V4 : DEUX LOIS 2/2 (ordre d'exécution immédiat)
+- L1 (TEST-27) : ρ_c = 8.01 émergé de la mesure ; interrupteur bilatéral vérifié
+  (actifs 0.98 vs inactifs 0.11 à D=5, corr 0.94). Chaîne M8→M10c documentée.
+- L2 (TEST-28) : sélection > neutre (+3-4 pts) ; R>1 au niveau sync (1.023),
+  relatif au niveau P. Domaine précisé : les liens.
+- .tex §8-§9 ajoutés (canon : % TEST-27/28). Unifié-v4. Tout poussé.
+
 ## 2026-09-21 (nuit) — V3 DURCIE 5/5 (ordre : durcissement avant expansion)
 - P1 04b : érosion 0.000 (F1 close) · P2 05b : bascule 9, sync 0.51 (F2 close)
   · P3a anti-triche V3 : 26.29±1.33 (F3 close) · P3b H2'-bis : BASCULE DÉTECTÉE
