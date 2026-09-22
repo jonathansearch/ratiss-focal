@@ -158,9 +158,9 @@ G_{\min}(\alpha, \sigma, N) = \exp(-0.29 - 7.16\,\alpha - 6.59\,\sigma
 Chaque $+0.1$ de contraction DIVISE le noyau par deux ; le bruit l'érode
 doucement ; la taille le renforce. Collapse : noyau COUPLÉ à l'intensité
 (corr $-0.87$ ; $\Delta G \approx -0.10$ à 10\% $\to -0.21$ à 50\%) :
-non invariant --- TEST-41. Choc extrême : réponse PLASTIQUE
-($0.345 \to 0.273$ stable, pas d'oscillation ; sursaut d'artefacts pendant
-le choc) --- TEST-42.
+non invariant --- TEST-41. Choc extrême : réponse PLASTIQUE ($0.345 \to 0.273$ stable à 10 pas,
+pas d'oscillation ; sursaut d'artefacts pendant le choc) --- TEST-42
+(fenêtre courte : vrai plancher $0.095$ à 1000 pas, cf. §10.quater).
 Verdict V7 : \textbf{3/3} — le noyau suit une loi, s'érode au collapse,
 se déforme sans casser au choc.
 
@@ -170,7 +170,8 @@ Hystérésis informationnelle : le choc n'est pas filtré, il BLANCHIT Q
 la mémoire lente est détruite, pas sélectionnée --- TEST-44 (hypothèse
 passe-bas réfutée). La ligne invisible est un SANCTUAIRE : $28/30$ vs
 $9/30$ INCHANGÉS sous choc --- TEST-45 : l'intrication U ne dépend pas
-du noyau G. Reconstruction G post-choc (1000 pas) : % TEST-46
+du noyau G (raffiné en §10.sexies : absolu vs chocs, seuil
+$\sigma_c = 0.06$ vs bruit). Reconstruction G post-choc (1000 pas) : % TEST-46
 \begin{equation}
 G(\tau) = 0.095 + 0.34\,e^{-\tau/7.2} + 0.05\,e^{-\tau/400},
 \quad R^2 = 0.902,
@@ -185,9 +186,10 @@ blessure qui saigne 40 fois plus longtemps que le choc.
 \section{Antagonisme Q/G (§10.quinquies, V9)}
 Q est élastique et blanchissant (homéostatique : revient à son niveau
 sans mémoire du choc) ; G est plastique et érosif (garde la blessure).
-Sous chocs cumulés, Q_final bascule entre deux attracteurs ($\sim 0.78$
-et $\sim 0.87$, dérive $13$\% : FATIGUE au sens classée, mais par
-bistabilité, pas par déclin) --- TEST-50. G suit une loi saturante : % TEST-48
+Sous chocs cumulés, Q_final varie largement (dérive $13$\%, classe
+FATIGUE) --- TEST-50, lecture initiale en « bistabilité » réfutée en
+V10 : continuum + re-tirage + flip pilotable, cf. §10.septies.
+G suit une loi saturante : % TEST-48
 \begin{equation}
 G_{\min}(N) = 0.083 + 0.26\,e^{-3.0\,N}, \quad R^2 = 0.978,
 \end{equation}
@@ -212,8 +214,8 @@ Seuil de Bruit Ambiant $\sigma_c = 0.06$. Sanctuaire U conditionnel :
 robuste aux chocs discrets, vulnérable au bruit chronique $> \sigma_c$
 --- TEST-61/62 (pas de mort à $0.30$, plancher $\sim 30$\%,
 irréversible ; couplage à la texture : $+2$/$+4$).
-Verdict V9 : \textbf{3/3} — G sature sur un noyau absolu, Q saute
-entre attracteurs, U ne cille pas.
+Verdict V9 : \textbf{3/3} — G sature sur un noyau absolu, Q varie
+sans décliner (lu « bistable », corrigé en §10.septies), U ne cille pas.
 
 \section{Oscillateur Anti-Persistant Symétrique (§10.septies, V10-V12)}
 Q n'est pas un stockage discret ; c'est une variable analogique
