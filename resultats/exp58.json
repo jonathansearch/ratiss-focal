@@ -1,0 +1,111 @@
+{
+ "points": [
+  {
+   "sigma": 0.01,
+   "partage": 29,
+   "indep": 11
+  },
+  {
+   "sigma": 0.015,
+   "partage": 29,
+   "indep": 11
+  },
+  {
+   "sigma": 0.02,
+   "partage": 29,
+   "indep": 11
+  },
+  {
+   "sigma": 0.025,
+   "partage": 29,
+   "indep": 11
+  },
+  {
+   "sigma": 0.03,
+   "partage": 29,
+   "indep": 11
+  },
+  {
+   "sigma": 0.035,
+   "partage": 28,
+   "indep": 9
+  },
+  {
+   "sigma": 0.04,
+   "partage": 28,
+   "indep": 9
+  },
+  {
+   "sigma": 0.045,
+   "partage": 27,
+   "indep": 9
+  },
+  {
+   "sigma": 0.05,
+   "partage": 27,
+   "indep": 9
+  },
+  {
+   "sigma": 0.055,
+   "partage": 26,
+   "indep": 9
+  },
+  {
+   "sigma": 0.06,
+   "partage": 25,
+   "indep": 9
+  },
+  {
+   "sigma": 0.065,
+   "partage": 24,
+   "indep": 9
+  },
+  {
+   "sigma": 0.07,
+   "partage": 23,
+   "indep": 9
+  },
+  {
+   "sigma": 0.075,
+   "partage": 23,
+   "indep": 9
+  },
+  {
+   "sigma": 0.08,
+   "partage": 23,
+   "indep": 9
+  },
+  {
+   "sigma": 0.085,
+   "partage": 22,
+   "indep": 9
+  },
+  {
+   "sigma": 0.09,
+   "partage": 20,
+   "indep": 8
+  },
+  {
+   "sigma": 0.095,
+   "partage": 21,
+   "indep": 9
+  },
+  {
+   "sigma": 0.1,
+   "partage": 21,
+   "indep": 9
+  }
+ ],
+ "plateau": 29.0,
+ "sigma_c": 0.06,
+ "forme": "sigmoide",
+ "R2": 0.9638,
+ "params": [
+  19.0,
+  10.0,
+  73.3333,
+  0.07
+ ],
+ "classe": "SEUIL",
+ "critere": true
+}
