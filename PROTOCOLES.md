@@ -595,6 +595,16 @@ R7 : 1 commande par test. Graines fixées partout.*
   Signal d'orientation faible en anneau dissipatif. Question relayée
   au QPU fermé (PONT-BERRY-FERMÉ).
 
+## TEST-94 — Décohérence gravitationnelle (SYNTHÈSE QM×GR obligatoire)
+- **Méthode** : N=400 paires = superpositions (branche A à r0, B à
+  r0+dh). Fréquence interne ω par paire, spread sw (pilier QM).
+  Horloge locale f(r)=1−G0·exp(−r/3) (pilier GR, redshift TEST-84).
+  C(t)=|moy exp(iΔθ)| intégrée pas à pas, T=1000.
+- **Observé** : C=exp(−(t/τ)²), 18/18 cas actifs à ~8% de
+  τ=√2/(sw·|Δf|). Contrôles : dh=0, G0=0 ou sw=0 → τ=∞ (C=1.0).
+  L'effet MEURT si on retire un pilier — premier calcul du modèle
+  qui exige la synthèse des deux échelles.
+
 ---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 93.* 🔒
+dans l'ordre, 01 → 94.* 🔒
