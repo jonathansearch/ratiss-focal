@@ -1,5 +1,13 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — TEST-85 (3 puits, twist 0) + PONT-T2 réel (70.2 us)
+- TEST-85 : R 0.85→0.40, twist 0 partout — la piste twist=nb de puits
+  s'arrête à 2. Symétrie à 3 = torsion annulée ? Figure plot_T85.
+- PONT-T2 (ibm_marrakesh, job dap8ca78gn2s739osa10, 14 circuits) :
+  T2*=70.2 us (R2=0.96). Simu : bruit thermique Aer inopérant sur les
+  délais (plat à 1.0) → remplacé par expo+binomial qui retrouve 188.5
+  pour 180 (R2=0.996). Figure plot_pontT2. Clé mémoire seule, /tmp vidé.
+
 ## 2026-09-22 — PONT-60 sur VRAI QPU (ibm_kingston)
 - Job dap88g02fm4c73f6eb3g, 28 circuits en 1 job. T1 : P(1) décroît en
   exponentielle, T1=285.4 us (R2=0.9994) ; simu plat à 1 (pas de
