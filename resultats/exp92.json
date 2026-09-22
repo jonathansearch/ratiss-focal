@@ -1,0 +1,21 @@
+{
+ "runs": [
+  {
+   "mode": "stat",
+   "PHI_sonde": -15.24,
+   "R_final": 0.6506
+  },
+  {
+   "mode": "plus",
+   "PHI_sonde": -6.352,
+   "R_final": 0.5924
+  },
+  {
+   "mode": "moins",
+   "PHI_sonde": -6.244,
+   "R_final": 0.5936
+  }
+ ],
+ "delta_plus": 8.888,
+ "delta_moins": 8.996
+}
