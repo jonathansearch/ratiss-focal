@@ -312,5 +312,38 @@ R7 : 1 commande par test. Graines fixées partout.*
 - **Résultat** : 2/3 (A1 ✅ symétrique, A2 ❌ distribution, A3 ✅ seuil)
 
 ---
+## TEST-60 — Forçage du flip (V12)
+- **Méthode** : settle60+choc → Qf0 (pré HIGH/LOW) → injection
+  th=φ_inj+N(0,0.05) → relâche 300 → Qf. φ∈{kπ/4}×2 bras, 8 visés/cell.
+  M26 : cap 25→60 tentatives + fix NameError (1er run : 13/16).
+- **Critère** : CONTRÔLABLE (un φ à P≥0.9 dans les 2 bras).
+- **Résultat** : CONTRÔLABLE ✅ (14/16) — φ∈[0,π]→LOW (P=1.0),
+  φ∈{5π/4,3π/2}→HIGH (P=1.0), 7π/4 = transition (50 % ambigu).
+
+## TEST-61 — Rupture U, σ∈[0.10,0.30] (V12)
+- **Méthode** : ligne TEST-38, 11 pts pas 0.02, 50+50/pt. σ_rupture =
+  partage ≤ indep+3. Réversibilité (secondaire) : 20 pas σ=0.20 puis
+  20 pas σ=0.02 (T=40, 30+30).
+- **Critère** : MORT ou ASYMPTOTIQUE.
+- **Résultat** : MIXTE ❌ — pas de rupture (courbe 34→~15/50, plancher
+  apparent ~30 % vs contrôle ~16 %, 5 pts plats) ; barrière
+  ASYMPTOTIQUE ratée sur technicité (imax GLOBAL 15 au lieu du contrôle
+  local ~8 — PAS de M27 : on ne réécrit pas un critère pour le passer).
+  Réversibilité : IRRÉVERSIBLE (12/30 ≈ pur-haut 13, ≠ pur-bas 29).
+
+## TEST-62 — Structure Q → robustesse U (V12)
+- **Méthode** : séries Q HIGH/LOW (5+5, détrendées, renormalisées à
+  σ=0.04 IDENTIQUE) injectées comme bruit corrélé dans ligne T=20.
+  2 blocs × 30+30 par état. (Design non circulaire : structure, pas
+  niveau — cf. docstring.)
+- **Critère** : DÉCOUPLÉ (comptes identiques).
+- **Résultat** : COUPLÉ_STRUCTUREL ❌ — blocA 25v23 (Δ=2), blocB 26v22
+  (Δ=4), même signe. La structure HIGH protège légèrement mieux U.
+
+## TEST-63 — Unification V12 (dompter le flip ?)
+- **Méthode** : fusion 60–62 → `univers/unifie_v12.json`.
+- **Résultat** : 1/3 (D1 ✅ contrôlable, D2 ❌ mixte, D3 ❌ couplé)
+
+---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 59.* 🔒
+dans l'ordre, 01 → 63.* 🔒
