@@ -1,0 +1,10 @@
+{
+ "univers": "Unifi\u00e9-v11",
+ "check": {
+  "A1_symetrie": true,
+  "A2_distribution": false,
+  "A3_courbeU": true
+ },
+ "score": "2/3",
+ "verdict": "Anti-persistence : sym\u00e9trie SYM\u00c9TRIQUE (med 0.7733/0.8405), distribution beta (R2=0.5656), U SEUIL (sigma_c=0.06, sigmoide R2=0.9638)."
+}
