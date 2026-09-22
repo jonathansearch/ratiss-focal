@@ -1,5 +1,14 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — TEST-86→89 : jumeaux outils en ligne (ondes + Wokwi)
+- 86 : ombre d'Alembert 0.90/0.53/0.75 (disque<λ = rien, biais de bords
+  corrigé par normalisation). 87 : lentille x1.9 vs témoin. 88 : twist 0
+  avec LCG (vs −2 numpy : init-dépendant, constaté). 89 : redshift
+  −0.77→−0.11 par paires. Firmwares + guide téléphone OUTILS-EN-LIGNE.md.
+  Course d'éditions parallèles re-constatée (boucle 86) : une/seule/vérifier.
+- Figures plot_ONDES + plot_JUMEAUX. Badge 89. Fiche : colonne outils
+  prête, cases téléphone à cocher par le chef.
+
 ## 2026-09-22 — PONT-72 ÉCHO réel (kingston) : récupération x4.4
 - Job dap8jg8pqrnc739b0hc0, 28 circuits. Ramsey plain : chute rapide
   T2*~14.4us (refit 5 pts, R2=0.96 ; fit global R2=0.44 non interprétable,
