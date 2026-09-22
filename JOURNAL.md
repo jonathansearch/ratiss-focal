@@ -1,5 +1,13 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — PONT-77 sur VRAI QPU (ibm_marrakesh, 156 qubits)
+- Job dap7su82fm4c73f6dsrg, 50 circuits en 1 job, file 0-2 jobs.
+  GHZ 6 qubits + k avalés : F réelle 0.84 / 0.41 / 0.10 / 0.27 / 0.00
+  (k=0..4) vs simu 1.00 / 0.50 / 0.10 / 0.30 / 0.00 — même allure,
+  plancher de bruit réel ~0.84 à k=0. Première mesure sur hardware.
+- Clé chef utilisée en mémoire seule, compte /tmp effacé, rien stocké.
+  Outil file_qpu.py (files + récupération par JOB_ID). Figure plot_pont77.
+
 ## 2026-09-22 — QM-GR : 6 observations (TEST-79→84, zéro verdict)
 - Règle chef : plus d'étiquettes positif/négatif, on regarde et on
   raconte ; j'itère seul, je pose mes questions.
