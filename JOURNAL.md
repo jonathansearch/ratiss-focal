@@ -1,5 +1,13 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-21 (nuit) — V7 : NOYAU 3/3 (loi exponentielle)
+- TEST-40 : plancher = exp(−0.29−7.16α−6.59σ+0.0012N), R²=0.920 (M24) ·
+  TEST-41 : collapse COUPLÉ (corr −0.87, non invariant) · TEST-42 : choc
+  PLASTIQUE (0.345→0.273). Ticket noyau traité.
+- Correction chef : instruction VRN = fausse → portage supprimé, focal
+  sans neurones confirmé (vérifié par grep). Reste : MEMOIRE_Q (focal pur).
+- .tex §11 (§10.ter). Unifié-v7. Tout poussé.
+
 ## 2026-09-21 (nuit) — V6 : Q RÉVÉLÉ 3/3 (durcir sans trahir)
 - TEST-36 : double-exp R²=0.968 (k1=0.098, k2=0.001) · TEST-37 : volatilité
   STRUCTURÉE (pente −0.72, ac1 0.63, kurt 2.97) → signal, pas erreur ·
