@@ -30,6 +30,12 @@
 - F8 → volatilité STRUCTURÉE à mémoire (TEST-37) : signal, pas erreur.
 - U4 robuste au bruit Q natif (TEST-38).
 
+## Née de TEST-72 (RUQ-3 H2 — explorations closes)
+- Quelle combinaison minimale de [Local + Boucle + Topologie Fixe +
+  Non-Localité Dynamique] permet à l'unité de survivre à la séparation
+  spatiale ? (RUQ-3 = Local+Boucle+Fixe → H2 partielle ; reste la
+  non-localité dynamique type U — prochaine idée du chef)
+
 ## Née de TEST-71 (RUQ-2 réversible aussi)
 - Quelle architecture minimale permet à l'unité de survivre à la
   séparation spatiale ? Rétroaction ? Non-localité ? Topologie
