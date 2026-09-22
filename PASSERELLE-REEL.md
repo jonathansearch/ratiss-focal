@@ -56,6 +56,11 @@
   qubit. Mesure du 2026-09-22 (job dapc3t4ak42c73cibdd0, ibm_fez) :
   frange en U vs taille (1.0→0.49→1.0, réel=simu à 0.01), asymétrie A~0
   (boucle non fermée U≠I, défaut assumé). Figure : `passerelle_quantique/plot_pontBerry.png`.
+- **PONT-BERRY-FERMÉ** (`pontBerryFerme.py`, réplique TEST-93) : boucle
+  fermée ± (méridien-équateur-méridien) + interférométrie H/S. Mesure du
+  2026-09-22 (job dapck92c505c73chvtqg, ibm_marrakesh, 20 circuits) :
+  fuite ~1e-33, γ=−φ/2 ; lecture S à φ=π : 0.966 (+) vs 0.028 (−),
+  simu 1.0/0.0 — le sens compte. Figure : `passerelle_quantique/plot_pontBerryFerme.png`.
 - **D-Wave Leap** : niveau gratuit développeur historiquement (1 min QPU
   + 20 min solveur hybride/mois, code public sur GitHub) + programme
   LaunchPad (essai 3 mois). À vérifier à l'inscription (offre 2023).
