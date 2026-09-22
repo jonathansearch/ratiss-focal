@@ -145,5 +145,20 @@ Marqueurs : causalité $0.67$, référence partagée ; douceur partielle
 (volatilité Q = signal, F8) --- TEST-34.
 Verdict V5 : \textbf{3/5, partielle}, résidu Q levé en V6 (\textbf{3/3}) :
 S-grav = décroissance linéaire + noyau résiduel constant ;
-S-quant = saturation double-exponentielle + volatilité structurelle.
+S-quant = double-exp($k_1, k_2$) + bruit coloré à mémoire.
+
+\section{Noyau Résiduel Gravitationnel (§10.ter, V7)}
+Le plancher de contraction suit une loi exponentielle : % TEST-40
+\begin{equation}
+G_{\min}(\alpha, \sigma, N) = \exp(-0.29 - 7.16\,\alpha - 6.59\,\sigma
++ 0.0012\,N), \quad R^2 = 0.920.
+\end{equation}
+Chaque $+0.1$ de contraction DIVISE le noyau par deux ; le bruit l'érode
+doucement ; la taille le renforce. Collapse : noyau COUPLÉ à l'intensité
+(corr $-0.87$ ; $\Delta G \approx -0.10$ à 10\% $\to -0.21$ à 50\%) :
+non invariant --- TEST-41. Choc extrême : réponse PLASTIQUE
+($0.345 \to 0.273$ stable, pas d'oscillation ; sursaut d'artefacts pendant
+le choc) --- TEST-42.
+Verdict V7 : \textbf{3/3} — le noyau suit une loi, s'érode au collapse,
+se déforme sans casser au choc.
 \end{document}
