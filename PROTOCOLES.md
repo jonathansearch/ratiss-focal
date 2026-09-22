@@ -344,6 +344,30 @@ R7 : 1 commande par test. Graines fixées partout.*
 - **Méthode** : fusion 60–62 → `univers/unifie_v12.json`.
 - **Résultat** : 1/3 (D1 ✅ contrôlable, D2 ❌ mixte, D3 ❌ couplé)
 
+## TEST-64 — Sonde endogène v1 (piste Phase 17)
+- **Méthode** : agent LZ (W=64, binarisation vs médiane causale, seuil
+  propre μ+2σ base 50-150). 6 runs : syncQ/Φ/Psig × {calme, choc 200}.
+- **Critère** : VALIDE si ≥2/3 (taux_post≥10 % + ratio≥5, calme ≤5 %).
+- **Résultat** : AVEUGLE ❌ — pointe Phi réelle (pic=201, 4 flags) mais
+  gates voulaient un plateau ; Psig calme 5.08 % (>5 % d'un cheveu).
+
+## TEST-65 — Sonde v2 (W=16, graines fraîches)
+- **Méthode** : idem, fenêtre courte + LZ brut + critère comparatif
+  (rafale_choc ≥4 et ≥2× pire rafale calme).
+- **Critère** : VALIDE si ≥2/3. **Résultat** : AVEUGLE ❌ —
+  silence total (0 flags au choc) : LZ-16 sans dynamique (μ≈7,
+  seuil≈7.6). Leçon : tension fenêtre/dynamique.
+
+## TEST-66 — Sonde v3 deux-canaux (graines fraîches)
+- **Méthode** : texture LZ-64 + volatilité |x−médiane| (seuils propres),
+  flag = OU. Flaw principiel corrigé : la binarisation effaçait les
+  sauts de niveau. Même critère comparatif.
+- **Critère** : VALIDE si ≥2/3. **Résultat** : AVEUGLE ❌ —
+  syncQ PASS (13 vs 0) ; Phi FAIL (12 vs 11) ; Psig FAIL (11 vs 12).
+  La sonde SENT (rafales 11-13 au choc) mais la dérive calme rafale
+  autant : horizon de mémoire (100 pas) trop court pour distinguer
+  choc exogène de dérive endogène. ARRÊT des itérations (3/3).
+
 ---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 63.* 🔒
+dans l'ordre, 01 → 66.* 🔒
