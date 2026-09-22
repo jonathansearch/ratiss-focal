@@ -1,0 +1,16 @@
+{
+ "lignes": [
+  {
+   "lentille": false,
+   "incident": 4.2405,
+   "focus_max": 1.859,
+   "foyer_ligne": 40
+  },
+  {
+   "lentille": true,
+   "incident": 4.7648,
+   "focus_max": 3.564,
+   "foyer_ligne": 41
+  }
+ ]
+}
