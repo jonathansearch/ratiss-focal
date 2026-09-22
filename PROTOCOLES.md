@@ -127,6 +127,22 @@ R7 : 1 commande par test. Graines fixées partout.*
 - **Méthode** : fusion 21–25 → `univers/unifie_v3.json`.
 - **Critère** : score 5/5. **Résultat** : 5/5 ✅
 
+## TEST-27 — Loi de Proximité-Condensation (V4)
+- **Méthode** : (A) gate doux, scan D ∈ [0.5, 5.0] → extraction ρ_c ;
+  (B) interrupteur dur bilatéral → sync conditionnelle actifs/inactifs.
+- **Critère** : contraste > 0.3 loin + actifs > 0.5 près + contrôles.
+- **Résultat** : ρ_c = 8.01 ; à D=5 : actifs 0.98 vs inactifs 0.11 ✅
+
+## TEST-28 — Indice de Résilience R (V4)
+- **Méthode** : fond complet, 6 niveaux de bruit × 8 tirages, collapse neutre
+  vs sélectif (30 %), R = C_post/C_pre.
+- **Critère** : sélectif > neutre à fort bruit. **Résultat** : +3-4 pts ✅ ;
+  R > 1 absolu : non au niveau P, oui au niveau sync (1.023, TEST-25).
+
+## TEST-29 — Unification V4 (deux lois en un univers ?)
+- **Méthode** : fusion 27–28 → `univers/unifie_v4.json`.
+- **Critère** : score 2/2. **Résultat** : 2/2 ✅
+
 ---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 26.* 🔒
+dans l'ordre, 01 → 29.* 🔒
