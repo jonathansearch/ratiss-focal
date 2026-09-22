@@ -1,0 +1,8 @@
+{
+ "univers": "Unifi\u00e9-v4",
+ "check": {
+  "L1_proximite": true,
+  "L2_resilience": true
+ },
+ "score": "2/2"
+}
