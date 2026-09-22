@@ -1,5 +1,15 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — SONDE ENDOGÈNE : 3 tentatives, 3 AVEUGLE assumés
+- TEST-64 : pointe Phi réelle (pic=201) mais gates-plateau ratées.
+  TEST-65 : W=16 = silence total (LZ sans dynamique). TEST-66 : sonde
+  v3 sent les chocs (rafales 11-13) mais dérive calme = autant
+  (syncQ PASS 13v0 ; Phi 12v11 ; Psig 11v12).
+- Leçon : nouveauté relative à l'horizon de mémoire ; médiane
+  normalisée = aveugle aux niveaux. Piste v4 : baseline adaptative /
+  détrendage (prochaine session, sur ordre).
+- Phase 17 🟡 EN COURS (intégration appliquée, feu vert chef).
+
 ## 2026-09-22 (nuit) — CLÔTURE V12 : consolidation, pause stratégique
 - .tex §10 réécrit canonique (5 sections, TEST-40→62 liés, TEST-50
   corrigée). Ticket sanctuaire CLÔTURÉ (résumé V9-V12). Ticket
