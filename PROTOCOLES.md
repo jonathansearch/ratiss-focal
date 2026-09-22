@@ -585,6 +585,16 @@ R7 : 1 commande par test. Graines fixées partout.*
   traînée symétrique (moyenne du mouvement). Question relayée au QPU
   (PONT-BERRY).
 
+## TEST-93 — Cycle fermé ± (chasse au pli, clôture topologique)
+- **Méthode** : cycle FERMÉ en paramètres (G0,c) : A↑→B→C↓→D→A,
+  4 pattes × 150 pas, sens ± (c négatif puis +2π), même init.
+  Sonde 0 + Ψ moyen déroulés.
+- **Observé** : Φ⁺=−4.724/−3.939, Φ⁻=−4.503/−3.718 : Δ=−0.221 rad
+  (sonde et Ψ bougent ensemble, anneau synchronisé). R_diff 0.25/0.28 :
+  les paramètres se referment, l'ÉTAT ne revient pas (hystérésis 91).
+  Signal d'orientation faible en anneau dissipatif. Question relayée
+  au QPU fermé (PONT-BERRY-FERMÉ).
+
 ---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 92.* 🔒
+dans l'ordre, 01 → 93.* 🔒
