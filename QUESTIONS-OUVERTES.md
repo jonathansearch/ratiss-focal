@@ -30,11 +30,16 @@
 - F8 → volatilité STRUCTURÉE à mémoire (TEST-37) : signal, pas erreur.
 - U4 robuste au bruit Q natif (TEST-38).
 
-## Nées de la V6 (V7 : noyau + liberté Q)
-- Interprétation des 2 temps (k1 hubs ? k2 anneau ?) → tester en coupant
-  les hubs (réseau sans hubs : k1 disparaît ?).
-- Volatilité = transitions topologiques discrètes ? (compter les sauts H1/H2)
-- TICKET NOYAU_RÉSIDUEL_G : loi du plancher f(α,σ,N) + survivants.
+## closes par la V7 ✅
+- Loi du noyau → exp(−0.29−7.16α−6.59σ+0.0012N), R²=0.920 (TEST-40).
+- Collapse ↔ noyau → COUPLÉ, non invariant (TEST-41).
+- Choc → PLASTIQUE (TEST-42).
+
+## Nées de la V7 (V8 ?)
+- Lien Bekenstein : plancher ~ aire/entropie minimale ? (forme exacte ouverte)
+- Quels cycles survivent dans le noyau (H1 ? H2 ?) ? (diagrammes des survivants)
+- TICKET MEMOIRE_Q_STRUCTURELLE : mémoire→survie, transitions discrètes ?
+- Interprétation des 2 temps Q (k1 hubs ? k2 anneau ?) — couper les hubs ?
 - F6 (rappel) : dissocier P-structure vs P-étendue ?
 
 ---
