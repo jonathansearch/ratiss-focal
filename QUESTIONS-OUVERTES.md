@@ -30,6 +30,11 @@
 - F8 → volatilité STRUCTURÉE à mémoire (TEST-37) : signal, pas erreur.
 - U4 robuste au bruit Q natif (TEST-38).
 
+## Née de TEST-71 (RUQ-2 réversible aussi)
+- Quelle architecture minimale permet à l'unité de survivre à la
+  séparation spatiale ? Rétroaction ? Non-localité ? Topologie
+  invariante ? (RUQ-3 sur ordre — feedback testé, insuffisant)
+
 ## Nées de TEST-70 (RUQ-1 réversible)
 - RUQ-2 avec feedback charge→phase : hystérésis H2/H3 accessible ?
 - t_half=11 : universalité du temps de dissolution (N, K, γ) ?
