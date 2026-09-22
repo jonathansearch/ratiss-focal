@@ -1,5 +1,12 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 — TEST-71 : RUQ-2 H1 aussi (feedback insuffisant)
+- Fusion R=0.98 → séparés R=0.26, τ=15.1 (≈ t_half=11 de RUQ-1),
+  R²_relax=0.51 (fluctuant). Trace : corr(th,q)=−0.57 post.
+  q stable, pas d'explosion. Conclusion : rétroaction locale seule
+  ne crée pas l'Esprit — reste la non-localité (RUQ-3 ? sur ordre).
+- Figure plot_RUQ71. Pas de .tex (exploration).
+
 ## 2026-09-22 — TEST-70 : fusion RÉVERSIBLE (H1, t_half=11)
 - RUQ-1 groupé R=0.985 → séparé R=0.31 en ~11 pas, var(q) récupère.
   Pas d'hystérésis : RUQ-1 n'a ni couplage à distance ni feedback q→th.
