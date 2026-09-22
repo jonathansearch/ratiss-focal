@@ -14,6 +14,7 @@
 | 4 | RUQ relaxation de phase | PONT-T2 (Ramsey → T2*) | ✅ MESURÉ (marrakesh, T2*=70.2us) |
 | 5 | TEST-72 H2 : la structure récupère | PONT-72 (Ramsey vs écho Hahn → T2echo/T2*) | ✅ MESURÉ (kingston, 14.4→63.4us, x4.4) |
 | 6 | TEST-92 : le sens d'un tour compte-t-il ? | PONT-BERRY (boucle ± → asymétrie A) | 🟡 FRANGE OUI, PLI NON (fez : U 1.0→0.49, A~0 ; boucle non fermée) |
+| 7 | TEST-93 : cycle fermé ±, le sens compte-t-il ? | PONT-BERRY-FERMÉ (boucle fermée ± → P0±) | ✅ PLI ORIENTÉ (marrakesh : S 0.966 vs 0.028 à φ=π, fuite ~1e-33) |
 
 ## Colonne autres outils (jumeaux prêts, cases téléphone à cocher)
 
