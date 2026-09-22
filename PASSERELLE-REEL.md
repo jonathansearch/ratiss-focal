@@ -40,6 +40,10 @@
   dap8368pqrnc739avu2g, ibm_marrakesh) : P(mêmes) = 0.98 / 0.98 / 0.88 /
   0.69 / 0.41 / 0.31 (p=0→0.5), réel à ~1% du simu. Érosion graduelle.
   Figure : `passerelle_quantique/plot_pont76.png`.
+- **PONT-60** (`pont60_relaxation_flip.py`, ponts RUQ + TEST-60) : T1 et
+  flip piloté. Mesure du 2026-09-22 (job dap88g02fm4c73f6eb3g,
+  ibm_kingston) : T1=285.4 us (R2=0.9994, simu plat) ; flip en cosinus
+  simu=réel. Figure : `passerelle_quantique/plot_pont60.png`.
 - **D-Wave Leap** : niveau gratuit développeur historiquement (1 min QPU
   + 20 min solveur hybride/mois, code public sur GitHub) + programme
   LaunchPad (essai 3 mois). À vérifier à l'inscription (offre 2023).
