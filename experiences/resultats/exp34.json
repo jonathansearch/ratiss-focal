@@ -1,0 +1,11 @@
+{
+ "limites_douces_G": true,
+ "limites_douces_Q": false,
+ "saut_max_G_burnin": 0.1415,
+ "saut_max_Q_burnin": 0.041,
+ "moyenne_G": 0.6461,
+ "moyenne_Q": 0.7026,
+ "causalite_QversG": 0.6686,
+ "reference_partagee": true,
+ "critere": false
+}
