@@ -21,10 +21,16 @@
   F4 partiellement (V3 : diagrammes complets ; artefacts diffus sous surveillance) ·
   F5 close (TEST-24 : bascule détectée).
 
-## Nées de la V3 (mécanismes à interpréter)
-- H2' : pourquoi la bascule vit-elle en champ proche (D ≤ 2.2) + forte injection ?
-- PLV post-collapse > pré (0.886 vs 0.866) : le collapse purifie-t-il la sync ?
-- Universalité des Π : stables entre labos (graines, tailles, géométries) ?
+## Promues en lois (V4) ✅
+- H2' champ proche → L1 (ρ_c = 8.01, TEST-27).
+- PLV post > pré → L2 (R_sync = 1.023, TEST-25/28).
+
+## Nées de la V4
+- F6 : P_sig mesure aussi l'ÉTENDUE (P croît avec D) → dissocier P-structure
+  vs P-étendue ?
+- Les petites gouttelettes syncent mieux (0.98 à 6 nœuds) : taille optimale
+  du condensat ?
+- Universalité des Π et de ρ_c : stables entre labos (graines, tailles) ?
 
 ---
 *Poser une question ici = l'empêcher de mourir. Répondre = journal + commit.* 📝
