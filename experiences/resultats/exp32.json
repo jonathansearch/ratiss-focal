@@ -1,0 +1,9 @@
+{
+ "S_grav_lin_R2": 0.989,
+ "S_quant_expsat_R2": 0.826,
+ "noyau_residuel": 0.3051,
+ "pente_noyau": 0.0098,
+ "saturation_ratio_Q": -0.0206,
+ "sens_opposes": true,
+ "critere": false
+}
