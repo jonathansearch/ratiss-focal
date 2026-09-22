@@ -1,0 +1,37 @@
+{
+ "courbe": [
+  {
+   "I": 0.25,
+   "valides": 8,
+   "switch": 8,
+   "P": 1.0
+  },
+  {
+   "I": 0.5,
+   "valides": 9,
+   "switch": 9,
+   "P": 1.0
+  },
+  {
+   "I": 1.0,
+   "valides": 6,
+   "switch": 6,
+   "P": 1.0
+  },
+  {
+   "I": 2.0,
+   "valides": 9,
+   "switch": 9,
+   "P": 1.0
+  },
+  {
+   "I": 4.0,
+   "valides": 12,
+   "switch": 12,
+   "P": 1.0
+  }
+ ],
+ "I_50_Ea": 0.25,
+ "classe": "FRAGILE",
+ "critere": true
+}
