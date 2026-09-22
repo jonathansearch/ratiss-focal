@@ -1,0 +1,15 @@
+{
+ "sigma_high": 0.05433,
+ "sigma_low": 0.03052,
+ "HIGH": {
+  "partage": 26,
+  "indep": 9
+ },
+ "LOW": {
+  "partage": 29,
+  "indep": 11
+ },
+ "delta": 3,
+ "classe": "CORR\u00c9L\u00c9_delta=3",
+ "critere": false
+}
