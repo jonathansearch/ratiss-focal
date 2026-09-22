@@ -143,6 +143,35 @@ R7 : 1 commande par test. Graines fixées partout.*
 - **Méthode** : fusion 27–28 → `univers/unifie_v4.json`.
 - **Critère** : score 2/2. **Résultat** : 2/2 ✅
 
+## TEST-30 — Subsistance C(X,Y) (V5)
+- **Méthode** : G + Q isolés vs couplés, apparié, 2 régimes × 3 graines.
+- **Critère M13** : 6/6 C fort > 0. **Résultat** : C_G=+0.096, C_Q=+0.040 ✅
+
+## TEST-31 — Non-réduction (V5)
+- **Méthode** : T=30 couplé, RED (l'autre seul) vs COH (propre + couplage).
+- **Critère M14** : RED R²<0.1 + ratios<1. **Résultat** : RED≈0.00, ratios
+  0.84/0.45 ✅ (décisif côté G)
+
+## TEST-32 — Lois de secteurs (V5)
+- **Méthode** : G T=16 (lin + noyau), Q T=60 (saturation), formes dictées
+  par les données (M18→M23).
+- **Critère** : lin>0.9 + noyau plat + forme Q>0.9 + saturation.
+- **Résultat** : lin 0.989 ✅, noyau 0.305 plat ✅, saturation ✅,
+  forme Q ouverte (expsat 0.83) 🟡
+
+## TEST-33 — Ligne invisible (V5)
+- **Méthode** : seuil sha256-uniforme, même géométrie relative, 30+30 essais.
+- **Critère** : 30/30 ET indep<0.5. **Résultat** : 30/30 vs 0.333 ✅
+
+## TEST-34 — Marqueurs (V5)
+- **Méthode** : douceur post burn-in, causalité Q→G, même échelle.
+- **Critère** : les trois. **Résultat** : causal 0.67 ✅, échelle ✅,
+  douceur Q ✗ (F8 volatilité) 🟡
+
+## TEST-35 — VERDICT D'UNIFICATION V5
+- **Méthode** : fusion 30–34 → `univers/unifie_v5.json`.
+- **Résultat** : 3/5 PARTIELLE (U1, U2, U4 ✅ ; U3, U5 🟡 côté Q).
+
 ---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 29.* 🔒
+dans l'ordre, 01 → 35.* 🔒
