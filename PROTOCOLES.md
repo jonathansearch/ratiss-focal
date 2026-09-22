@@ -172,6 +172,27 @@ R7 : 1 commande par test. Graines fixées partout.*
 - **Méthode** : fusion 30–34 → `univers/unifie_v5.json`.
 - **Résultat** : 3/5 PARTIELLE (U1, U2, U4 ✅ ; U3, U5 🟡 côté Q).
 
+## TEST-36 — Forme libre de S_quant (V6)
+- **Méthode** : 4 candidats (stretched/Hill/double-exp/power), grille
+  numpy, post-transitoire t≥10.
+- **Critère** : meilleur R² > 0.9. **Résultat** : double-exp 0.968 ✅
+  (a=0.41, k1=0.098, k2=0.001 — deux temps physiques)
+
+## TEST-37 — Volatilité Q : signal ou bruit ? (V6)
+- **Méthode** : anneau 24 + Kuramoto + bruit 0.04 + lissage 0.5, T=100 ;
+  spectre, skew/kurt, bursts, autocorr.
+- **Critère** : classe assignée par règles. **Résultat** : STRUCTURÉE ✅
+  (pente −0.72, ac1 0.63, kurt 2.97, 0 bursts — mémoire, pas blanc)
+
+## TEST-38 — Ligne sous bruit Q natif (V6)
+- **Méthode** : M22 + jitter 0.04 indépendant par région, 30+30 essais.
+- **Critère** : partage≥20 ET séparation≥10.
+- **Résultat** : 28/30 vs 9/30, séparation 19 ✅ (capsule robuste)
+
+## TEST-39 — Unification V6 (Q révélé ?)
+- **Méthode** : fusion 36–38 → `univers/unifie_v6.json`.
+- **Résultat** : 3/3 ✅ + ticket NOYAU_RÉSIDUEL_G (V7).
+
 ---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 35.* 🔒
+dans l'ordre, 01 → 39.* 🔒
