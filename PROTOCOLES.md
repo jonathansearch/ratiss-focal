@@ -476,5 +476,50 @@ R7 : 1 commande par test. Graines fixées partout.*
   Newton, dilatation des horloges et sanctuaire U NON établis.
 
 ---
+## TEST-79 — Q à côté d'un puits (observation, zéro verdict)
+- **Méthode** : anneau NQ=24 + hubs (K=3, DT=0.3, graines 55/100),
+  ralentissement gaussien à l'angle 0 (s=0.5), G0∈{0,0.1,0.2,0.5,1.0},
+  T=300. On regarde R final, twist, profil de phase.
+- **Observé** : R final 0.85→0.58 quand G0 monte ; twist 0 sauf à
+  G0=0.1 et 1.0 (twist 1 : la phase fait un tour sur l'anneau).
+
+## TEST-80 — Q entre deux puits (observation)
+- **Méthode** : comme TEST-79, puits en 0 et π. G0∈{0,0.2,0.5,1.0}.
+  On regarde R final, twist, R par moitié.
+- **Observé** : R tient 0.85 à G0=0.2, 0.71 à 0.5, 0.32 à 1.0 avec
+  twist −2 (deux tours : un par puits ?). Les moitiés restent
+  équilibrées (pas de domaines).
+
+## TEST-81 — Lentille balistique (observation)
+- **Méthode** : 128 particules v=1.5 depuis x=−8, potentiel attractif
+  A·exp(−r/l) (A=2, l=1.5), b∈[−6,6], Euler DT=0.02. Balistique maison
+  (l'organe porteurs n'a pas de vitesse). On regarde déflexion vs b.
+- **Observé** : S antisymétrique, max ±47° vers |b|=2, zéro en b=0
+  (traversée centrale droite), 0/25 capturées (potentiel fini au centre).
+
+## TEST-82 — Horizon absorbant, trou noir v2 (observation)
+- **Question d'atelier** : le tueur soustrait sans borne (puits) ; un
+  horizon th=0 épinglé dans r<r_h donne-t-il une ombre ? Grille 40,
+  source rayures, T=800, r_h∈{0,2,4,6}.
+- **Observé** : oui, contraste 0.21 (témoin) → 0.61/0.66/0.66. L'ombre
+  sature (r_h=4 ≈ r_h=6). Le gouffre comme condition limite fait ce que
+  le tueur ne faisait pas.
+
+## TEST-83 — RUQ-3 en espace courbe (observation)
+- **Méthode** : reprise exacte TEST-72 (graine 7201) + désaccord −G0
+  sur les indices pairs (moitié ralentie). G0∈{0,0.5,1.0}.
+- **Observé** : convergence A intacte (0.99→0.95) ; récupération B
+  0.73 (G0=0) → 0.42 (0.5) → 0.25 (1.0). La mémoire de graphe s'érode
+  progressivement avec la courbure, sans seuil brutal.
+
+## TEST-84 — Redshift direct (observation)
+- **Méthode** : 6 mini-anneaux (8 osc., K=3) à d=2..12 cellules du
+  puits, delta=−1.0·exp(−d_osc/3) par oscillateur, T=400, brouillage
+  commun à t=200. On regarde fréquence moyenne vs d, R, resync.
+- **Observé** : fréquence −0.53 (d=2) → +0.01 (d=12), monotone —
+  les horloges ralentissent près du puits (redshift). R final dispersé
+  (0.64–0.99), resync ~16–19 pas sauf d=4 (57) et d=10 (jamais ≥0.8).
+
+---
 *Exécution : `cd ratiss-focal-local && python3 experiences/expNN_*.py`
-dans l'ordre, 01 → 78.* 🔒
+dans l'ordre, 01 → 84.* 🔒
