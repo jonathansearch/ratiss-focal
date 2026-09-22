@@ -4,7 +4,7 @@
 > sortir sur QPU, ensuite (si nécessaire) les autres outils en ligne.
 > Objectif : prouver que l'univers virtuel est cohérent avec la réalité.
 
-## Colonne QPU (IBM, gratuit) — 5 ponts
+## Colonne QPU (IBM, gratuit) — 7 ponts
 
 | # | Théorie (virtuel) | Pont | Statut 2026-09-22 |
 |---|---|---|---|
