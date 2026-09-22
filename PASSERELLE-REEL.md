@@ -48,6 +48,10 @@
   Mesure du 2026-09-22 (job dap8ca78gn2s739osa10, ibm_marrakesh) :
   T2*=70.2 us (R2=0.96). Simu expo+binomial retrouve 188.5 pour 180.
   Figure : `passerelle_quantique/plot_pontT2.png`.
+- **PONT-72** (`pont72_echo.py`, pont TEST-72 H2) : Ramsey vs écho Hahn.
+  Mesure du 2026-09-22 (job dap8jg8pqrnc739b0hc0, ibm_kingston) :
+  T2*~14.4us (chute rapide) vs T2echo=63.4us (R2=0.84) — récupération
+  x4.4 par l'impulsion centrale. Figure : `passerelle_quantique/plot_pont72.png`.
 - **D-Wave Leap** : niveau gratuit développeur historiquement (1 min QPU
   + 20 min solveur hybride/mois, code public sur GitHub) + programme
   LaunchPad (essai 3 mois). À vérifier à l'inscription (offre 2023).
