@@ -1,0 +1,10 @@
+{
+ "partage": "28/30",
+ "indep": "9/30",
+ "separation": 19,
+ "reference_sans_bruit": {
+  "partage": "30/30",
+  "indep": "10/30"
+ },
+ "critere": true
+}
