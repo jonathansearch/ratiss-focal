@@ -1,0 +1,45 @@
+{
+ "carte": [
+  {
+   "gagnant": "double_exp",
+   "R2": 0.7054,
+   "tau_lent": 117.0375,
+   "Q_final": 0.8874
+  },
+  {
+   "gagnant": "single_exp",
+   "R2": 0.1482,
+   "tau_lent": 171.43,
+   "Q_final": 0.7732
+  },
+  {
+   "gagnant": "double_exp",
+   "R2": 0.6271,
+   "tau_lent": 326.4,
+   "Q_final": 0.7821
+  },
+  {
+   "gagnant": "double_exp",
+   "R2": 0.3292,
+   "tau_lent": 352.5,
+   "Q_final": 0.8739
+  },
+  {
+   "gagnant": "single_exp",
+   "R2": 0.6528,
+   "tau_lent": 95.185,
+   "Q_final": 0.8021
+  },
+  {
+   "gagnant": "double_exp",
+   "R2": 0.6925,
+   "tau_lent": 95.1,
+   "Q_final": 0.8675
+  }
+ ],
+ "derive_max": 0.1287,
+ "tau_ratio": 3.707,
+ "N_bascule": 2,
+ "classe": "FATIGUE",
+ "critere": true
+}
