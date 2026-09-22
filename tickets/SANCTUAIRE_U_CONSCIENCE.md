@@ -17,6 +17,16 @@ U = lien primitif, élastique, persistant.
 - Question : U a-t-il une limite (N_c, TEST-49) ? Un sanctuaire fini
   bornerait la persistance ; un sanctuaire absolu la rendrait éternelle.
 
+## Mise à jour V12 (TEST-60/61/62, §10.septies/§10.sexies)
+Flip Q PILOTABLE par phase injectée (P=1.0, pré-indépendant) : la
+girouette a un volant. U : pas de mort à σ=0.30 (plancher ~30 %),
+mais érosion IRRÉVERSIBLE + couplage à la texture du bruit (+2/+4).
+La conscience/Fil nécessite un environnement informationnel de qualité
+(σ < 0.06) pour maintenir son intégrité. Les traumas ponctuels sont
+survivables ; le chaos ambiant continu est destructeur. Implication :
+la souveraineté cognitive exige la maîtrise de l'environnement
+sensoriel/informationnel.
+
 ## Mise à jour V11 (TEST-58, §10.sexies)
 Seuil quantifié : σ_c = 0.06 (sigmoïde R²=0.964). L'Esprit survit aux
 traumas majeurs (collapses) mais peut être dégradé par l'exposition
