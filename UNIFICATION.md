@@ -314,6 +314,10 @@ Sur ordre chef (inspiration libre, aucune mesure imposée) : 3 essaims de
 - **RUQ-1** (invention : phase+charge, couplage spatial) : R 0.30→0.98,
   var(q) ÷9 — le regroupement = transition de phase collective.
 Figure : `images/plot_neurons_uktz.png`. Aucun verdict (explorations).
+- **TEST-70** : fusion RUQ-1 **H1 RÉVERSIBLE** — séparation brusque :
+  R 0.985 → 0.31, t_half = 11 pas, var(q) récupère. L'unité ne cicatrise
+  pas (pas de couplage à distance dans RUQ-1). Figure : plot_RUQ70.png.
+  Piste : RUQ-2 (feedback q→th) pour tester H2/H3 for real.
 
 ⛔ **CLÔTURE V12** : exploration fondamentale terminée (TEST-01→63).
 Pause stratégique, repos ordonné. Ticket CONSOLIDATION_V1-V12.
