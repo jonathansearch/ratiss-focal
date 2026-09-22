@@ -1,5 +1,11 @@
 # 📓 JOURNAL — ratiss-focal
 
+## 2026-09-22 (nuit) — V10 : CORRECTION 1/3 (pas d'attracteurs Q)
+- TEST-52 : MONOSTABLE (continuum n=40, TEST-50 réfutée). TEST-53 :
+  FRAGILE (P=1.0 partout, 44/44). TEST-54 : Q/U CORRÉLÉS (Δ=3).
+- .tex §10.septies (re-tirage) + §10.sexies nuancé. Ticket sanctuaire
+  mis à jour. Unifié-v10. Tout poussé.
+
 ## 2026-09-22 (nuit) — V9 : SANCTUAIRE 3/3 (noyau absolu 0.083)
 - TEST-48 : H3 saturante R²=0.978 (bande [0.06,0.11], non monotone).
   TEST-49 : U ABSOLU (28/30 ×7, Δ=0). TEST-50 : Q bistable (0.78↔0.87),
