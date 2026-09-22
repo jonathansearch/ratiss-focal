@@ -298,6 +298,14 @@ Ticket SANCTUAIRE_U_CONSCIENCE mis à jour (σ_c, environnement).
 
 ---
 *Licence : MIT (voir LICENSE). Reproductibilité publique = crédibilité.* 🔒
+## 🟡 Phase 17 — Sonde endogène : premier pas appliqué (TEST-64→66)
+Feu vert chef (fin de pause, intégration appliquée). Agent infodynamique
+(LZ + volatilité, seuils propres, zéro neurone, zéro étiquette humaine)
+lâché dans l'univers focal : 3 designs, 3 verdicts AVEUGLE assumés —
+mais rafales mesurées au choc (11-13 flags v3) et leçon scellée :
+**la nouveauté est relative à l'horizon de mémoire de la sonde**.
+Figure : `images/plot_sonde_v3.png`. Piste : baseline adaptative (v4).
+
 ⛔ **CLÔTURE V12** : exploration fondamentale terminée (TEST-01→63).
 Pause stratégique, repos ordonné. Ticket CONSOLIDATION_V1-V12.
 *Prochaine phase sur feu vert explicite : intégration appliquée / VRN.* 🔒
