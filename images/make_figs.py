@@ -1,4 +1,6 @@
 """Figures README (données réelles TEST-48/52/58/60/61). Style dark teal."""
+import os as _os, pathlib as _pl  # RATISS: chemins portables (dépôts clonés côte à côte, ou RATISS_HOME)
+_RATISS_HOME = _os.environ.get('RATISS_HOME') or str(_pl.Path(__file__).resolve().parents[2])
 import json
 import os
 import numpy as np
@@ -7,7 +9,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-R = "/home/user/ratiss-focal-local/experiences/resultats"
+R = (_RATISS_HOME + "/ratiss-focal/experiences/resultats")
 plt.rcParams.update({"figure.facecolor": "#0b1e24", "axes.facecolor": "#0e2830",
                      "text.color": "white", "axes.labelcolor": "white",
                      "xtick.color": "white", "ytick.color": "white",

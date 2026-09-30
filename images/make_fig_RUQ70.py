@@ -1,11 +1,13 @@
 """Figure TEST-70 : fusion puis séparation brusque (t=400)."""
+import os as _os, pathlib as _pl  # RATISS: chemins portables (dépôts clonés côte à côte, ou RATISS_HOME)
+_RATISS_HOME = _os.environ.get('RATISS_HOME') or str(_pl.Path(__file__).resolve().parents[2])
 import json
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-R = "/home/user/ratiss-focal-local/experiences/resultats"
-HERE = "/home/user/ratiss-focal-local/images"
+R = (_RATISS_HOME + "/ratiss-focal/experiences/resultats")
+HERE = (_RATISS_HOME + "/ratiss-focal/images")
 plt.rcParams.update({"figure.facecolor": "#0b1e24", "axes.facecolor": "#0e2830",
                      "text.color": "white", "axes.labelcolor": "white",
                      "xtick.color": "white", "ytick.color": "white",

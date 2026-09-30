@@ -7,3 +7,6 @@ __pycache__/
 # Artefacts lourds (régénérables R7)
 *.npy
 *.npz
+*.pyc
+*.egg-info/
+.pytest_cache/
