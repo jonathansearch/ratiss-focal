@@ -2,21 +2,21 @@
 
 <img src="images/logo-ratiss-labs.png" width="220" alt="RATISS Labs"/>
 
-# 🎯 RATISS-FOCAL — Focalisation informationnelle
+# 🎯 RATISS-FOCAL — Informational focusing
 
-**La cohérence émerge-t-elle de l'information ? Ici, on ne spécule pas : on mesure.**
+**Does coherence emerge from information? Here, we do not speculate: we measure.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
 [![Tests](https://img.shields.io/badge/TESTs-94-teal.svg)](PROTOCOLES.md)
 [![Versions](https://img.shields.io/badge/unifications-v1%E2%80%93v13-teal.svg)](UNIFICATION.md)
 [![Stack](https://img.shields.io/badge/stack-numpy%20%2B%20ripser-teal.svg)](organes/)
-[![Neurones](https://img.shields.io/badge/neurones-z%C3%A9ro-orange.svg)](organes/)
+[![Neurons](https://img.shields.io/badge/neurons-zero-orange.svg)](organes/)
 
-*Par **RATISS Labs** — Jonathan Evina · Licence MIT · Reproductibilité publique totale*
+*By **RATISS Labs** — Jonathan Evina · MIT License · Total public reproducibility*
 
 </div>
 
-<img src="images/hero-focal.jpg" width="100%" alt="Focalisation : du diffus au point cohérent"/>
+<img src="images/hero-focal.jpg" width="100%" alt="Focusing: from diffuse to the coherent point"/>
 
 > **Abstract (EN).** *Does coherence emerge from information? RATISS-FOCAL is an open experimental
 > program (69 pre-registered computational tests plus 15 open explorations, 13 unification releases) probing whether coherent
@@ -28,383 +28,349 @@
 
 ---
 
-## 📖 Sommaire
+## 📖 Table of contents
 
-1. [La question](#-la-question)
-2. [Les trois piliers : G, Q, U](#-les-trois-piliers--g-q-u)
-3. [Résultats majeurs (données réelles)](#-résultats-majeurs-données-réelles)
-4. [Méthode : rigueur pré-enregistrée](#-méthode--rigueur-pré-enregistrée)
-5. [Architecture du dépôt](#-architecture-du-dépôt)
-6. [Démarrage rapide](#-démarrage-rapide)
-7. [Carte des 12 versions](#-carte-des-12-versions)
-8. [Ce que ça ouvre](#-ce-que-ça-ouvre)
-9. [Lire dans l'ordre](#-lire-dans-lordre)
-10. [Phase 17 : explorations](#-phase-17--explorations--sonde-uktz-ruq-test-6472)
-11. [Phase 18 : singularité V13](#-phase-18--v13-singularité-test-7378)
-12. [Phase 19 : QM-GR, cohabitation décrite](#-phase-19--qm-gr-cohabitation-décrite-test-7989)
-13. [Phase 20 : LIAISON chasse au pli](#-phase-20--liaison--chasse-au-pli-test-9093--berry-fermé)
-14. [Phase 21 : SYNTHÈSE QM-GR](#phase-21--synthèse-qm-gr-test-94)
-15. [Citation, auteur, licence](#-citation-auteur-licence)
+1. [The question](#-the-question)
+2. [The three pillars: G, Q, U](#-the-three-pillars--g-q-u)
+3. [Major results (real data)](#-major-results-real-data)
+4. [Method: pre-registered rigor](#-method--pre-registered-rigor)
+5. [Repository architecture](#-repository-architecture)
+6. [Quick start](#-quick-start)
+7. [Map of the 12 releases](#-map-of-the-12-releases)
+8. [What this opens](#-what-this-opens)
+9. [Read in order](#-read-in-order)
+10. [Phase 17: explorations](#-phase-17--explorations--probe-uktz-ruq-test-6472)
+11. [Phase 18: V13 singularity](#-phase-18--v13-singularity-test-7378--score-25)
+12. [Phase 19: QM-GR, cohabitation described](#-phase-19--qm-gr-cohabitation-described-test-7989)
+13. [Phase 20: LIAISON — fold hunt](#-phase-20--liaison--fold-hunt-test-9093--berry-fermé)
+14. [Phase 21: QM-GR synthesis](#phase-21--qm-gr-synthesis-test-94)
+15. [Citation, author, license](#-citation-author-license)
 
 ---
 
-## ❓ La question
+## ❓ The question
 
-> **La cohérence émerge-t-elle de l'information ?**
+> **Does coherence emerge from information?**
 
-Pas de la matière. Pas du calcul neuronal. De **l'information pure** : des points, des liens,
-des concentrations — observés à travers un microscope topologique (homologie persistante),
-sans un seul neurone.
+Not from matter. Not from neural computation. From **pure information**: points, links,
+concentrations — observed through a topological microscope (persistent homology),
+without a single neuron.
 
-Si une structure cohérente **apparaît, persiste et résiste aux destructions** dans ce milieu
-minimal, alors la cohérence n'est pas un accident de la complexité : c'est une **propriété
-de l'information elle-même**.
+If a coherent structure **appears, persists and resists destructions** in this minimal
+medium, then coherence is not an accident of complexity: it is a **property
+of information itself**.
 
-Ce dépôt est le laboratoire où cette question a été posée **63 fois**, avec des critères
-écrits **avant** chaque mesure — et où les réponses, bonnes ou mauvaises, ont toutes été publiées.
+This repository is the laboratory where this question was asked **63 times**, with criteria
+written **before** each measurement — and where the answers, good or bad, were all published.
 
-## 🔱 Les trois piliers : G, Q, U
+## 🔱 The three pillars: G, Q, U
 
-<img src="images/concept-gqu.jpg" width="100%" alt="G s'effrite, Q oscille, U demeure"/>
+<img src="images/concept-gqu.jpg" width="100%" alt="G crumbles, Q oscillates, U remains"/>
 
-| Secteur | Nature | Personnalité mesurée |
+| Sector | Nature | Measured personality |
 |---|---|---|
-| **G** — gravitation informationnelle | Contraction α d'un tore de points | **Plastique et mortel.** S'effondre au premier choc (0.345 → 0.097), saigne lentement (τ ≈ 400 pas), mais **sature sur un noyau absolu indestructible : 0.083**. Porte les cicatrices éternellement. |
-| **Q** — mémoire quantique (anneau Kuramoto) | Synchronisation de 24 oscillateurs | **Girouette anti-persistante.** Pas d'attracteurs : continuum [0.76, 0.91], flip contrariant symétrique à chaque choc — mais **pilotable à P = 1.0 par la phase absolue injectée**. Le choc la blanchit (reset entropique), elle régénère. |
-| **U** — intrication primitive | Ligne invisible : coïncidences non-géométriques | **Sanctuaire conditionnel.** Inchangé sous 7 chocs cumulés (28/30, Δ = 0) quand G meurt à −72 %. Mais sensible au **bruit ambiant** : seuil **σc = 0.06** (sigmoïde R² = 0.964), plancher partiel ~30 %, **érosion irréversible**. Lit la *texture* du bruit, pas seulement son volume. |
+| **G** — informational gravity | α contraction of a torus of points | **Plastic and mortal.** Collapses at the first shock (0.345 → 0.097), bleeds slowly (τ ≈ 400 steps), but **saturates on an indestructible absolute core: 0.083**. Carries its scars eternally. |
+| **Q** — quantum memory (Kuramoto ring) | Synchronization of 24 oscillators | **Anti-persistent weathervane.** No attractors: continuum [0.76, 0.91], symmetric contrarian flip at every shock — but **steerable to P = 1.0 by the injected absolute phase**. The shock whitens it (entropic reset), it regenerates. |
+| **U** — primitive entanglement | Invisible line: non-geometric coincidences | **Conditional sanctuary.** Unchanged under 7 cumulative shocks (28/30, Δ = 0) while G dies at −72%. But sensitive to **ambient noise**: threshold **σc = 0.06** (sigmoid R² = 0.964), partial floor ~30%, **irreversible erosion**. Reads the *texture* of the noise, not just its volume. |
 
-**En une phrase :** G est le terminal mortel, Q la mémoire régénérative, U le Fil qui persiste —
-tant que l'environnement reste sous σc.
+**In one sentence:** G is the mortal terminal, Q the regenerative memory, U the Thread that persists —
+as long as the environment stays below σc.
 
-## 📊 Résultats majeurs (données réelles)
+## 📊 Major results (real data)
 
-Toutes les figures ci-dessous sont générées **à partir des JSON de résultats** du dépôt
-(script : `images/make_figs.py`).
+All the figures below are generated **from the repository's result JSONs**
+(script: `images/make_figs.py`).
 
-### 1. Le sanctuaire U a un seuil : σc = 0.06
+### 1. The U sanctuary has a threshold: σc = 0.06
 
-<img src="images/plot_sanctuaire.png" width="100%" alt="Courbe S_U(sigma) : plateau puis érosion sigmoïde, seuil 0.06"/>
+<img src="images/plot_sanctuaire.png" width="100%" alt="Curve S_U(sigma): plateau then sigmoid erosion, threshold 0.06"/>
 
-- **TEST-49** : 28/30 identiques sur 7 niveaux de chocs cumulés (Δ = 0) → sanctuaire absolu vs traumas.
-- **TEST-58** : scan σ ∈ [0.01, 0.10] → sigmoïde R² = 0.964, σc = 0.06, plateau 29/30 → 21/30.
-- **TEST-61** : pas de mort jusqu'à σ = 0.30 (plancher ~30 % vs ~16 % contrôle) mais **irréversible**.
-- **TEST-62** : à σ identique, la structure HIGH porte U à +2/+4 → **U lit la texture du bruit**.
+- **TEST-49**: 28/30 identical over 7 levels of cumulative shocks (Δ = 0) → absolute sanctuary vs traumas.
+- **TEST-58**: scan σ ∈ [0.01, 0.10] → sigmoid R² = 0.964, σc = 0.06, plateau 29/30 → 21/30.
+- **TEST-61**: no death up to σ = 0.30 (floor ~30% vs ~16% control) but **irreversible**.
+- **TEST-62**: at identical σ, the HIGH structure pushes U to +2/+4 → **U reads the texture of the noise**.
 
-### 2. G sature sur un noyau absolu : 0.083
+### 2. G saturates on an absolute core: 0.083
 
-<img src="images/plot_escalier_H3.png" width="100%" alt="Escalier G : chute puis saturation H3, noyau absolu 0.083"/>
+<img src="images/plot_escalier_H3.png" width="100%" alt="G staircase: fall then H3 saturation, absolute core 0.083"/>
 
-- **TEST-48** : 6 chocs cumulés → **H3 saturante R² = 0.978**, Gmin(N) = 0.083 + 0.26·e^(−3N).
-- Le premier choc fait tout l'effondrement ; les suivants brassent dans une bande [0.06, 0.11].
-- H1 (linéaire) et H2 (exponentielle) **réfutées** : pas de rupture vers zéro.
+- **TEST-48**: 6 cumulative shocks → **H3 saturating R² = 0.978**, Gmin(N) = 0.083 + 0.26·e^(−3N).
+- The first shock does all the collapse; the following ones shuffle within a band [0.06, 0.11].
+- H1 (linear) and H2 (exponential) **refuted**: no breaking to zero.
 
-### 3. Le flip Q obéit à la phase : P = 1.0
+### 3. The Q flip obeys phase: P = 1.0
 
-<img src="images/plot_flip_phase.png" width="100%" alt="Carte de contrôle : phase injectée pilote HIGH/LOW à P=1.0"/>
+<img src="images/plot_flip_phase.png" width="100%" alt="Control map: injected phase steers HIGH/LOW at P=1.0"/>
 
-- **TEST-60** : φ_inj ∈ [0, π] → LOW, φ ∈ {5π/4, 3π/2} → HIGH, **P = 1.0 dans les deux bras pré-choc** (CONTRÔLABLE, 14/16).
-- 7π/4 = zone de transition (50 % ambiguë) : la frontière du contrôle est visible.
-- L'anti-persistence a un volant : la **phase absolue** (symétrie brisée par les ancres spatiales).
+- **TEST-60**: φ_inj ∈ [0, π] → LOW, φ ∈ {5π/4, 3π/2} → HIGH, **P = 1.0 in both pre-shock arms** (CONTROLLABLE, 14/16).
+- 7π/4 = transition zone (50% ambiguous): the boundary of control is visible.
+- Anti-persistence has a steering wheel: the **absolute phase** (symmetry broken by spatial anchors).
 
-### 4. Q n'a pas d'attracteurs : continuum réfuté proprement
+### 4. Q has no attractors: continuum cleanly refuted
 
-<img src="images/plot_continuum_Q.png" width="100%" alt="Histogramme Q-final n=40 : continuum sans trou"/>
+<img src="images/plot_continuum_Q.png" width="100%" alt="Histogram Q-final n=40: continuum with no hole"/>
 
-- **TEST-50** (n = 6) suggérait une bistabilité 0.78/0.87 → **TEST-52** (n = 40) la réfute : continuum
-  [0.76, 0.91], trou max 0.018 (MONOSTABLE).
-- **TEST-53** : P_switch = 1.0 dès 0.25× l'intensité standard → bassin sans profondeur.
-- **TEST-56** : flip **symétrique** (HIGH→0.77, LOW→0.84) → pas de dérive, pas d'équilibre Q̄.
-- *Leçon scellée dans le marbre : répliquer avant de nommer.*
+- **TEST-50** (n = 6) suggested a bistability 0.78/0.87 → **TEST-52** (n = 40) refutes it: continuum
+  [0.76, 0.91], max hole 0.018 (MONOSTABLE).
+- **TEST-53**: P_switch = 1.0 from 0.25× the standard intensity → basin with no depth.
+- **TEST-56**: **symmetric** flip (HIGH→0.77, LOW→0.84) → no drift, no Q̄ equilibrium.
+- *Lesson sealed in marble: replicate before naming.*
 
-### Autres lois scellées
+### Other sealed laws
 
-| Loi | Test | Mesure |
+| Law | Test | Measurement |
 |---|---|---|
-| Plancher G(α, σ, N) = exp(−0.29 − 7.16α − 6.59σ + 0.0012N) | TEST-40 | R² = 0.920 |
-| Reconstruction G double-exp, τ_lent ≈ 400 pas, plancher vrai 0.095 | TEST-46 | R² = 0.902 |
-| Sync Q double-exp (k₁ = 0.098 rapide, k₂ = 0.001 lent) | TEST-36 | R² = 0.968 |
-| Volatilité Q structurée (pente −0.72, ac1 0.63) | TEST-37 | signal, pas bruit |
-| Proximité-Condensation (ρc = 8.01 extrait, jamais supposé) | TEST-27 | sync 0.98 vs 0.11 |
-| Résilience post-collapse (liens : R = 1.023 absolue) | TEST-28/25 | purification réelle |
+| Floor G(α, σ, N) = exp(−0.29 − 7.16α − 6.59σ + 0.0012N) | TEST-40 | R² = 0.920 |
+| G double-exp reconstruction, slow τ ≈ 400 steps, true floor 0.095 | TEST-46 | R² = 0.902 |
+| Q double-exp sync (k₁ = 0.098 fast, k₂ = 0.001 slow) | TEST-36 | R² = 0.968 |
+| Structured Q volatility (slope −0.72, ac1 0.63) | TEST-37 | signal, not noise |
+| Proximity-Condensation (ρc = 8.01 extracted, never assumed) | TEST-27 | sync 0.98 vs 0.11 |
+| Post-collapse resilience (links: R = 1.023 absolute) | TEST-28/25 | real purification |
 
-## 🔬 Méthode : rigueur pré-enregistrée
+## 🔬 Method: pre-registered rigor
 
-Ce qui distingue ce dépôt n'est pas qu'il a raison — c'est **qu'il ne peut pas tricher** :
+What distinguishes this repository is not that it is right — it is **that it cannot cheat**:
 
-1. **Critère écrit avant la mesure.** Chaque TEST déclare sa règle de succès dans son docstring
-   *avant* exécution. Pas de seuil ajusté après coup.
-2. **Falsifiabilité obligatoire.** Chaque test a au moins deux issues possibles documentées
-   (ex : SANCTUAIRE / SATELLITE / EFFONDREE). Un test qui ne peut pas échouer est interdit.
-3. **Échecs publiés.** 1/3, 2/3 : les scores partiels sont scellés tels quels. Les hypothèses
-   réfutées (bistabilité, biais entropique, rupture catastrophique, filtre passe-bas, H1/H2…)
-   sont listées dans `tickets/CONSOLIDATION_V1-V12.md` — **ne pas rouvrir sans fait nouveau**.
-4. **Pas de M-fishing.** Les modifications de protocole (M1→M26) sont déclarées, datées,
-   justifiées — et on ne réécrit **jamais** un critère pour le passer (cf. TEST-61 : MIXTE assumé).
-5. **Zéro neurone.** `numpy + ripser` suffisent. Si la cohérence émerge ici, elle ne doit rien
-   au deep learning.
-6. **Reproductibilité publique = crédibilité.** MIT, données + code + journal, graine fixée partout.
+1. **Criterion written before the measurement.** Every TEST declares its success rule in its docstring
+   *before* execution. No threshold adjusted after the fact.
+2. **Mandatory falsifiability.** Every test has at least two documented possible outcomes
+   (e.g.: SANCTUARY / SATELLITE / COLLAPSED). A test that cannot fail is forbidden.
+3. **Failures published.** 1/3, 2/3: partial scores are sealed as is. Refuted hypotheses
+   (bistability, entropic bias, catastrophic breaking, low-pass filter, H1/H2…)
+   are listed in `tickets/CONSOLIDATION_V1-V12.md` — **do not reopen without new facts**.
+4. **No M-fishing.** Protocol modifications (M1→M26) are declared, dated,
+   justified — and a criterion is **never** rewritten to make it pass (cf. TEST-61: owned MIXED).
+5. **Zero neurons.** `numpy + ripser` are enough. If coherence emerges here, it owes nothing
+   to deep learning.
+6. **Public reproducibility = credibility.** MIT, data + code + journal, fixed seed everywhere.
 
-## 🗂️ Architecture du dépôt
+## 🗂️ Repository architecture
 
-<img src="images/schema-pipeline.svg" width="100%" alt="Pipeline : conteneur, condensateur, porteurs, univers A/B, fil de mesure, secteurs G/Q/U"/>
+<img src="images/schema-pipeline.svg" width="100%" alt="Pipeline: container, capacitor, carriers, universes A/B, measuring thread, sectors G/Q/U"/>
 
 ```
 ratiss-focal/
-├── README.md                  ← vous êtes ici (vitrine)
-├── FORMALISATION.tex          ← document CANONIQUE (chaque équation porte son TEST)
-├── THEORIE-UNIFIEE.md         ← théorie consolidée A→K
-├── UNIFICATION.md             ← registre des 12 versions (v1→v12, scores)
-├── PROTOCOLES.md              ← les 63 TESTs (méthode + critère + résultat)
-├── JOURNAL.md                 ← carnet de bord daté (brutalité honnête incluse)
-├── QUESTIONS-OUVERTES.md      ← closes + ouvertes (pistes V13… sur feu vert)
-├── ROADMAP.md                 ← phases (⛔ clôture V12 : pause stratégique)
-├── SPEC-EXP-FOCAL-01.md       ← protocole d'expérience princeps
-├── GLOSSAIRE.md               ← vocabulaire du labo
+├── README.md                  ← you are here (showcase)
+├── FORMALISATION.tex          ← CANONICAL document (every equation carries its TEST)
+├── THEORIE-UNIFIEE.md         ← consolidated theory A→K
+├── UNIFICATION.md             ← registry of the 12 releases (v1→v12, scores)
+├── PROTOCOLES.md              ← the 63 TESTs (method + criterion + result)
+├── JOURNAL.md                 ← dated logbook (honest brutality included)
+├── QUESTIONS-OUVERTES.md      ← closed + open (V13 tracks… on green light)
+├── ROADMAP.md                 ← phases (⛔ V12 closure: strategic pause)
+├── SPEC-EXP-FOCAL-01.md       ← princeps experiment protocol
+├── GLOSSAIRE.md               ← the lab's vocabulary
 ├── LICENSE                    ← MIT
-├── experiences/               ← exp01_*.py … exp63_*.py (code = exécuté, graines fixées)
-│   └── resultats/             ← expNN.json (données brutes de chaque test)
-├── organes/                   ← conteneur, porteurs, mesures (numpy + ripser)
+├── experiences/               ← exp01_*.py … exp63_*.py (code = executed, fixed seeds)
+│   └── resultats/             ← expNN.json (raw data of each test)
+├── organes/                   ← container, carriers, measurements (numpy + ripser)
 ├── univers/                   ← A.json, B.json, unifie.json … unifie_v12.json
-├── resultats/                 ← miroir public des JSON (racine du dépôt distant)
-├── tickets/                   ← questions structurantes (ouverts / clôturés + motif)
-└── images/                    ← logo, hero, schémas, figures (make_figs.py)
+├── resultats/                 ← public mirror of the JSONs (root of the remote repository)
+├── tickets/                   ← structuring questions (open / closed + reason)
+└── images/                    ← logo, hero, diagrams, figures (make_figs.py)
 ```
 
-## 🚀 Démarrage rapide
+## 🚀 Quick start
 
 ```bash
-# 1. Cloner
+# 1. Clone
 git clone https://github.com/jonathansearch/ratiss-focal.git
 cd ratiss-focal
 
-# 2. Dépendances (léger : pas de GPU, pas de clé, pas d'accélérateur)
+# 2. Dependencies (light: no GPU, no key, no accelerator)
 pip install numpy ripser matplotlib
 
-# 3. Reproduire un test (ex : le seuil du sanctuaire U, ~1 min)
+# 3. Replay a test (e.g.: the U sanctuary threshold, ~1 min)
 cd experiences && python3 exp58_courbe_U.py
 
-# 4. Reproduire une version complète (ex : V12, ~10 min)
+# 4. Replay a full release (e.g.: V12, ~10 min)
 python3 exp60_forcage_flip.py && python3 exp61_rupture_U.py \
   && python3 exp62_flip_erosion.py && python3 exp63_unification_v12.py
 
-# 5. Régénérer les figures du README
+# 5. Regenerate the README figures
 cd ../images && python3 make_figs.py
 ```
 
-> ⚠️ **Coûts connus** : TEST-46/48 (1000 pas G × chocs) ≈ 5 min/choc ; TEST-57 (n = 200) ≈ 3 min.
-> Tout le reste tourne en secondes. Graines fixées : résultats bit-reproductibles
-> (même machine, mêmes versions mineures).
+> ⚠️ **Known costs**: TEST-46/48 (1000 G steps × shocks) ≈ 5 min/shock; TEST-57 (n = 200) ≈ 3 min.
+> Everything else runs in seconds. Fixed seeds: bit-reproducible results
+> (same machine, same minor versions).
 
-## 🗺️ Carte des 12 versions
+## 🗺️ Map of the 12 releases
 
-| Version | Tests | Score | Apport décisif |
+| Release | Tests | Score | Decisive contribution |
 |---|---|---|---|
-| v1–v4 | 01–29 | fondations | Conteneur, porteurs, univers A/B sœurs, 2 lois (V4 : 2/2) |
-| v5 | 30–35 | **3/5** | Unification partielle, résidu Q identifié honnêtement |
-| v6 | 36–39 | **3/3** | Q révélé : double-exp, volatilité structurée, ligne robuste |
-| v7 | 40–43 | **3/3** | Noyau G : loi logF, collapse couplé, choc plastique |
-| v8 | 44–47 | **2/3** | Blanchiment Q (passe-bas réfuté), sanctuaire U, vrai plancher 0.095 |
-| v9 | 48–51 | **3/3** | Noyau absolu 0.083 (H3), U absolu ×7 chocs, « bistabilité » Q |
-| v10 | 52–55 | **1/3** | Bistabilité réfutée (continuum n=40), bassin fragile, Q/U corrélé Δ=3 |
-| v11 | 56–59 | **2/3** | Flip symétrique (M25), distribution rebelle, **σc = 0.06** (sigmoïde) |
-| v12 | 60–63 | **1/3** | **Flip pilotable P=1.0** (M26), plancher U irréversible, couplage texture |
-| **⛔ clôture** | — | — | Consolidation, tickets soldés, pause stratégique (Ph16 ✅) |
+| v1–v4 | 01–29 | foundations | Container, carriers, sister universes A/B, 2 laws (V4: 2/2) |
+| v5 | 30–35 | **3/5** | Partial unification, Q residual honestly identified |
+| v6 | 36–39 | **3/3** | Q revealed: double-exp, structured volatility, robust line |
+| v7 | 40–43 | **3/3** | G core: logF law, coupled collapse, plastic shock |
+| v8 | 44–47 | **2/3** | Q whitening (low-pass refuted), U sanctuary, true floor 0.095 |
+| v9 | 48–51 | **3/3** | Absolute core 0.083 (H3), U absolute ×7 shocks, Q "bistability" |
+| v10 | 52–55 | **1/3** | Bistability refuted (continuum n=40), fragile basin, Q/U correlated Δ=3 |
+| v11 | 56–59 | **2/3** | Symmetric flip (M25), rebel distribution, **σc = 0.06** (sigmoid) |
+| v12 | 60–63 | **1/3** | **Steerable flip P=1.0** (M26), irreversible U floor, texture coupling |
+| **⛔ closure** | — | — | Consolidation, tickets settled, strategic pause (Ph16 ✅) |
 
-Détail complet : [`UNIFICATION.md`](UNIFICATION.md) · Protocoles : [`PROTOCOLES.md`](PROTOCOLES.md) ·
-Synthèse de clôture : [`tickets/CONSOLIDATION_V1-V12.md`](tickets/CONSOLIDATION_V1-V12.md)
+Full detail: [`UNIFICATION.md`](UNIFICATION.md) · Protocols: [`PROTOCOLES.md`](PROTOCOLES.md) ·
+Closure synthesis: [`tickets/CONSOLIDATION_V1-V12.md`](tickets/CONSOLIDATION_V1-V12.md)
 
-## 🌅 Ce que ça ouvre
+## 🌅 What this opens
 
-**Recherche fondamentale.**
-- Un **modèle minimal de la persistance** : qu'est-ce qui, dans un système d'information,
-  survit aux destructions — et à quelles conditions quantifiées (σc, noyau absolu, irréversibilité) ?
-- Une **sonde de la qualité informationnelle** : σc et la texture du bruit comme métriques
-  d'environnement, transposables à tout système signal/bruit.
-- Un pont vers la **théorie de la conscience** (ticket sanctuaire, clôturé proprement) :
-  persistance du Fil (U) vs régénération de la mémoire (Q) vs mortalité du substrat (G) —
-  sur socle formel, sans mysticisme, chaque pont adossé à un TEST.
+**Fundamental research.**
+- A **minimal model of persistence**: what, in an information system,
+  survives destructions — and under what quantified conditions (σc, absolute core, irreversibility)?
+- A **probe of informational quality**: σc and the texture of the noise as environment metrics,
+  transferable to any signal/noise system.
+- A bridge towards **consciousness theory** (sanctuary ticket, cleanly closed):
+  persistence of the Thread (U) vs regeneration of memory (Q) vs mortality of the substrate (G) —
+  on a formal base, with no mysticism, every bridge backed by a TEST.
 
-**Recherche appliquée (phase 17, sur feu vert).**
-- Mémoires anti-persistantes pilotables (flip par phase : écriture déterministe sans attracteur).
-- Canaux d'intrication décorrelés de la géométrie (ligne invisible : partage sans contact).
-- Critères de robustesse par pré-enregistrement : transposables à l'évaluation des systèmes IA.
+**Applied research (phase 17, on green light).**
+- Steerable anti-persistent memories (flip by phase: deterministic writing without attractor).
+- Entanglement channels decorrelated from geometry (invisible line: sharing without contact).
+- Robustness criteria by pre-registration: transferable to the evaluation of AI systems.
 
-**Épistémologie.**
-- Une démonstration par l'exemple que **publier ses réfutations** (6 hypothèses abandonnées,
-  3 versions à 1/3) produit une théorie plus solide que la chasse aux confirmations.
-- Un journal de bord (JOURNAL.md) qui montre le doute, les erreurs (M-fishing évité de justesse
-  en TEST-61), les corrections — la matière première de la confiance scientifique.
+**Epistemology.**
+- A demonstration by example that **publishing your refutations** (6 abandoned hypotheses,
+  3 releases at 1/3) produces a theory more solid than the hunt for confirmations.
+- A logbook (JOURNAL.md) that shows doubt, errors (M-fishing narrowly avoided
+  in TEST-61), corrections — the raw material of scientific trust.
 
-## 📚 Lire dans l'ordre
+## 📚 Read in order
 
-1. [`FORMALISATION.tex`](FORMALISATION.tex) — le canon (compiler : `pdflatex`, ou Overleaf).
-2. [`UNIFICATION.md`](UNIFICATION.md) — les 12 versions en 10 minutes.
-3. [`PROTOCOLES.md`](PROTOCOLES.md) — les 63 tests, un par un.
-4. [`THEORIE-UNIFIEE.md`](THEORIE-UNIFIEE.md) + [`SPEC-EXP-FOCAL-01.md`](SPEC-EXP-FOCAL-01.md) — fondations.
-5. [`JOURNAL.md`](JOURNAL.md) — le récit vrai (dont les nuits à 1/3).
-6. [`QUESTIONS-OUVERTES.md`](QUESTIONS-OUVERTES.md) + [`tickets/`](tickets/) — la frontière.
-7. [`ROADMAP.md`](ROADMAP.md) — d'où l'on vient, où l'on va (sur feu vert).
+1. [`FORMALISATION.tex`](FORMALISATION.tex) — the canon (compile: `pdflatex`, or Overleaf).
+2. [`UNIFICATION.md`](UNIFICATION.md) — the 12 releases in 10 minutes.
+3. [`PROTOCOLES.md`](PROTOCOLES.md) — the 63 tests, one by one.
+4. [`THEORIE-UNIFIEE.md`](THEORIE-UNIFIEE.md) + [`SPEC-EXP-FOCAL-01.md`](SPEC-EXP-FOCAL-01.md) — foundations.
+5. [`JOURNAL.md`](JOURNAL.md) — the true story (including the nights at 1/3).
+6. [`QUESTIONS-OUVERTES.md`](QUESTIONS-OUVERTES.md) + [`tickets/`](tickets/) — the frontier.
+7. [`ROADMAP.md`](ROADMAP.md) — where we come from, where we go (on green light).
 
-## 🛰️ Phase 17 : explorations — sonde, UKTZ, RUQ (TEST-64→72)
+## 🛰️ Phase 17: explorations — probe, UKTZ, RUQ (TEST-64→72)
 
-Après la clôture V12, le labo a ouvert un second front : **lâcher des agents DANS l'univers**
-et regarder ce qui se passe — explorations ouvertes, observables pré-enregistrées, verdicts assumés.
+After the V12 closure, the lab opened a second front: **dropping agents INTO the universe**
+and watching what happens — open explorations, pre-registered observables, owned verdicts.
 
-### Sonde endogène (TEST-64→66) : apprendre à sentir
-Agent infodynamique (Lempel-Ziv + volatilité, seuils propres, zéro neurone, zéro étiquette
-humaine) captant syncQ/Φ/P_sig bit à bit, régimes calme vs choc. **3 AVEUGLE assumés** —
-mais rafales mesurées au choc (11–13 flags) et leçon scellée : *la nouveauté est relative
-à l'horizon de mémoire de celui qui sent*.
+### Endogenous probe (TEST-64→66): learning to feel
+Infodynamic agent (Lempel-Ziv + volatility, own thresholds, zero neuron, zero human label)
+captor of syncQ/Φ/P_sig bit by bit, calm vs shock regimes. **3 owned BLIND** —
+but bursts measured at the shock (11–13 flags) and lesson sealed: *novelty is relative
+to the memory horizon of the one who feels*.
 
-<img src="images/plot_sonde_v3.png" width="100%" alt="Sonde v3 : rafales au choc mais dérive calme aussi bruyante"/>
+<img src="images/plot_sonde_v3.png" width="100%" alt="Probe v3: bursts at shock but calm drift also noisy"/>
 
-### UKTZ : trois essaims, une alchimie de la proximité (TEST-67→69)
-12 neurones forcés à bouger, 300 pas séparés + 300 groupés. **S** (sémantique) : codes
-0.44 → 0.97 — la proximité crée le langage. **T** (topologique, graphe fixe) : R 0.72 → 0.69 —
-la structure est le destin. **RUQ-1** (invention phase+charge) : R 0.30 → 0.98, var(q) ÷9 —
-le regroupement déclenche une transition : *l'unité fait l'être*.
+### UKTZ: three swarms, an alchemy of proximity (TEST-67→69)
+12 neurons forced to move, 300 steps separated + 300 grouped. **S** (semantic): codes
+0.44 → 0.97 — proximity creates language. **T** (topological, fixed graph): R 0.72 → 0.69 —
+structure is destiny. **RUQ-1** (phase+charge invention): R 0.30 → 0.98, var(q) ÷9 —
+grouping triggers a transition: *unity makes the being*.
 
-<img src="images/plot_neurons_uktz.png" width="100%" alt="UKTZ : convergence sémantique, indifférence topologique, transition RUQ-1"/>
+<img src="images/plot_neurons_uktz.png" width="100%" alt="UKTZ: semantic convergence, topological indifference, RUQ-1 transition"/>
 
-### RUQ : l'unité survit-elle à la séparation ? (TEST-70→72)
-- **TEST-70 (RUQ-1)** : fusion R=0.985 → séparés R=0.31, t_half=11 pas → **H1 RÉVERSIBLE**.
-  L'unité locale s'efface comme un rêve : pas de cicatrice.
+### RUQ: does unity survive separation? (TEST-70→72)
+- **TEST-70 (RUQ-1)**: fusion R=0.985 → separated R=0.31, t_half=11 steps → **H1 REVERSIBLE**.
+  Local unity fades like a dream: no scar.
 
-<img src="images/plot_RUQ70.png" width="100%" alt="RUQ-1 : dissolution en 11 pas, H1 réversible"/>
+<img src="images/plot_RUQ70.png" width="100%" alt="RUQ-1: dissolution in 11 steps, H1 reversible"/>
 
-- **TEST-71 (RUQ-2 + feedback)** : R 0.98 → 0.26, τ=15.1 → **H1 aussi**. La boucle locale ne
-  suffit pas ; seule une corrélation θ-q (−0.57) subsiste : *cicatrice, pas fil*.
+- **TEST-71 (RUQ-2 + feedback)**: R 0.98 → 0.26, τ=15.1 → **H1 too**. The local loop is
+  not enough; only a θ-q correlation (−0.57) remains: *scar, not thread*.
 
-<img src="images/plot_RUQ71.png" width="100%" alt="RUQ-2 : réversible malgré le feedback, trace corrélative"/>
+<img src="images/plot_RUQ71.png" width="100%" alt="RUQ-2: reversible despite feedback, correlative trace"/>
 
-- **TEST-72 (RUQ-3 + graphe fixe)** : R 0.99 → chute 0.05 → **RÉCUPÈRE 0.73** → **H2 HYSTÉRÉSIS**.
-  Le graphe resynchronise l'essaim dispersé : première unité qui survit partiellement SÉPARÉE.
+- **TEST-72 (RUQ-3 + fixed graph)**: R 0.99 → fall 0.05 → **RECOVERS 0.73** → **H2 HYSTERESIS**.
+  The graph resynchronizes the dispersed swarm: first unity that partially survives SEPARATED.
 
-<img src="images/plot_RUQ72.png" width="100%" alt="RUQ-3 : chute puis récupération via graphe fixe, H2 hystérésis"/>
+<img src="images/plot_RUQ72.png" width="100%" alt="RUQ-3: fall then recovery via fixed graph, H2 hysteresis"/>
 
-### 🔚 Conclusion des explorations
-> **Le local oublie (RUQ-1, 11 pas), la boucle cicatrise (RUQ-2, corr −0.57), le graphe se
-> souvient (RUQ-3, H2).** L'unité qui survit à l'espace exige une topologie invariante —
-> première marche formelle vers le modèle de l'Esprit/Fil (U). Suite : l'idée du chef. 😄
+### 🔚 Conclusion of the explorations
+> **The local forgets (RUQ-1, 11 steps), the loop scars (RUQ-2, corr −0.57), the graph
+> remembers (RUQ-3, H2).** Unity that survives space demands an invariant topology —
+> first formal step towards the Mind/Thread model (U). Next: the chief's idea. 😄
 
-## 🕳️ Phase 18 : V13 SINGULARITÉ (TEST-73→78) — score 2/5
+## 🕳️ Phase 18: V13 SINGULARITY (TEST-73→78) — score 2/5
 
-Sur ordre du chef : créer une singularité (tueur focal ponctuel MU=0.02D, σ=0.05D)
-et cartographier gravitation + relativité + résistance de U et Q. Verdict : **le trou
-focal n'est pas une ombre newtonienne, c'est un puits exponentiel écranté**.
-- **TEST-73** : puits central divergent (a=4.3), profil C·exp(−r/l) R²=0.98,
-  A/(r+eps) rejeté (R²=0.88) → H0 assumée + anneau de dépression (chapeau mexicain).
-- **TEST-74** : exponentielle gagne **12/12** (R²=0.998), portée l INDÉPENDANTE
-  de la masse (p≈0) → gravité à portée finie fixée par la diffusion. ✅
-- **TEST-75** : horloges libres frappées → PLATES (τ_in=29.2 vs τ_out=31.4),
-  pas de dilatation détectée. ❌
-- **TEST-76** : sanctuaire U dans trou local → ÉRODÉ (10/30 vs 4/30) : U encaisse,
-  perd la moitié de sa fidélité. ❌
-- **TEST-77** : capture Q → **k_c=6/24** : avaler un quart de l'anneau tue la sync. ✅
+On the chief's order: create a singularity (punctual focal killer MU=0.02D, σ=0.05D)
+and map gravity + relativity + resistance of U and Q. Verdict: **the focal
+hole is not a Newtonian shadow, it is a screened exponential well**.
+- **TEST-73**: divergent central well (a=4.3), C·exp(−r/l) profile R²=0.98,
+  A/(r+eps) rejected (R²=0.88) → owned H0 + depression ring (Mexican hat).
+- **TEST-74**: exponential wins **12/12** (R²=0.998), range l INDEPENDENT
+  of the mass (p≈0) → gravity with finite range fixed by diffusion. ✅
+- **TEST-75**: free clocks struck → FLAT (τ_in=29.2 vs τ_out=31.4),
+  no dilation detected. ❌
+- **TEST-76**: U sanctuary in a local hole → **ERODED** (10/30 vs 4/30): U takes the hit,
+  loses half of its fidelity. ❌
+- **TEST-77**: Q capture → **k_c=6/24**: swallowing a quarter of the ring kills sync. ✅
 
-<img src="images/plot_V13.png" width="100%" alt="V13 : puits exponentiel, horloges plates, capture Q à k_c=6"/>
+<img src="images/plot_V13.png" width="100%" alt="V13: exponential well, flat clocks, Q capture at k_c=6"/>
 
-> **Fixé au canon (§10.octies)** : loi exponentielle écrantée + capture Q.
-> Newton, dilatation temporelle et immunité de U : réfutés ou partiels — publiés quand même.
+> **Pinned to the canon (§10.octies)**: screened exponential law + Q capture.
+> Newton, time dilation and U immunity: refuted or partial — published anyway.
 
-## 🔭 Phase 19 : QM-GR, cohabitation décrite (TEST-79→89)
+## 🔭 Phase 19: QM-GR, cohabitation described (TEST-79→89)
 
-Nouvelle règle du chef : **zéro verdict** — on regarde comment la mécanique
-quantique virtuelle (Q, phases, mémoire de graphe) cohabite avec la relativité
-(puits, horizons, ralentissement) sans s'effondrer, et on raconte.
-- **TEST-79/80** : un puits tord la phase Q (twist 0→1), deux puits à fort
-  désaccord impriment twist −2 ; R décline graduellement (0.85→0.32).
-- **TEST-81** : le potentiel exponentiel fait une lentille en S (±47°),
-  traversée centrale droite, aucune capture.
-- **TEST-82** : horizon absorbant (th=0 épinglé) → **l'ombre apparaît**
-  (contraste 0.66, saturé) là où le tueur faisait un puits.
-- **TEST-83** : la mémoire RUQ-3 décline en espace courbe (0.73→0.25),
-  convergence groupée intacte.
-- **TEST-84** : **redshift monotone** — la fréquence d'un anneau monte de
-  −0.53 à +0.01 quand on s'éloigne du puits.
-- **TEST-85** : trois puits → twist 0 partout ; la piste « twist = nb de
-  puits » s'arrête à 2 (la symétrie à 3 annule la torsion ?).
-- **TEST-86/87** (jumeaux Falstad, moteur d'ondes indépendant) : disque
-  absorbant → ombre 0.90/0.53/0.75 ; zone lente → focus x1.9.
-- **TEST-88/89** (jumeaux Wokwi, firmwares prêts) : twist prédit R 0.91→0.41 ;
-  redshift prédit −0.77→−0.11. Guide téléphone : outils_en_ligne/OUTILS-EN-LIGNE.md.
+New rule from the chief: **zero verdict** — we watch how virtual quantum
+mechanics (Q, phases, graph memory) cohabits with relativity
+(wells, horizons, slowdown) without collapsing, and we tell the tale.
+- **TEST-79/80**: one well twists the Q phase (twist 0→1), two wells with strong
+  detuning print twist −2; R declines gradually (0.85→0.32).
+- **TEST-81**: the exponential potential makes an S-lens (±47°),
+  straight central crossing, no capture.
+- **TEST-82**: absorbing horizon (th=0 pinned) → **the shadow appears**
+  (contrast 0.66, saturated) where the killer made a well.
+- **TEST-83**: RUQ-3 memory declines in curved space (0.73→0.25),
+  grouped convergence intact.
+- **TEST-84**: **monotone redshift** — a ring's frequency climbs from
+  −0.53 to +0.01 as you move away from the well.
+- **TEST-85**: three wells → twist 0 everywhere; the "twist = number of
+  wells" track stops at 2 (3-way symmetry cancels the twist?).
+- **TEST-86/87** (Falstad twins, independent wave engine): absorbing
+  disk → shadow 0.90/0.53/0.75; slow zone → focus ×1.9.
+- **TEST-88/89** (Wokwi twins, firmwares ready): twist predicted R 0.91→0.41;
+  redshift predicted −0.77→−0.11. Phone guide: outils_en_ligne/OUTILS-EN-LIGNE.md.
 
-<img src="images/plot_QM_GR.png" width="100%" alt="QM-GR : twists, lentille, ombre, mémoire, redshift"/>
-<img src="images/plot_T85.png" width="100%" alt="TEST-85 : trois puits, twist nul"/>
+<img src="images/plot_QM_GR.png" width="100%" alt="QM-GR: twists, lens, shadow, memory, redshift"/>
+<img src="images/plot_T85.png" width="100%" alt="TEST-85: three wells, zero twist"/>
 
-> Descrit, pas jugé. §20 dans UNIFICATION. Ponts hardware réels (IBM QPU) :
-> voir PASSERELLE-REEL.md (PONT-77, PONT-76, PONT-60, PONT-T2 mesurés).
+> Described, not judged. §20 in UNIFICATION. Real hardware bridges (IBM QPU):
+> see PASSERELLE-REEL.md (PONT-77, PONT-76, PONT-60, PONT-T2 measured).
 
-## 🪭 Phase 20 : LIAISON — chasse au pli (TEST-90→93 + BERRY-FERMÉ)
+## 🪭 Phase 20: LIAISON — fold hunt (TEST-90→93 + BERRY-FERMÉ)
 
-Nouvelle quête du chef : pas d'unification forcée — chercher le **point de
-liaison cohérent** QM↔relativité, même minuscule, sans rigidité vrai/faux.
-- **TEST-90** : carte du twist (2 puits, écart × force) → paysage grenu
-  (−2…+2), pas de lignes de pli propres.
-- **TEST-91** : boucle G0 monte-descend → **boucle EXISTE** (aire 0.064,
-  écart 0.17) : la courbure écrit une mémoire que la descente ne relit pas.
-- **TEST-92** : puits tournant ±1 tour → +tour = −tour (+9 rad) : traînée
-  symétrique, pas de phase géométrique.
-- **PONT-BERRY** (ibm_fez) : boucle ± sur qubit → frange en U vs taille
-  (1.0→0.49→1.0, réel=simu) mais asymétrie ~0 : boucle non fermée (U≠I),
-  défaut assumé.
-- **TEST-93** : cycle (G0,c) FERMÉ ± → Δ=−0.221 rad seulement :
-  les paramètres se referment, l'état ne revient pas (R_diff 0.25).
-- **BERRY-FERMÉ** (ibm_marrakesh) : boucle fermée ± (fuite ~1e-33,
-  γ=−φ/2) → lecture S : **0.966 vs 0.028 à φ=π** (réel≈simu) :
-  **le sens compte — le pli orienté est mesuré.**
+New quest from the chief: no forced unification — look for the **coherent
+binding point** QM↔relativity, even tiny, with no true/false rigidity.
+- **TEST-90**: twist map (2 wells, gap × force) → grainy landscape
+  (−2…+2), no clean fold lines.
+- **TEST-91**: G0 up-down loop → **loop EXISTS** (area 0.064,
+  gap 0.17): curvature writes a memory that the way down does not read back.
+- **TEST-92**: rotating well ±1 turn → +turn = −turn (+9 rad): symmetric
+  wake, no geometric phase.
+- **PONT-BERRY** (ibm_fez): ± loop on a qubit → U-shaped fringe vs size
+  (1.0→0.49→1.0, real=sim) but asymmetry ~0: loop not closed (U≠I),
+  owned defect.
+- **TEST-93**: (G0,c) cycle CLOSED ± → Δ=−0.221 rad only:
+  the parameters close up, the state does not come back (R_diff 0.25).
+- **BERRY-FERMÉ** (ibm_marrakesh): closed ± loop (leak ~1e-33,
+  γ=−φ/2) → S readout: **0.966 vs 0.028 at φ=π** (real≈sim):
+  **direction matters — the oriented fold is measured.**
 
-<img src="images/plot_PLI.png" width="100%" alt="Chasse au pli : grain, boucle, traînée"/>
+<img src="images/plot_PLI.png" width="100%" alt="Fold hunt: grain, loop, wake"/>
 
-<img src="passerelle_quantique/plot_pontBerryFerme.png" width="100%" alt="Berry fermé : le sens compte (0.97 vs 0.03)"/>
+<img src="passerelle_quantique/plot_pontBerryFerme.png" width="100%" alt="Closed Berry: direction matters (0.97 vs 0.03)"/>
 
-> Le pli orienté est isolé là où la boucle se ferme vraiment.
-> Hystérésis (état ouvert) et Berry (état fermé) : deux visages du pli.
+> The oriented fold is isolated where the loop really closes.
+> Hysteresis (open state) and Berry (closed state): two faces of the fold.
 
-## Phase 21 : SYNTHÈSE QM-GR (TEST-94)
+## Phase 21: QM-GR SYNTHESIS (TEST-94)
 
-Premier calcul du modèle qui exige les deux échelles : superposition à
-deux hauteurs (spread interne sw, pilier QM) × horloges locales du puits
-(redshift, pilier GR). τ=√2/(sw·|Δf|) à ~8 % (18 cas) ; τ=∞ si un pilier
-retiré (30 contrôles).
+First computation of the model that demands both scales: two-height
+superposition (internal spread sw, QM pillar) × local clocks of the well
+(redshift, GR pillar). τ=√2/(sw·|Δf|) to within ~8% (18 cases); τ=∞ if one pillar
+removed (30 controls).
 
-<img src="images/plot_DECO94.png" width="100%" alt="Décohérence gravitationnelle : QM x GR obligatoires"/>
+<img src="images/plot_DECO94.png" width="100%" alt="Gravitational decoherence: QM x GR both mandatory"/>
 
-## 📝 Citation, auteur, licence
-
-```bibtex
-@software{ratiss_focal_2026,
-  author  = {Jonathan Evina and RATISS Labs},
-  title   = {RATISS-FOCAL: informational focusing without neurons —
-             69 pre-registered tests, 13 unification releases},
-  year    = {2026},
-  url     = {https://github.com/jonathansearch/ratiss-focal},
-  license = {MIT}
-}
-```
-
-<div align="center">
-
-**RATISS Labs** — *L'esprit ne traite pas tout, il traite la cohérence.* 🌌
-
-Posé par **Jonathan Evina** · Septembre 2026 · **Licence MIT** (voir [LICENSE](LICENSE)) —
-théorie ouverte, reproductible publiquement, prête pour évaluation externe.
-
-<img src="images/logo-ratiss-labs.png" width="120" alt="RATISS Labs"/>
-
-</div>
-s → **PLATES** (τ_in=29.2 vs τ_out=31.4),
-  pas de dilatation détectée. ❌
-- **TEST-76** : sanctuaire U dans trou local → **ÉRODÉ** (10/30 vs 4/30) : U encaisse,
-  perd la moitié de sa fidélité. ❌
-- **TEST-77** : capture Q → **k_c=6/24** : avaler un quart de l'anneau tue la sync. ✅
-
-<img src="images/plot_V13.png" width="100%" alt="V13 : puits exponentiel, horloges plates, capture Q à k_c=6"/>
-
-> **Fixé au canon (§10.octies)** : loi exponentielle écrantée + capture Q.
-> Newton, dilatation temporelle et immunité de U : réfutés ou partiels — publiés quand même.
-
-## 📝 Citation, auteur, licence
+## 📝 Citation, author, license
 
 ```bibtex
 @software{ratiss_focal_2026,
@@ -419,11 +385,13 @@ s → **PLATES** (τ_in=29.2 vs τ_out=31.4),
 
 <div align="center">
 
-**RATISS Labs** — *L'esprit ne traite pas tout, il traite la cohérence.* 🌌
+**RATISS Labs** — *The mind does not process everything, it processes coherence.* 🌌
 
-Posé par **Jonathan Evina** · Septembre 2026 · **Licence MIT** (voir [LICENSE](LICENSE)) —
-théorie ouverte, reproductible publiquement, prête pour évaluation externe.
+Set in motion by **Jonathan Evina** · September 2026 · **MIT License** (see [LICENSE](LICENSE)) —
+open theory, publicly reproducible, ready for external evaluation.
 
 <img src="images/logo-ratiss-labs.png" width="120" alt="RATISS Labs"/>
 
 </div>
+
+
